@@ -39,6 +39,7 @@ nvidia-nvjitlink-cu12==12.5.40
 nvidia-nvtx-cu12==12.1.105
 openai-whisper==20231117
 packaging==24.1
+pandas==2.2.2
 parso==0.8.4
 pexpect==4.9.0
 platformdirs==4.2.2
@@ -49,6 +50,7 @@ pure-eval==0.2.2
 py3nvml==0.2.7
 Pygments==2.18.0
 python-dateutil==2.9.0.post0
+pytz==2024.1
 pyzmq==26.0.3
 regex==2024.5.15
 requests==2.32.3
@@ -62,6 +64,7 @@ tqdm==4.66.4
 traitlets==5.14.3
 triton==2.3.1
 typing_extensions==4.12.2
+tzdata==2024.1
 urllib3==2.2.2
 wcwidth==0.2.13
 xmltodict==0.13.0
