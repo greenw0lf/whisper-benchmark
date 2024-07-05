@@ -1,5 +1,9 @@
 # whisper-benchmark
-Files used for benchmarking various implementations of Whisper.
+Files used for benchmarking various implementations of Whisper, done as part of my work at University of Twente + Netherlands Institute for Sound and Vision on the OH-SMArt project.
+
+For files used for preprocessing/postprocessing of the transcriptions, check here: https://github.com/greenw0lf/OH-SMArt
+
+Results: https://opensource-spraakherkenning-nl.github.io/ASR_NL_results/ (under NISV's Whisper benchmark).
 
 ## Python versions
 
