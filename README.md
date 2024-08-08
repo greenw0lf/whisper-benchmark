@@ -13,5 +13,6 @@ Results: https://opensource-spraakherkenning-nl.github.io/ASR_NL_results/ (under
 
 Whereas for the other implementations, `Python 3.9.18` was used:
 - [faster-whisper](https://github.com/SYSTRAN/faster-whisper/)
+- [faster-whisper-batched](https://github.com/SYSTRAN/faster-whisper/pull/856) (faster-whisper with batching support added)
 - [OpenAI/Whisper](https://github.com/openai/whisper)
 - [Whisper JAX](https://github.com/sanchit-gandhi/whisper-jax)
