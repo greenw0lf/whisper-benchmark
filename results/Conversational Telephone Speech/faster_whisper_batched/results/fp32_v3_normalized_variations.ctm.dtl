@@ -1,0 +1,3216 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: /input/fp32_v3_normalized_variations.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                        2489
+ with errors                             74.0%   (1841)
+
+   with substitutions                    47.3%   (1178)
+   with deletions                        44.3%   (1102)
+   with insertions                       18.1%   ( 451)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   25.8%   (4579)
+
+Percent Correct           =   77.2%   (13716)
+
+Percent Substitution      =   10.7%   (1893)
+Percent Deletions         =   12.1%   (2156)
+Percent Insertions        =    3.0%   ( 530)
+Percent Word Accuracy     =   74.2%
+
+
+Ref. words                =           (17765)
+Hyp. words                =           (16139)
+Aligned words             =           (18295)
+
+CONFUSION PAIRS                  Total                 (1307)
+                                 With >=  1 occurrences (1307)
+
+   1:   72  ->  ja ==> yeah
+   2:   51  ->  (%hesitation) ==> oh
+   3:   30  ->  zo'n ==> een
+   4:   29  ->  (%hesitation) ==> hè
+   5:   22  ->  (%hesitation) ==> ja
+   6:   19  ->  dat ==> het
+   7:   18  ->  (%hesitation) ==> -hmm
+   8:   10  ->  m'n ==> mijn
+   9:   10  ->  één ==> een
+  10:    9  ->  (%hesitation) ==> het
+  11:    9  ->  (%hesitation) ==> hmm
+  12:    8  ->  (%hesitation) ==> ik
+  13:    8  ->  (%hesitation) ==> zo
+  14:    7  ->  (%hesitation) ==> die
+  15:    7  ->  er ==> de
+  16:    7  ->  het ==> dat
+  17:    6  ->  (%hesitation) ==> dat
+  18:    6  ->  (%hesitation) ==> de
+  19:    6  ->  canon ==> kanon
+  20:    6  ->  daar ==> dan
+  21:    6  ->  dat ==> daar
+  22:    6  ->  dat ==> dan
+  23:    6  ->  ja ==> dat
+  24:    6  ->  nou ==> nu
+  25:    5  ->  bij ==> erbij
+  26:    5  ->  daar ==> er
+  27:    5  ->  das ==> is
+  28:    5  ->  dat ==> er
+  29:    5  ->  de ==> een
+  30:    5  ->  die ==> hij
+  31:    5  ->  een ==> de
+  32:    5  ->  ja ==> nou
+  33:    5  ->  ja ==> yes
+  34:    5  ->  karlijn ==> carlijn
+  35:    5  ->  wij ==> we
+  36:    4  ->  's ==> is
+  37:    4  ->  (%hesitation) ==> een
+  38:    4  ->  (%hesitation) ==> en
+  39:    4  ->  (%hesitation) ==> hé
+  40:    4  ->  (%hesitation) ==> je
+  41:    4  ->  dan ==> dat
+  42:    4  ->  de ==> het
+  43:    4  ->  maar ==> nou
+  44:    4  ->  uit ==> eruit
+  45:    4  ->  zo'n ==> zo
+  46:    3  ->  (%hesitation) ==> dan
+  47:    3  ->  (%hesitation) ==> nee
+  48:    3  ->  (%hesitation) ==> nou
+  49:    3  ->  (%hesitation) ==> sì
+  50:    3  ->  (%hesitation) ==> wat
+  51:    3  ->  (%hesitation) ==> 음
+  52:    3  ->  andere ==> ander
+  53:    3  ->  d'rbij ==> erbij
+  54:    3  ->  daar ==> dat
+  55:    3  ->  dan ==> daar
+  56:    3  ->  dan ==> er
+  57:    3  ->  dat ==> nou
+  58:    3  ->  die ==> de
+  59:    3  ->  een ==> het
+  60:    3  ->  effe ==> even
+  61:    3  ->  er ==> het
+  62:    3  ->  er ==> ze
+  63:    3  ->  es ==> eens
+  64:    3  ->  had ==> heb
+  65:    3  ->  het ==> er
+  66:    3  ->  ik ==> het
+  67:    3  ->  is ==> het
+  68:    3  ->  ja ==> maar
+  69:    3  ->  ja ==> nee
+  70:    3  ->  ja ==> uh
+  71:    3  ->  je ==> jij
+  72:    3  ->  jij ==> je
+  73:    3  ->  moarn ==> oet
+  74:    3  ->  oant ==> oet
+  75:    3  ->  oké ==> okay
+  76:    3  ->  tineke ==> tieneke
+  77:    3  ->  veel ==> zoveel
+  78:    3  ->  wat ==> dat
+  79:    3  ->  weer ==> alweer
+  80:    3  ->  ze ==> dus
+  81:    3  ->  ze ==> het
+  82:    3  ->  zijn ==> een
+  83:    3  ->  zo ==> enzo
+  84:    2  ->  's ==> het
+  85:    2  ->  (%hesitation) ==> -huh
+  86:    2  ->  (%hesitation) ==> ah
+  87:    2  ->  (%hesitation) ==> eh
+  88:    2  ->  (%hesitation) ==> he
+  89:    2  ->  (%hesitation) ==> heel
+  90:    2  ->  (%hesitation) ==> hij
+  91:    2  ->  (%hesitation) ==> is
+  92:    2  ->  (%hesitation) ==> kijk
+  93:    2  ->  (%hesitation) ==> mm
+  94:    2  ->  (%hesitation) ==> niet
+  95:    2  ->  (%hesitation) ==> o
+  96:    2  ->  (%hesitation) ==> of
+  97:    2  ->  (%hesitation) ==> van
+  98:    2  ->  (%hesitation) ==> voor
+  99:    2  ->  (%hesitation) ==> 아우
+ 100:    2  ->  aanstaande ==> de
+ 101:    2  ->  achtentwintigste ==> 28ste
+ 102:    2  ->  al ==> wel
+ 103:    2  ->  auweltje ==> ouweltje
+ 104:    2  ->  boven ==> daarboven
+ 105:    2  ->  brechtje ==> berichtje
+ 106:    2  ->  dan ==> is
+ 107:    2  ->  dat ==> spullen
+ 108:    2  ->  dat ==> waar
+ 109:    2  ->  dat ==> wat
+ 110:    2  ->  de ==> daar
+ 111:    2  ->  de ==> die
+ 112:    2  ->  de ==> ik
+ 113:    2  ->  die ==> dat
+ 114:    2  ->  die ==> ze
+ 115:    2  ->  dit ==> dat
+ 116:    2  ->  drieëntwintigste ==> 23e
+ 117:    2  ->  duizend ==> tweeduizend
+ 118:    2  ->  dus ==> ik
+ 119:    2  ->  dus ==> maar
+ 120:    2  ->  en ==> want
+ 121:    2  ->  enne ==> en
+ 122:    2  ->  enzo ==> zo
+ 123:    2  ->  er ==> daar
+ 124:    2  ->  er ==> dat
+ 125:    2  ->  er ==> we
+ 126:    2  ->  flyn ==> flen
+ 127:    2  ->  heb ==> hebt
+ 128:    2  ->  het ==> de
+ 129:    2  ->  het ==> ik
+ 130:    2  ->  het ==> je
+ 131:    2  ->  hij ==> he
+ 132:    2  ->  hoelang ==> lang
+ 133:    2  ->  ik ==> ook
+ 134:    2  ->  in ==> een
+ 135:    2  ->  in ==> erin
+ 136:    2  ->  is ==> eens
+ 137:    2  ->  is ==> ik
+ 138:    2  ->  ja ==> dacht
+ 139:    2  ->  ja ==> denk
+ 140:    2  ->  ja ==> en
+ 141:    2  ->  ja ==> er
+ 142:    2  ->  ja ==> hebben
+ 143:    2  ->  ja ==> نعم
+ 144:    2  ->  ja ==> 爺
+ 145:    2  ->  ja ==> 야
+ 146:    2  ->  je ==> een
+ 147:    2  ->  je ==> het
+ 148:    2  ->  je ==> is
+ 149:    2  ->  ken ==> kun
+ 150:    2  ->  knmi ==> economie
+ 151:    2  ->  lumangwe ==> lumanvel
+ 152:    2  ->  maleisië ==> malaysia
+ 153:    2  ->  mee ==> daarmee
+ 154:    2  ->  moest ==> moesten
+ 155:    2  ->  moete ==> moeten
+ 156:    2  ->  naar ==> na
+ 157:    2  ->  nee ==> no
+ 158:    2  ->  neven ==> we
+ 159:    2  ->  ook ==> toch
+ 160:    2  ->  rauwkost ==> rookos
+ 161:    2  ->  sisimba ==> shishimba
+ 162:    2  ->  tuurlijk ==> natuurlijk
+ 163:    2  ->  vanaf ==> af
+ 164:    2  ->  voor ==> van
+ 165:    2  ->  wake ==> waker
+ 166:    2  ->  want ==> wat
+ 167:    2  ->  was ==> is
+ 168:    2  ->  was ==> zoals
+ 169:    2  ->  wat ==> wel
+ 170:    2  ->  we ==> ik
+ 171:    2  ->  weer ==> wel
+ 172:    2  ->  wel ==> al
+ 173:    2  ->  wel ==> er
+ 174:    2  ->  wel ==> nou
+ 175:    2  ->  zak ==> zaak
+ 176:    2  ->  ze ==> we
+ 177:    2  ->  zeg ==> zei
+ 178:    2  ->  zijn ==> de
+ 179:    2  ->  één ==> eén
+ 180:    1  ->  's ==> dead
+ 181:    1  ->  's ==> ja
+ 182:    1  ->  's ==> s
+ 183:    1  ->  (%hesitation) ==> -mm
+ 184:    1  ->  (%hesitation) ==> a
+ 185:    1  ->  (%hesitation) ==> aan
+ 186:    1  ->  (%hesitation) ==> ach
+ 187:    1  ->  (%hesitation) ==> bedoel
+ 188:    1  ->  (%hesitation) ==> ben
+ 189:    1  ->  (%hesitation) ==> berg
+ 190:    1  ->  (%hesitation) ==> bij
+ 191:    1  ->  (%hesitation) ==> bijkomt
+ 192:    1  ->  (%hesitation) ==> bosje
+ 193:    1  ->  (%hesitation) ==> brieven
+ 194:    1  ->  (%hesitation) ==> bundelen
+ 195:    1  ->  (%hesitation) ==> daar
+ 196:    1  ->  (%hesitation) ==> daarmee
+ 197:    1  ->  (%hesitation) ==> den
+ 198:    1  ->  (%hesitation) ==> ding
+ 199:    1  ->  (%hesitation) ==> doen
+ 200:    1  ->  (%hesitation) ==> door
+ 201:    1  ->  (%hesitation) ==> eens
+ 202:    1  ->  (%hesitation) ==> eronder
+ 203:    1  ->  (%hesitation) ==> gewoon
+ 204:    1  ->  (%hesitation) ==> goed
+ 205:    1  ->  (%hesitation) ==> had
+ 206:    1  ->  (%hesitation) ==> heb
+ 207:    1  ->  (%hesitation) ==> hebben
+ 208:    1  ->  (%hesitation) ==> hm
+ 209:    1  ->  (%hesitation) ==> hoezo
+ 210:    1  ->  (%hesitation) ==> hoog
+ 211:    1  ->  (%hesitation) ==> how
+ 212:    1  ->  (%hesitation) ==> huh
+ 213:    1  ->  (%hesitation) ==> in
+ 214:    1  ->  (%hesitation) ==> jan
+ 215:    1  ->  (%hesitation) ==> kanon
+ 216:    1  ->  (%hesitation) ==> keurig
+ 217:    1  ->  (%hesitation) ==> klikt
+ 218:    1  ->  (%hesitation) ==> krijg
+ 219:    1  ->  (%hesitation) ==> kun
+ 220:    1  ->  (%hesitation) ==> kwamen
+ 221:    1  ->  (%hesitation) ==> ma
+ 222:    1  ->  (%hesitation) ==> maar
+ 223:    1  ->  (%hesitation) ==> mee
+ 224:    1  ->  (%hesitation) ==> mhm
+ 225:    1  ->  (%hesitation) ==> morgen
+ 226:    1  ->  (%hesitation) ==> natuurlijk
+ 227:    1  ->  (%hesitation) ==> no
+ 228:    1  ->  (%hesitation) ==> nu
+ 229:    1  ->  (%hesitation) ==> nul
+ 230:    1  ->  (%hesitation) ==> oeh
+ 231:    1  ->  (%hesitation) ==> oei
+ 232:    1  ->  (%hesitation) ==> okay
+ 233:    1  ->  (%hesitation) ==> om
+ 234:    1  ->  (%hesitation) ==> onafhankelijk
+ 235:    1  ->  (%hesitation) ==> ontdekken
+ 236:    1  ->  (%hesitation) ==> ook
+ 237:    1  ->  (%hesitation) ==> op
+ 238:    1  ->  (%hesitation) ==> pas
+ 239:    1  ->  (%hesitation) ==> pezen
+ 240:    1  ->  (%hesitation) ==> proefwerk
+ 241:    1  ->  (%hesitation) ==> reden
+ 242:    1  ->  (%hesitation) ==> te
+ 243:    1  ->  (%hesitation) ==> tenminste
+ 244:    1  ->  (%hesitation) ==> this
+ 245:    1  ->  (%hesitation) ==> toch
+ 246:    1  ->  (%hesitation) ==> toen
+ 247:    1  ->  (%hesitation) ==> tot
+ 248:    1  ->  (%hesitation) ==> veertig
+ 249:    1  ->  (%hesitation) ==> verantwoording
+ 250:    1  ->  (%hesitation) ==> vitra
+ 251:    1  ->  (%hesitation) ==> voorkopen
+ 252:    1  ->  (%hesitation) ==> voorstellen
+ 253:    1  ->  (%hesitation) ==> want
+ 254:    1  ->  (%hesitation) ==> waren
+ 255:    1  ->  (%hesitation) ==> we
+ 256:    1  ->  (%hesitation) ==> wij
+ 257:    1  ->  (%hesitation) ==> wil
+ 258:    1  ->  (%hesitation) ==> wist
+ 259:    1  ->  (%hesitation) ==> wordt
+ 260:    1  ->  (%hesitation) ==> yeah
+ 261:    1  ->  (%hesitation) ==> yes
+ 262:    1  ->  (%hesitation) ==> ze
+ 263:    1  ->  (%hesitation) ==> zeg
+ 264:    1  ->  (%hesitation) ==> zeiden
+ 265:    1  ->  (%hesitation) ==> zijn
+ 266:    1  ->  (%hesitation) ==> zit
+ 267:    1  ->  (%hesitation) ==> zondag
+ 268:    1  ->  (%hesitation) ==> zuid
+ 269:    1  ->  (%hesitation) ==> 嗯
+ 270:    1  ->  (%hesitation) ==> 네
+ 271:    1  ->  (%hesitation) ==> 아하
+ 272:    1  ->  (%hesitation)uren ==> uren
+ 273:    1  ->  (a-) ==> als
+ 274:    1  ->  (a-) ==> helemaal
+ 275:    1  ->  (binnenst-) ==> is
+ 276:    1  ->  (boskes) ==> borstjes
+ 277:    1  ->  (caraïbische) ==> ibiza
+ 278:    1  ->  (castelihopelepo) ==> huppelepo
+ 279:    1  ->  (d-) ==> dat
+ 280:    1  ->  (d-) ==> denk
+ 281:    1  ->  (da-) ==> ik
+ 282:    1  ->  (dja) ==> ja
+ 283:    1  ->  (e-) ==> hey
+ 284:    1  ->  (ge-) ==> wel
+ 285:    1  ->  (gekre-) ==> gekregen
+ 286:    1  ->  (gi-) ==> je
+ 287:    1  ->  (gis-) ==> gisteren
+ 288:    1  ->  (i-) ==> is
+ 289:    1  ->  (kwantropatie) ==> is
+ 290:    1  ->  (la-) ==> ga
+ 291:    1  ->  (li-) ==> en
+ 292:    1  ->  (lisse-) ==> buitenlust
+ 293:    1  ->  (lo-) ==> lopen
+ 294:    1  ->  (lu-) ==> lucht
+ 295:    1  ->  (m-) ==> marleen
+ 296:    1  ->  (m-) ==> op
+ 297:    1  ->  (m-) ==> you
+ 298:    1  ->  (mari-) ==> riep
+ 299:    1  ->  (me-) ==> meer
+ 300:    1  ->  (moe-) ==> mooiste
+ 301:    1  ->  (n-) ==> het
+ 302:    1  ->  (n-) ==> hier
+ 303:    1  ->  (n-) ==> is
+ 304:    1  ->  (n-) ==> niet
+ 305:    1  ->  (natuurlijk-) ==> natuurlijk
+ 306:    1  ->  (no-) ==> home
+ 307:    1  ->  (o-) ==> ja
+ 308:    1  ->  (o-) ==> 그럼
+ 309:    1  ->  (oerold) ==> het
+ 310:    1  ->  (outzendkrachten) ==> uitzendkrachten
+ 311:    1  ->  (twa-) ==> ja
+ 312:    1  ->  (ui-) ==> oh
+ 313:    1  ->  (vaatw-) ==> vaat
+ 314:    1  ->  (wa-) ==> wel
+ 315:    1  ->  (wurkmen) ==> man
+ 316:    1  ->  (z-) ==> dus
+ 317:    1  ->  (z-) ==> hoe
+ 318:    1  ->  (zi-) ==> ik
+ 319:    1  ->  a ==> -a
+ 320:    1  ->  aan ==> achteraan
+ 321:    1  ->  aan ==> cricket
+ 322:    1  ->  aan ==> dingen
+ 323:    1  ->  aan ==> een
+ 324:    1  ->  aandacht ==> -aandacht
+ 325:    1  ->  ach ==> het
+ 326:    1  ->  ach ==> jawel
+ 327:    1  ->  ach ==> nee
+ 328:    1  ->  achtennegentig ==> negenhonderdachtennegentig
+ 329:    1  ->  adres ==> rest
+ 330:    1  ->  affiches ==> adviezen
+ 331:    1  ->  al ==> dan
+ 332:    1  ->  al ==> gaan
+ 333:    1  ->  al ==> il
+ 334:    1  ->  al ==> maar
+ 335:    1  ->  al ==> meteen
+ 336:    1  ->  al ==> nog
+ 337:    1  ->  al ==> onder
+ 338:    1  ->  al ==> op
+ 339:    1  ->  al ==> vrouw
+ 340:    1  ->  al ==> Οδιές
+ 341:    1  ->  alleen ==> heel
+ 342:    1  ->  allemaal ==> helemaal
+ 343:    1  ->  allemaal ==> komen
+ 344:    1  ->  allemaal ==> we
+ 345:    1  ->  allereerst ==> eerst
+ 346:    1  ->  als ==> dan
+ 347:    1  ->  als ==> het
+ 348:    1  ->  alweer ==> weken
+ 349:    1  ->  an ==> aan
+ 350:    1  ->  aparte ==> de
+ 351:    1  ->  attentie ==> attentietrekker
+ 352:    1  ->  autohuur ==> huur
+ 353:    1  ->  avond ==> kanonavond
+ 354:    1  ->  avond ==> vanavond
+ 355:    1  ->  avonds ==> 'avonds
+ 356:    1  ->  badlakens ==> badlakers
+ 357:    1  ->  bahnhof ==> of
+ 358:    1  ->  balk ==> balken
+ 359:    1  ->  bangliolo ==> bangmiolo
+ 360:    1  ->  bedoel ==> de
+ 361:    1  ->  bedoel ==> mijn
+ 362:    1  ->  begint ==> begin
+ 363:    1  ->  begon ==> we
+ 364:    1  ->  beheren ==> beheersen
+ 365:    1  ->  beitsen ==> bijtse
+ 366:    1  ->  bekend ==> met
+ 367:    1  ->  bekend ==> weet
+ 368:    1  ->  belazerd ==> belazend
+ 369:    1  ->  bent ==> ben
+ 370:    1  ->  benzine ==> بنجين
+ 371:    1  ->  berger ==> er
+ 372:    1  ->  bevestigen ==> bewustig
+ 373:    1  ->  bezielende ==> besielende
+ 374:    1  ->  bij ==> dit
+ 375:    1  ->  bij ==> waarbij
+ 376:    1  ->  bijenkorf ==> bijkorf
+ 377:    1  ->  binnenkort ==> de
+ 378:    1  ->  blij ==> blijf
+ 379:    1  ->  blijft ==> blijven
+ 380:    1  ->  bloggen ==> blog
+ 381:    1  ->  bomen ==> boma
+ 382:    1  ->  boodschapppenservice ==> boodschapperservice
+ 383:    1  ->  borrel ==> -borrel
+ 384:    1  ->  boven ==> erboven
+ 385:    1  ->  brabant ==> -brabant
+ 386:    1  ->  brengen ==> brengt
+ 387:    1  ->  bugelse ==> sì
+ 388:    1  ->  buienradar ==> buigenradar
+ 389:    1  ->  buiten ==> de
+ 390:    1  ->  buiten ==> een
+ 391:    1  ->  buitenlands ==> you
+ 392:    1  ->  canon ==> kamer
+ 393:    1  ->  canons ==> kanons
+ 394:    1  ->  caribische ==> ibiza
+ 395:    1  ->  catharijne ==> katrijn
+ 396:    1  ->  cemente ==> cementen
+ 397:    1  ->  chippie ==> it
+ 398:    1  ->  christane ==> christiane
+ 399:    1  ->  châtillon ==> chatillon
+ 400:    1  ->  cliënte ==> cliënten
+ 401:    1  ->  condoleezza ==> sonderlijke
+ 402:    1  ->  d ==> hd
+ 403:    1  ->  d'rachter ==> achter
+ 404:    1  ->  d'romheen ==> eromheen
+ 405:    1  ->  daar ==> een
+ 406:    1  ->  daar ==> ze
+ 407:    1  ->  daarvan ==> van
+ 408:    1  ->  dag ==> toch
+ 409:    1  ->  dan ==> al
+ 410:    1  ->  dan ==> een
+ 411:    1  ->  dan ==> hem
+ 412:    1  ->  dan ==> ik
+ 413:    1  ->  dan ==> lokale
+ 414:    1  ->  dan ==> naar
+ 415:    1  ->  dan ==> om
+ 416:    1  ->  dan ==> the
+ 417:    1  ->  dan ==> toen
+ 418:    1  ->  dan ==> uitzendkrachtig
+ 419:    1  ->  dan ==> van
+ 420:    1  ->  dan ==> wat
+ 421:    1  ->  dan ==> نعم
+ 422:    1  ->  dans ==> van
+ 423:    1  ->  das ==> het
+ 424:    1  ->  dat ==> de
+ 425:    1  ->  dat ==> en
+ 426:    1  ->  dat ==> ga
+ 427:    1  ->  dat ==> gisteren
+ 428:    1  ->  dat ==> heb
+ 429:    1  ->  dat ==> huis
+ 430:    1  ->  dat ==> ik
+ 431:    1  ->  dat ==> is
+ 432:    1  ->  dat ==> ja
+ 433:    1  ->  dat ==> lopen
+ 434:    1  ->  dat ==> ook
+ 435:    1  ->  dat ==> that
+ 436:    1  ->  dat ==> those
+ 437:    1  ->  dat ==> was
+ 438:    1  ->  dat ==> we
+ 439:    1  ->  dat ==> weggeschreven
+ 440:    1  ->  dat ==> wordt
+ 441:    1  ->  dat ==> yeah
+ 442:    1  ->  dat ==> zei
+ 443:    1  ->  dat ==> خاطر
+ 444:    1  ->  de ==> ben
+ 445:    1  ->  de ==> blok
+ 446:    1  ->  de ==> dan
+ 447:    1  ->  de ==> didn't
+ 448:    1  ->  de ==> dis
+ 449:    1  ->  de ==> dit
+ 450:    1  ->  de ==> dus
+ 451:    1  ->  de ==> en
+ 452:    1  ->  de ==> in
+ 453:    1  ->  de ==> juiste
+ 454:    1  ->  de ==> maar
+ 455:    1  ->  de ==> mijn
+ 456:    1  ->  de ==> mm
+ 457:    1  ->  de ==> mooi
+ 458:    1  ->  de ==> neemt
+ 459:    1  ->  de ==> nijlpaarden
+ 460:    1  ->  de ==> tegen
+ 461:    1  ->  de ==> water
+ 462:    1  ->  de ==> wel
+ 463:    1  ->  de ==> zich
+ 464:    1  ->  de ==> zo
+ 465:    1  ->  deed ==> is
+ 466:    1  ->  den ==> de
+ 467:    1  ->  denk ==> weet
+ 468:    1  ->  dergelijk ==> dergelijke
+ 469:    1  ->  die ==> daar
+ 470:    1  ->  die ==> dan
+ 471:    1  ->  die ==> dit
+ 472:    1  ->  die ==> ik
+ 473:    1  ->  die ==> je
+ 474:    1  ->  die ==> natuurlijk
+ 475:    1  ->  die ==> nee
+ 476:    1  ->  die ==> nemen
+ 477:    1  ->  die ==> nu
+ 478:    1  ->  die ==> sì
+ 479:    1  ->  die ==> vaak
+ 480:    1  ->  die ==> veertien
+ 481:    1  ->  die ==> wie
+ 482:    1  ->  dingen ==> vuurdingen
+ 483:    1  ->  dit ==> het
+ 484:    1  ->  dit ==> is
+ 485:    1  ->  document ==> -document
+ 486:    1  ->  documenten ==> -documenten
+ 487:    1  ->  doe ==> bedoel
+ 488:    1  ->  door ==> dacht
+ 489:    1  ->  doorfietsen ==> fietsen
+ 490:    1  ->  draaistoel ==> ik
+ 491:    1  ->  drente ==> -drenthe
+ 492:    1  ->  drents ==> drenthe
+ 493:    1  ->  drieëntwintigste ==> 23ste
+ 494:    1  ->  drukke ==> drukker
+ 495:    1  ->  dubbel ==> double
+ 496:    1  ->  dubbel ==> halberd
+ 497:    1  ->  duits ==> dat
+ 498:    1  ->  dus ==> die
+ 499:    1  ->  dus ==> eens
+ 500:    1  ->  dus ==> er
+ 501:    1  ->  dus ==> genoemd
+ 502:    1  ->  dus ==> gewoon
+ 503:    1  ->  dus ==> het
+ 504:    1  ->  dus ==> is
+ 505:    1  ->  dus ==> ja
+ 506:    1  ->  dus ==> we
+ 507:    1  ->  dus ==> ze
+ 508:    1  ->  dus ==> zo
+ 509:    1  ->  duurde ==> spreek
+ 510:    1  ->  e ==> heet
+ 511:    1  ->  echt ==> er
+ 512:    1  ->  echt ==> gingen
+ 513:    1  ->  een ==> aanspel
+ 514:    1  ->  een ==> alweer
+ 515:    1  ->  een ==> ervan
+ 516:    1  ->  een ==> fout
+ 517:    1  ->  een ==> goede
+ 518:    1  ->  een ==> ik
+ 519:    1  ->  een ==> in
+ 520:    1  ->  een ==> ja
+ 521:    1  ->  een ==> je
+ 522:    1  ->  een ==> komma
+ 523:    1  ->  een ==> kortste
+ 524:    1  ->  een ==> lopen
+ 525:    1  ->  een ==> naar
+ 526:    1  ->  een ==> picture
+ 527:    1  ->  een ==> ship
+ 528:    1  ->  een ==> straalkabine
+ 529:    1  ->  een ==> teeltje
+ 530:    1  ->  een ==> wat
+ 531:    1  ->  een ==> weer
+ 532:    1  ->  een ==> wegen
+ 533:    1  ->  een ==> zo
+ 534:    1  ->  eenentachtig ==> in
+ 535:    1  ->  eenentachtig ==> negenhonderdeenentachtig
+ 536:    1  ->  eenieder ==> ieder
+ 537:    1  ->  eens ==> gezegd
+ 538:    1  ->  eens ==> ineens
+ 539:    1  ->  eens ==> me
+ 540:    1  ->  effe ==> to
+ 541:    1  ->  effe ==> wat
+ 542:    1  ->  eigenlijk ==> hij
+ 543:    1  ->  eigenlijk ==> ook
+ 544:    1  ->  eigenlijke ==> eigen
+ 545:    1  ->  eindje ==> eentje
+ 546:    1  ->  emigreren ==> -emigreren
+ 547:    1  ->  en ==> aan
+ 548:    1  ->  en ==> and
+ 549:    1  ->  en ==> daar
+ 550:    1  ->  en ==> de
+ 551:    1  ->  en ==> dus
+ 552:    1  ->  en ==> hoef
+ 553:    1  ->  en ==> hun
+ 554:    1  ->  en ==> ja
+ 555:    1  ->  en ==> kastri
+ 556:    1  ->  en ==> maar
+ 557:    1  ->  en ==> met
+ 558:    1  ->  en ==> mevrouw
+ 559:    1  ->  en ==> nu
+ 560:    1  ->  en ==> nul
+ 561:    1  ->  en ==> of
+ 562:    1  ->  en ==> poederkoten
+ 563:    1  ->  en ==> raar
+ 564:    1  ->  en ==> regelen
+ 565:    1  ->  en ==> warm
+ 566:    1  ->  en ==> wel
+ 567:    1  ->  enfin ==> dat
+ 568:    1  ->  enfin ==> kan
+ 569:    1  ->  enzovoorts ==> enzovoort
+ 570:    1  ->  er ==> ermee
+ 571:    1  ->  er ==> erop
+ 572:    1  ->  er ==> je
+ 573:    1  ->  er ==> lijnbreier
+ 574:    1  ->  er ==> re
+ 575:    1  ->  er ==> zaklataan
+ 576:    1  ->  er ==> zenden
+ 577:    1  ->  er ==> zitten
+ 578:    1  ->  erg ==> me
+ 579:    1  ->  europa ==> -europa
+ 580:    1  ->  evelien ==> vriend
+ 581:    1  ->  falls ==> so
+ 582:    1  ->  fatsoenlijk ==> verzoendelijk
+ 583:    1  ->  foute ==> uitstaken
+ 584:    1  ->  fred ==> wij
+ 585:    1  ->  frommelde ==> vormde
+ 586:    1  ->  ga ==> ik
+ 587:    1  ->  gaan ==> hebben
+ 588:    1  ->  gaande ==> uitgaande
+ 589:    1  ->  gaat ==> doodgaat
+ 590:    1  ->  gaat ==> je
+ 591:    1  ->  gaat ==> nog
+ 592:    1  ->  gaat ==> teruggaan
+ 593:    1  ->  gaat ==> أنا
+ 594:    1  ->  garagedeur ==> deuren
+ 595:    1  ->  ge ==> herkertje
+ 596:    1  ->  gealloceerd ==> kid
+ 597:    1  ->  geen ==> ingen
+ 598:    1  ->  geen ==> kein
+ 599:    1  ->  gegaan ==> weggegaan
+ 600:    1  ->  gegeven ==> even
+ 601:    1  ->  gehad ==> d
+ 602:    1  ->  gehad ==> gaat
+ 603:    1  ->  gehore ==> horen
+ 604:    1  ->  geland ==> land
+ 605:    1  ->  gelegen ==> opgelegen
+ 606:    1  ->  gelopen ==> hardgelopen
+ 607:    1  ->  gelovige ==> me
+ 608:    1  ->  gemakkelijkste ==> gemakselijke
+ 609:    1  ->  gerotzooi ==> gerotsel
+ 610:    1  ->  gert ==> guest
+ 611:    1  ->  gestaafd ==> gestaagd
+ 612:    1  ->  gevraag ==> gevraagd
+ 613:    1  ->  gevraagd ==> nagevraagd
+ 614:    1  ->  geweest ==> ja
+ 615:    1  ->  gewone ==> zie
+ 616:    1  ->  gewoon ==> frame
+ 617:    1  ->  gewoon ==> het
+ 618:    1  ->  gewoon ==> je
+ 619:    1  ->  gewoon ==> tussen
+ 620:    1  ->  gewoon ==> wel
+ 621:    1  ->  gezeild ==> binnengezeild
+ 622:    1  ->  gezellig ==> supergezellig
+ 623:    1  ->  gezette ==> de
+ 624:    1  ->  gezien ==> μαγουσίδι
+ 625:    1  ->  geïsoleerd ==> geïnsoleerd
+ 626:    1  ->  ging ==> think
+ 627:    1  ->  gingen ==> ging
+ 628:    1  ->  gister ==> gisteren
+ 629:    1  ->  goed ==> cara
+ 630:    1  ->  goede ==> goed
+ 631:    1  ->  goedelief ==> lief
+ 632:    1  ->  goedkoper ==> goedkoop
+ 633:    1  ->  groen ==> groener
+ 634:    1  ->  groente ==> grond
+ 635:    1  ->  groter ==> grote
+ 636:    1  ->  guesthouses ==> kersthuizen
+ 637:    1  ->  gwen ==> flen
+ 638:    1  ->  haard ==> haart
+ 639:    1  ->  had ==> dat
+ 640:    1  ->  had ==> heeft
+ 641:    1  ->  had ==> werd
+ 642:    1  ->  hadden ==> er
+ 643:    1  ->  hadden ==> had
+ 644:    1  ->  hadden ==> vader
+ 645:    1  ->  hagedis ==> haag
+ 646:    1  ->  half ==> vijf
+ 647:    1  ->  halverwege ==> week
+ 648:    1  ->  haren ==> niet
+ 649:    1  ->  harry ==> home
+ 650:    1  ->  harry ==> want
+ 651:    1  ->  heb ==> geregeld
+ 652:    1  ->  heb ==> houdt
+ 653:    1  ->  heb ==> iets
+ 654:    1  ->  heb ==> ja
+ 655:    1  ->  heb ==> we
+ 656:    1  ->  hebben ==> hadden
+ 657:    1  ->  hebben ==> har
+ 658:    1  ->  hebben ==> ik
+ 659:    1  ->  hebben ==> quand
+ 660:    1  ->  hebben ==> zijn
+ 661:    1  ->  hebt ==> er
+ 662:    1  ->  hebt ==> ook
+ 663:    1  ->  heeft ==> is
+ 664:    1  ->  heen ==> f1
+ 665:    1  ->  heerlijk ==> gezellige
+ 666:    1  ->  heerlijk ==> heerlijke
+ 667:    1  ->  hele ==> heleboel
+ 668:    1  ->  hele ==> of
+ 669:    1  ->  heleboel ==> boel
+ 670:    1  ->  helemaal ==> daar
+ 671:    1  ->  helemaal ==> hemmel
+ 672:    1  ->  helemaal ==> off
+ 673:    1  ->  hersenbloeding ==> hersenverloening
+ 674:    1  ->  het ==> als
+ 675:    1  ->  het ==> begonnen
+ 676:    1  ->  het ==> daarvan
+ 677:    1  ->  het ==> dan
+ 678:    1  ->  het ==> dus
+ 679:    1  ->  het ==> een
+ 680:    1  ->  het ==> eerste
+ 681:    1  ->  het ==> gezegd
+ 682:    1  ->  het ==> go
+ 683:    1  ->  het ==> goed
+ 684:    1  ->  het ==> hij
+ 685:    1  ->  het ==> is
+ 686:    1  ->  het ==> sì
+ 687:    1  ->  het ==> wat
+ 688:    1  ->  hetzelfde ==> te
+ 689:    1  ->  hier ==> je
+ 690:    1  ->  hier ==> she
+ 691:    1  ->  hij ==> die
+ 692:    1  ->  hij ==> het
+ 693:    1  ->  hij ==> ik
+ 694:    1  ->  hij ==> oet
+ 695:    1  ->  hij ==> ze
+ 696:    1  ->  hillsong ==> zang
+ 697:    1  ->  hmm ==> mmm
+ 698:    1  ->  hoe ==> o
+ 699:    1  ->  hoef ==> wordt
+ 700:    1  ->  hoeft ==> ik
+ 701:    1  ->  hoek ==> beeldsehoek
+ 702:    1  ->  hoek ==> bilzenhoek
+ 703:    1  ->  hoekie ==> hoekje
+ 704:    1  ->  hoge ==> rendementen
+ 705:    1  ->  honderd ==> honderdtwintig
+ 706:    1  ->  honderd ==> honderdzestig
+ 707:    1  ->  hoog ==> hoge
+ 708:    1  ->  hoog ==> omhoog
+ 709:    1  ->  hoor ==> op
+ 710:    1  ->  hoor ==> sure
+ 711:    1  ->  hotel ==> -hotel
+ 712:    1  ->  huisvrouwen ==> huisvrouw
+ 713:    1  ->  hun ==> hen
+ 714:    1  ->  hun ==> y
+ 715:    1  ->  i ==> -i
+ 716:    1  ->  iedere ==> dat
+ 717:    1  ->  iedere ==> er
+ 718:    1  ->  iedereen ==> ieder
+ 719:    1  ->  iet ==> common
+ 720:    1  ->  iets ==> niet
+ 721:    1  ->  iets ==> zoiets
+ 722:    1  ->  ik ==> afgrondverkering
+ 723:    1  ->  ik ==> al
+ 724:    1  ->  ik ==> became
+ 725:    1  ->  ik ==> bedoeling
+ 726:    1  ->  ik ==> dan
+ 727:    1  ->  ik ==> de
+ 728:    1  ->  ik ==> eigenlijk
+ 729:    1  ->  ik ==> er
+ 730:    1  ->  ik ==> hij
+ 731:    1  ->  ik ==> ja
+ 732:    1  ->  ik ==> jag
+ 733:    1  ->  ik ==> je
+ 734:    1  ->  ik ==> mijn
+ 735:    1  ->  ik ==> we
+ 736:    1  ->  ik ==> yeah
+ 737:    1  ->  ik ==> zal
+ 738:    1  ->  in ==> -hmm
+ 739:    1  ->  in ==> andere
+ 740:    1  ->  in ==> het
+ 741:    1  ->  in ==> ik
+ 742:    1  ->  in ==> kent
+ 743:    1  ->  in ==> zo
+ 744:    1  ->  inderdaad ==> het
+ 745:    1  ->  inhebben ==> hebben
+ 746:    1  ->  innam ==> nam
+ 747:    1  ->  inricht ==> richt
+ 748:    1  ->  is ==> dus
+ 749:    1  ->  is ==> echt
+ 750:    1  ->  is ==> hele
+ 751:    1  ->  is ==> it's
+ 752:    1  ->  is ==> konden
+ 753:    1  ->  is ==> ne
+ 754:    1  ->  is ==> nu
+ 755:    1  ->  is ==> schijvers
+ 756:    1  ->  is ==> sì
+ 757:    1  ->  is ==> ze
+ 758:    1  ->  is ==> zou
+ 759:    1  ->  ja ==> -afrika
+ 760:    1  ->  ja ==> bij
+ 761:    1  ->  ja ==> de
+ 762:    1  ->  ja ==> die
+ 763:    1  ->  ja ==> een
+ 764:    1  ->  ja ==> gewoon
+ 765:    1  ->  ja ==> het
+ 766:    1  ->  ja ==> hmm
+ 767:    1  ->  ja ==> i
+ 768:    1  ->  ja ==> ik
+ 769:    1  ->  ja ==> it's
+ 770:    1  ->  ja ==> je
+ 771:    1  ->  ja ==> ket
+ 772:    1  ->  ja ==> merk
+ 773:    1  ->  ja ==> met
+ 774:    1  ->  ja ==> ofzo
+ 775:    1  ->  ja ==> soms
+ 776:    1  ->  ja ==> ställa
+ 777:    1  ->  ja ==> toch
+ 778:    1  ->  ja ==> ya
+ 779:    1  ->  ja ==> yep
+ 780:    1  ->  ja ==> 嗯
+ 781:    1  ->  ja ==> 감사합니다
+ 782:    1  ->  ja ==> 안녕하세요
+ 783:    1  ->  jammere ==> jammer
+ 784:    1  ->  jarig ==> jaren
+ 785:    1  ->  jarig ==> of
+ 786:    1  ->  jawel ==> wel
+ 787:    1  ->  je ==> dan
+ 788:    1  ->  je ==> denken
+ 789:    1  ->  je ==> geweest
+ 790:    1  ->  je ==> hier
+ 791:    1  ->  je ==> hij
+ 792:    1  ->  je ==> hoeft
+ 793:    1  ->  je ==> iemand
+ 794:    1  ->  je ==> ik
+ 795:    1  ->  je ==> mm
+ 796:    1  ->  je ==> ofzo
+ 797:    1  ->  je ==> praten
+ 798:    1  ->  jij ==> ja
+ 799:    1  ->  jij ==> reden
+ 800:    1  ->  joh ==> 'autres
+ 801:    1  ->  jongen ==> daar
+ 802:    1  ->  jongen ==> jong
+ 803:    1  ->  jou ==> jij
+ 804:    1  ->  juist ==> döneceğiz
+ 805:    1  ->  juli ==> juni
+ 806:    1  ->  jullie ==> de
+ 807:    1  ->  kan ==> kommer
+ 808:    1  ->  kan ==> konden
+ 809:    1  ->  kan ==> kunt
+ 810:    1  ->  kan ==> oh
+ 811:    1  ->  kant ==> kan
+ 812:    1  ->  kant ==> rechterkant
+ 813:    1  ->  kariba ==> al
+ 814:    1  ->  keer ==> eentje
+ 815:    1  ->  ken ==> je
+ 816:    1  ->  ken ==> kan
+ 817:    1  ->  ken ==> kijk
+ 818:    1  ->  kerst ==> kerstjaar
+ 819:    1  ->  keuzes ==> keuze
+ 820:    1  ->  kijk ==> oh
+ 821:    1  ->  kijk ==> oké
+ 822:    1  ->  kinder ==> van
+ 823:    1  ->  klaar ==> klaarkot
+ 824:    1  ->  klaarmaken ==> verhaal
+ 825:    1  ->  kleur ==> meidenkleur
+ 826:    1  ->  klopt ==> cool
+ 827:    1  ->  koken ==> kook
+ 828:    1  ->  kom ==> is
+ 829:    1  ->  komt ==> dat
+ 830:    1  ->  kon ==> gewoon
+ 831:    1  ->  kon ==> kan
+ 832:    1  ->  kon ==> konden
+ 833:    1  ->  konden ==> kon
+ 834:    1  ->  kook ==> koop
+ 835:    1  ->  kopen ==> 거고
+ 836:    1  ->  kosten ==> نكوست
+ 837:    1  ->  krachtenveld ==> krachtenvelk
+ 838:    1  ->  kregen ==> kreeg
+ 839:    1  ->  krijg ==> is
+ 840:    1  ->  krijgt ==> krijg
+ 841:    1  ->  kruiperke ==> kruiper
+ 842:    1  ->  kruipplantje ==> kruiplandje
+ 843:    1  ->  kun ==> kunt
+ 844:    1  ->  kunnen ==> kan
+ 845:    1  ->  kunt ==> kan
+ 846:    1  ->  kunt ==> vind
+ 847:    1  ->  l ==> rtl
+ 848:    1  ->  laadt ==> laat
+ 849:    1  ->  lake ==> caribe
+ 850:    1  ->  landen ==> -landen
+ 851:    1  ->  langere ==> lange
+ 852:    1  ->  langs ==> langzaam
+ 853:    1  ->  laserge ==> serp
+ 854:    1  ->  last ==> dat
+ 855:    1  ->  lastig ==> laatig
+ 856:    1  ->  lastig ==> lastige
+ 857:    1  ->  late ==> laatste
+ 858:    1  ->  late ==> later
+ 859:    1  ->  laten ==> laat
+ 860:    1  ->  laten ==> te
+ 861:    1  ->  later ==> laten
+ 862:    1  ->  later ==> nu
+ 863:    1  ->  leggen ==> denk
+ 864:    1  ->  leggen ==> liggen
+ 865:    1  ->  leuk ==> superleuk
+ 866:    1  ->  liggen ==> even
+ 867:    1  ->  ligt ==> nee
+ 868:    1  ->  lijders ==> hooikoortsleiders
+ 869:    1  ->  lijkt ==> blijkt
+ 870:    1  ->  lissabon ==> lissebong
+ 871:    1  ->  livingstone ==> livingston
+ 872:    1  ->  locatie ==> standaardlocatie
+ 873:    1  ->  ludo ==> lukt
+ 874:    1  ->  lui ==> waren
+ 875:    1  ->  luie ==> je
+ 876:    1  ->  lukt ==> ik
+ 877:    1  ->  maar ==> dat
+ 878:    1  ->  maar ==> een
+ 879:    1  ->  maar ==> en
+ 880:    1  ->  maar ==> hem
+ 881:    1  ->  maar ==> jij
+ 882:    1  ->  maar ==> laat
+ 883:    1  ->  maar ==> man
+ 884:    1  ->  maar ==> mike
+ 885:    1  ->  maar ==> zomaar
+ 886:    1  ->  mag ==> maak
+ 887:    1  ->  maken ==> opmaken
+ 888:    1  ->  makkelijk ==> makkelijker
+ 889:    1  ->  malen ==> een
+ 890:    1  ->  man ==> de
+ 891:    1  ->  manianum ==> hem
+ 892:    1  ->  maris ==> marissa
+ 893:    1  ->  markering ==> markeringplaatsje
+ 894:    1  ->  martijn ==> meteen
+ 895:    1  ->  me ==> hem
+ 896:    1  ->  me ==> ihåg
+ 897:    1  ->  me ==> mijn
+ 898:    1  ->  mee ==> ermee
+ 899:    1  ->  mee ==> hè
+ 900:    1  ->  mee ==> maar
+ 901:    1  ->  meedingen ==> meebingen
+ 902:    1  ->  meer ==> begroet
+ 903:    1  ->  meer ==> mee
+ 904:    1  ->  meer ==> meren
+ 905:    1  ->  meer ==> met
+ 906:    1  ->  meester ==> meeste
+ 907:    1  ->  meewilde ==> wilden
+ 908:    1  ->  meisje ==> mij
+ 909:    1  ->  men ==> met
+ 910:    1  ->  mensen ==> clubmensen
+ 911:    1  ->  mep ==> map
+ 912:    1  ->  merel ==> meroe
+ 913:    1  ->  merel ==> meromeer
+ 914:    1  ->  merelmeer ==> meromeer
+ 915:    1  ->  met ==> bij
+ 916:    1  ->  met ==> wordt
+ 917:    1  ->  middags ==> inmiddels
+ 918:    1  ->  mij ==> maar
+ 919:    1  ->  mijn ==> het
+ 920:    1  ->  mijn ==> is
+ 921:    1  ->  mijn ==> mij
+ 922:    1  ->  moe ==> mooiste
+ 923:    1  ->  moeras ==> moeraster
+ 924:    1  ->  moet ==> dan
+ 925:    1  ->  moet ==> ik
+ 926:    1  ->  moet ==> worden
+ 927:    1  ->  moeten ==> moet
+ 928:    1  ->  mogelijke ==> mogelijk
+ 929:    1  ->  moluks ==> een
+ 930:    1  ->  mooi ==> je
+ 931:    1  ->  mooi ==> mooier
+ 932:    1  ->  mooie ==> en
+ 933:    1  ->  morgenavond ==> houdt
+ 934:    1  ->  morgens ==> mooi
+ 935:    1  ->  muurkant ==> moerkant
+ 936:    1  ->  n ==> -n
+ 937:    1  ->  na ==> even
+ 938:    1  ->  na ==> naar
+ 939:    1  ->  naam ==> godsnaam
+ 940:    1  ->  naar ==> aan
+ 941:    1  ->  naar ==> daar
+ 942:    1  ->  naar ==> en
+ 943:    1  ->  naar ==> maar
+ 944:    1  ->  nachts ==> s
+ 945:    1  ->  natuurlijk ==> het
+ 946:    1  ->  nee ==> heet
+ 947:    1  ->  nee ==> nay
+ 948:    1  ->  nee ==> nei
+ 949:    1  ->  nee ==> news
+ 950:    1  ->  nee ==> nice
+ 951:    1  ->  nee ==> ook
+ 952:    1  ->  nee ==> that
+ 953:    1  ->  nee ==> yeah
+ 954:    1  ->  nee ==> はい。
+ 955:    1  ->  neem ==> have
+ 956:    1  ->  negentien ==> duizend
+ 957:    1  ->  negentien ==> negenhonderdeenentachtig
+ 958:    1  ->  net ==> bij
+ 959:    1  ->  niet ==> aangegeven
+ 960:    1  ->  niet ==> bedankt
+ 961:    1  ->  niet ==> heb
+ 962:    1  ->  niet ==> need
+ 963:    1  ->  niet ==> te
+ 964:    1  ->  nijlpaarden ==> vader
+ 965:    1  ->  niks ==> snakes
+ 966:    1  ->  nodigt ==> nodig
+ 967:    1  ->  nog ==> 'nachts
+ 968:    1  ->  nog ==> dan
+ 969:    1  ->  nog ==> enige
+ 970:    1  ->  nog ==> mm
+ 971:    1  ->  nog ==> ook
+ 972:    1  ->  nog ==> 예전
+ 973:    1  ->  nooit ==> noorden
+ 974:    1  ->  normaal ==> maaf
+ 975:    1  ->  nou ==> binnen
+ 976:    1  ->  nou ==> dan
+ 977:    1  ->  nou ==> er
+ 978:    1  ->  nou ==> ik
+ 979:    1  ->  nou ==> ja
+ 980:    1  ->  nou ==> maar
+ 981:    1  ->  nou ==> niet
+ 982:    1  ->  nou ==> normaal
+ 983:    1  ->  nou ==> now
+ 984:    1  ->  nou ==> yeah
+ 985:    1  ->  nu ==> nou
+ 986:    1  ->  nu ==> vroeger
+ 987:    1  ->  nu ==> zo
+ 988:    1  ->  nummertje ==> je
+ 989:    1  ->  of ==> dat
+ 990:    1  ->  of ==> de
+ 991:    1  ->  of ==> er
+ 992:    1  ->  of ==> op
+ 993:    1  ->  of ==> want
+ 994:    1  ->  okee ==> oké
+ 995:    1  ->  oké ==> ok
+ 996:    1  ->  om ==> auto
+ 997:    1  ->  om ==> dan
+ 998:    1  ->  om ==> zo
+ 999:    1  ->  onderhand ==> aantal
+1000:    1  ->  onderstaande ==> zijn
+1001:    1  ->  onevenredigbaar ==> onevenredenbaar
+1002:    1  ->  ontslag ==> omslag
+1003:    1  ->  ook ==> all
+1004:    1  ->  ook ==> altijd
+1005:    1  ->  ook ==> er
+1006:    1  ->  ook ==> gisteravond
+1007:    1  ->  ook ==> heb
+1008:    1  ->  ook ==> het
+1009:    1  ->  ook ==> ik
+1010:    1  ->  ook ==> komt
+1011:    1  ->  ook ==> oké
+1012:    1  ->  op ==> daarop
+1013:    1  ->  op ==> erop
+1014:    1  ->  op ==> maar
+1015:    1  ->  op ==> ook
+1016:    1  ->  open ==> opa
+1017:    1  ->  opzegtermijn ==> opzichttermijn
+1018:    1  ->  oren ==> roer
+1019:    1  ->  oud ==> de
+1020:    1  ->  over ==> open
+1021:    1  ->  over ==> weblogs
+1022:    1  ->  overeen ==> overheen
+1023:    1  ->  overgang ==> overvang
+1024:    1  ->  overschreeuwde ==> het
+1025:    1  ->  overstag ==> strak
+1026:    1  ->  p ==> pv
+1027:    1  ->  paar ==> 'occupe
+1028:    1  ->  paar ==> vaker
+1029:    1  ->  paladium ==> in
+1030:    1  ->  paladium ==> palladium
+1031:    1  ->  pannen ==> pan
+1032:    1  ->  paulusma ==> maar
+1033:    1  ->  philip ==> filip
+1034:    1  ->  plaatsje ==> een
+1035:    1  ->  poedercoat ==> van
+1036:    1  ->  postzegel ==> even
+1037:    1  ->  president ==> -president
+1038:    1  ->  probleem ==> problemen
+1039:    1  ->  promootten ==> promoten
+1040:    1  ->  provincies ==> provincie
+1041:    1  ->  pv ==> deze
+1042:    1  ->  qua ==> aan
+1043:    1  ->  r ==> -r
+1044:    1  ->  rapsody ==> rhapsody
+1045:    1  ->  rare ==> graag
+1046:    1  ->  reductie ==> -reductie
+1047:    1  ->  regenbui ==> we
+1048:    1  ->  relaxed ==> rex
+1049:    1  ->  relevantie ==> relevansie
+1050:    1  ->  rendementsketel ==> ketel
+1051:    1  ->  rice ==> reis
+1052:    1  ->  rotsen ==> rossen
+1053:    1  ->  saamhorigheidsgevoel ==> gevoel
+1054:    1  ->  schaap ==> ja
+1055:    1  ->  schaapachtig ==> schaap
+1056:    1  ->  schandalig ==> schandaal
+1057:    1  ->  senseo ==> sanseo
+1058:    1  ->  singapore ==> singaporean
+1059:    1  ->  sjablonen ==> schablonen
+1060:    1  ->  slaapkamer ==> slaapkamers
+1061:    1  ->  slapen ==> niet
+1062:    1  ->  sluipt ==> sluit
+1063:    1  ->  snap ==> not
+1064:    1  ->  soort ==> groot
+1065:    1  ->  speler ==> -speler
+1066:    1  ->  sport ==> sporten
+1067:    1  ->  sta ==> staat
+1068:    1  ->  staan ==> afstand
+1069:    1  ->  stappenplan ==> plan
+1070:    1  ->  stellen ==> staan
+1071:    1  ->  stimulans ==> brood
+1072:    1  ->  stof ==> stoffen
+1073:    1  ->  stonden ==> waren
+1074:    1  ->  stook ==> zook
+1075:    1  ->  stortbui ==> stortdui
+1076:    1  ->  straalcabine ==> dus
+1077:    1  ->  straatjes ==> zijstraatjes
+1078:    1  ->  stuk ==> dit
+1079:    1  ->  stuk ==> het
+1080:    1  ->  surf ==> surfmogelijkheid
+1081:    1  ->  t ==> -t
+1082:    1  ->  te ==> echt
+1083:    1  ->  te ==> moeten
+1084:    1  ->  te ==> of
+1085:    1  ->  teamleider ==> coordinator
+1086:    1  ->  ter ==> infinite
+1087:    1  ->  ter ==> kanons
+1088:    1  ->  tera ==> tere
+1089:    1  ->  terugreden ==> terug
+1090:    1  ->  teveel ==> veel
+1091:    1  ->  tig ==> tegen
+1092:    1  ->  tijden ==> tijdje
+1093:    1  ->  tineke ==> tienerkracht
+1094:    1  ->  toch ==> er
+1095:    1  ->  toch ==> het
+1096:    1  ->  toch ==> ja
+1097:    1  ->  toch ==> ook
+1098:    1  ->  toch ==> soort
+1099:    1  ->  toch ==> zit
+1100:    1  ->  toch ==> 네
+1101:    1  ->  toen ==> dan
+1102:    1  ->  toen ==> dus
+1103:    1  ->  tosti ==> toftie
+1104:    1  ->  tosti's ==> tofties
+1105:    1  ->  tot ==> het
+1106:    1  ->  tot ==> maken
+1107:    1  ->  trein ==> -hmm
+1108:    1  ->  trein ==> prijs
+1109:    1  ->  triest ==> interesting
+1110:    1  ->  trieste ==> triest
+1111:    1  ->  troef ==> proef
+1112:    1  ->  trouwens ==> dan
+1113:    1  ->  turkse ==> turks
+1114:    1  ->  twee ==> voor
+1115:    1  ->  tweeënvijftig ==> honderdtweeënvijftig
+1116:    1  ->  twintigduizend ==> nul
+1117:    1  ->  u2 ==> do
+1118:    1  ->  uiteindelijk ==> dan
+1119:    1  ->  uiteindelijke ==> je
+1120:    1  ->  uitgegooid ==> gegooid
+1121:    1  ->  uitgehaald ==> gehaald
+1122:    1  ->  uitspraak ==> deed
+1123:    1  ->  uitzoomen ==> hè
+1124:    1  ->  uur ==> nou
+1125:    1  ->  v*d ==> end
+1126:    1  ->  vaat ==> watervaart
+1127:    1  ->  vaatwasser ==> vaplasser
+1128:    1  ->  vacatures ==> pakkatures
+1129:    1  ->  valt ==> gaat
+1130:    1  ->  van ==> eergisteren
+1131:    1  ->  van ==> ervan
+1132:    1  ->  van ==> normen
+1133:    1  ->  van ==> voor
+1134:    1  ->  van ==> zou
+1135:    1  ->  vandaag ==> daar
+1136:    1  ->  vanuit ==> ervan
+1137:    1  ->  veel ==> hard
+1138:    1  ->  veel ==> سيو
+1139:    1  ->  veertig ==> achtenveertig
+1140:    1  ->  veertig- ==> nul
+1141:    1  ->  vele ==> helemaal
+1142:    1  ->  velzen ==> op
+1143:    1  ->  velzen ==> velsen
+1144:    1  ->  ver ==> zover
+1145:    1  ->  verbinding ==> ik
+1146:    1  ->  verbranden ==> branden
+1147:    1  ->  verbroken ==> home
+1148:    1  ->  verbroken ==> wel
+1149:    1  ->  verderop ==> verder
+1150:    1  ->  verhuurbedrijven ==> vuurbedrijven
+1151:    1  ->  verjaardag ==> vierjaardag
+1152:    1  ->  verplicht ==> verlicht
+1153:    1  ->  vertegenwoordigt ==> vertegenwoordigd
+1154:    1  ->  vertrekken ==> vertrek
+1155:    1  ->  via ==> ja
+1156:    1  ->  vierentwintigste ==> 24e
+1157:    1  ->  vijf ==> lr25
+1158:    1  ->  vijfde ==> vijfden
+1159:    1  ->  vijfentwintighonderd ==> al
+1160:    1  ->  vijfentwintighonderd ==> vijfentwintig
+1161:    1  ->  vijfentwintigste ==> dan
+1162:    1  ->  vind ==> denk
+1163:    1  ->  vissen ==> pisse
+1164:    1  ->  volgens ==> pas
+1165:    1  ->  volgens ==> vast
+1166:    1  ->  vom ==> baan
+1167:    1  ->  voor ==> ervoor
+1168:    1  ->  voor ==> eu
+1169:    1  ->  voordat ==> dat
+1170:    1  ->  voorprogramma ==> programma
+1171:    1  ->  voorstellen ==> att
+1172:    1  ->  vooruit ==> veruit
+1173:    1  ->  vraag ==> verhaal
+1174:    1  ->  vraag ==> we
+1175:    1  ->  vrouw ==> nou
+1176:    1  ->  waar ==> -bye
+1177:    1  ->  waar ==> bye
+1178:    1  ->  waar ==> dat
+1179:    1  ->  waar ==> i
+1180:    1  ->  waar ==> zo
+1181:    1  ->  waarin ==> bijna
+1182:    1  ->  want ==> het
+1183:    1  ->  want ==> ik
+1184:    1  ->  want ==> maar
+1185:    1  ->  want ==> ofzo
+1186:    1  ->  want ==> oh
+1187:    1  ->  want ==> te
+1188:    1  ->  want ==> van
+1189:    1  ->  was ==> geloof
+1190:    1  ->  was ==> oh
+1191:    1  ->  was ==> waren
+1192:    1  ->  was ==> zijn
+1193:    1  ->  wast ==> het
+1194:    1  ->  wat ==> aan
+1195:    1  ->  wat ==> betekent
+1196:    1  ->  wat ==> had
+1197:    1  ->  wat ==> het
+1198:    1  ->  wat ==> ik
+1199:    1  ->  wat ==> want
+1200:    1  ->  waterval ==> van
+1201:    1  ->  we ==> allemaal
+1202:    1  ->  we ==> heb
+1203:    1  ->  we ==> het
+1204:    1  ->  we ==> hij
+1205:    1  ->  we ==> i
+1206:    1  ->  we ==> is
+1207:    1  ->  we ==> marleen
+1208:    1  ->  we ==> mijn
+1209:    1  ->  we ==> to
+1210:    1  ->  we ==> ze
+1211:    1  ->  weer ==> een
+1212:    1  ->  weer ==> en
+1213:    1  ->  weer ==> hier
+1214:    1  ->  weer ==> paar
+1215:    1  ->  weer ==> we
+1216:    1  ->  weet ==> weten
+1217:    1  ->  weggegeven ==> pdfje
+1218:    1  ->  weggeweest ==> weg
+1219:    1  ->  weinig ==> hebben
+1220:    1  ->  wel ==> bellen
+1221:    1  ->  wel ==> ja
+1222:    1  ->  wel ==> meestal
+1223:    1  ->  wel ==> nog
+1224:    1  ->  wel ==> that's
+1225:    1  ->  wel ==> veel
+1226:    1  ->  wel ==> wat
+1227:    1  ->  wel ==> weleens
+1228:    1  ->  wel ==> zouden
+1229:    1  ->  wel ==> 알겠습니다
+1230:    1  ->  welke ==> wel
+1231:    1  ->  west ==> -west
+1232:    1  ->  west ==> westen
+1233:    1  ->  wezen ==> bezig
+1234:    1  ->  wiel ==> driehoek
+1235:    1  ->  wil ==> kun
+1236:    1  ->  wil ==> was
+1237:    1  ->  wilden ==> wilde
+1238:    1  ->  willen ==> wil
+1239:    1  ->  willen ==> wilde
+1240:    1  ->  winkeltjes ==> winkelsjes
+1241:    1  ->  wir ==> kinderen
+1242:    1  ->  worden ==> go
+1243:    1  ->  wordt ==> goed
+1244:    1  ->  wordt ==> niet
+1245:    1  ->  wordt ==> to
+1246:    1  ->  wordten ==> en
+1247:    1  ->  wou ==> wouden
+1248:    1  ->  woud ==> ik
+1249:    1  ->  zake ==> zaken
+1250:    1  ->  zaken ==> zaak
+1251:    1  ->  zaklantaarn ==> zaklataan
+1252:    1  ->  zal ==> sagen
+1253:    1  ->  zal ==> zou
+1254:    1  ->  zangwedstrijd ==> vrijt
+1255:    1  ->  zat ==> zap
+1256:    1  ->  ze ==> gasten
+1257:    1  ->  ze ==> hij
+1258:    1  ->  ze ==> je
+1259:    1  ->  zeg ==> dan
+1260:    1  ->  zeg ==> echt
+1261:    1  ->  zegt ==> oet
+1262:    1  ->  zegt ==> zei
+1263:    1  ->  zei ==> zeiden
+1264:    1  ->  zeiden ==> zei
+1265:    1  ->  zelf ==> veel
+1266:    1  ->  zelf ==> zelfs
+1267:    1  ->  zelfde ==> hetzelfde
+1268:    1  ->  zelfs ==> zo
+1269:    1  ->  zestigduizend ==> 000
+1270:    1  ->  zestigduizend ==> zestig
+1271:    1  ->  zet ==> even
+1272:    1  ->  zijn ==> ben
+1273:    1  ->  zijn ==> en
+1274:    1  ->  zit ==> je
+1275:    1  ->  zit ==> oh
+1276:    1  ->  zitten ==> het
+1277:    1  ->  zitten ==> stilzetten
+1278:    1  ->  zo ==> akkoordage
+1279:    1  ->  zo ==> fijn
+1280:    1  ->  zo ==> helemaal
+1281:    1  ->  zo ==> je
+1282:    1  ->  zo ==> nemen
+1283:    1  ->  zo ==> so
+1284:    1  ->  zo ==> ze
+1285:    1  ->  zo'n ==> nu
+1286:    1  ->  zo'n ==> op
+1287:    1  ->  zo'n ==> woord
+1288:    1  ->  zoals ==> als
+1289:    1  ->  zoekt ==> zo
+1290:    1  ->  zoiets ==> würde
+1291:    1  ->  zoiets ==> zo
+1292:    1  ->  zomaar ==> zo
+1293:    1  ->  zomermaanden ==> zomaar
+1294:    1  ->  zomervakantie ==> a
+1295:    1  ->  zoo ==> zo
+1296:    1  ->  zoomt ==> zoemt
+1297:    1  ->  zou ==> poederkoten
+1298:    1  ->  zou ==> zal
+1299:    1  ->  zou ==> zelfs
+1300:    1  ->  zou ==> zo
+1301:    1  ->  zouden ==> zou
+1302:    1  ->  zover ==> ver
+1303:    1  ->  zul ==> wil
+1304:    1  ->  zulk ==> zo
+1305:    1  ->  één ==> in
+1306:    1  ->  één ==> je
+1307:    1  ->  één ==> 확인인
+     -------
+      1893
+
+
+
+INSERTIONS                       Total                 (178)
+                                 With >=  1 occurrences (178)
+
+   1:   39  ->  en
+   2:   28  ->  dat
+   3:   27  ->  ik
+   4:   25  ->  het
+   5:   23  ->  een
+   6:   20  ->  zo
+   7:   18  ->  mm
+   8:   16  ->  ja
+   9:   12  ->  je
+  10:   12  ->  maar
+  11:   11  ->  die
+  12:   11  ->  in
+  13:   10  ->  dan
+  14:    8  ->  van
+  15:    7  ->  de
+  16:    7  ->  ook
+  17:    6  ->  is
+  18:    6  ->  niet
+  19:    6  ->  nou
+  20:    5  ->  daar
+  21:    5  ->  er
+  22:    5  ->  had
+  23:    5  ->  wat
+  24:    4  ->  als
+  25:    4  ->  dus
+  26:    4  ->  nee
+  27:    4  ->  op
+  28:    4  ->  was
+  29:    4  ->  yeah
+  30:    4  ->  ze
+  31:    3  ->  aan
+  32:    3  ->  bij
+  33:    3  ->  goed
+  34:    3  ->  om
+  35:    3  ->  sì
+  36:    3  ->  toen
+  37:    3  ->  uh
+  38:    3  ->  voor
+  39:    3  ->  waar
+  40:    3  ->  wel
+  41:    3  ->  z
+  42:    2  ->  aas
+  43:    2  ->  duizend
+  44:    2  ->  echte
+  45:    2  ->  heb
+  46:    2  ->  hebben
+  47:    2  ->  heel
+  48:    2  ->  hoe
+  49:    2  ->  i
+  50:    2  ->  kan
+  51:    2  ->  kun
+  52:    2  ->  moet
+  53:    2  ->  naar
+  54:    2  ->  o
+  55:    2  ->  thank
+  56:    2  ->  veel
+  57:    2  ->  want
+  58:    2  ->  we
+  59:    2  ->  weet
+  60:    2  ->  wil
+  61:    2  ->  één
+  62:    1  ->  'arrière
+  63:    1  ->  'en
+  64:    1  ->  'y
+  65:    1  ->  -bonne
+  66:    1  ->  25e
+  67:    1  ->  aangestort
+  68:    1  ->  ah
+  69:    1  ->  al
+  70:    1  ->  allemaal
+  71:    1  ->  alles
+  72:    1  ->  alsjeblieft
+  73:    1  ->  and
+  74:    1  ->  andere
+  75:    1  ->  auto
+  76:    1  ->  bekende
+  77:    1  ->  ben
+  78:    1  ->  cara
+  79:    1  ->  d
+  80:    1  ->  dingen
+  81:    1  ->  doen
+  82:    1  ->  door
+  83:    1  ->  double
+  84:    1  ->  duurde
+  85:    1  ->  echt
+  86:    1  ->  erbij
+  87:    1  ->  fint
+  88:    1  ->  garage
+  89:    1  ->  gewoon
+  90:    1  ->  gezet
+  91:    1  ->  go
+  92:    1  ->  haar
+  93:    1  ->  hadden
+  94:    1  ->  halve
+  95:    1  ->  he
+  96:    1  ->  helemaal
+  97:    1  ->  hem
+  98:    1  ->  henk
+  99:    1  ->  hier
+ 100:    1  ->  hij
+ 101:    1  ->  hoog
+ 102:    1  ->  hoop
+ 103:    1  ->  hè
+ 104:    1  ->  hé
+ 105:    1  ->  ich
+ 106:    1  ->  il
+ 107:    1  ->  inderdaad
+ 108:    1  ->  j
+ 109:    1  ->  keer
+ 110:    1  ->  kerst
+ 111:    1  ->  kunnen
+ 112:    1  ->  la
+ 113:    1  ->  land
+ 114:    1  ->  laten
+ 115:    1  ->  le
+ 116:    1  ->  leader
+ 117:    1  ->  liedjes
+ 118:    1  ->  lissabon
+ 119:    1  ->  m
+ 120:    1  ->  me
+ 121:    1  ->  mee
+ 122:    1  ->  meer
+ 123:    1  ->  misschien
+ 124:    1  ->  mmm
+ 125:    1  ->  moeder
+ 126:    1  ->  moeten
+ 127:    1  ->  molux
+ 128:    1  ->  n
+ 129:    1  ->  na
+ 130:    1  ->  naast
+ 131:    1  ->  nemen
+ 132:    1  ->  no
+ 133:    1  ->  nog
+ 134:    1  ->  of
+ 135:    1  ->  oh
+ 136:    1  ->  over
+ 137:    1  ->  paar
+ 138:    1  ->  palladium
+ 139:    1  ->  paulus
+ 140:    1  ->  poos
+ 141:    1  ->  rolt
+ 142:    1  ->  saamhorigheid
+ 143:    1  ->  scheelt
+ 144:    1  ->  see
+ 145:    1  ->  slaap
+ 146:    1  ->  sluit
+ 147:    1  ->  staan
+ 148:    1  ->  stappen
+ 149:    1  ->  stiep
+ 150:    1  ->  te
+ 151:    1  ->  team
+ 152:    1  ->  then
+ 153:    1  ->  to
+ 154:    1  ->  toch
+ 155:    1  ->  uit
+ 156:    1  ->  uiteindelijk
+ 157:    1  ->  uitzoomt
+ 158:    1  ->  v
+ 159:    1  ->  vandaag
+ 160:    1  ->  velsen
+ 161:    1  ->  verder
+ 162:    1  ->  vi
+ 163:    1  ->  vind
+ 164:    1  ->  voordat
+ 165:    1  ->  website
+ 166:    1  ->  weleens
+ 167:    1  ->  wordt
+ 168:    1  ->  wou
+ 169:    1  ->  yep
+ 170:    1  ->  you
+ 171:    1  ->  zangwet
+ 172:    1  ->  zegt
+ 173:    1  ->  zei
+ 174:    1  ->  zie
+ 175:    1  ->  zien
+ 176:    1  ->  zij
+ 177:    1  ->  zijn
+ 178:    1  ->  아하
+     -------
+       530
+
+
+
+DELETIONS                        Total                 (344)
+                                 With >=  1 occurrences (344)
+
+   1:  261  ->  ja
+   2:  124  ->  en
+   3:  119  ->  dat
+   4:   98  ->  ik
+   5:   70  ->  het
+   6:   68  ->  maar
+   7:   65  ->  die
+   8:   58  ->  een
+   9:   55  ->  de
+  10:   50  ->  nou
+  11:   43  ->  er
+  12:   43  ->  je
+  13:   42  ->  is
+  14:   39  ->  dan
+  15:   33  ->  van
+  16:   32  ->  nee
+  17:   32  ->  of
+  18:   27  ->  dus
+  19:   26  ->  in
+  20:   25  ->  daar
+  21:   23  ->  niet
+  22:   22  ->  wat
+  23:   22  ->  zo
+  24:   21  ->  ze
+  25:   20  ->  ook
+  26:   19  ->  op
+  27:   18  ->  wel
+  28:   17  ->  heb
+  29:   16  ->  als
+  30:   16  ->  bij
+  31:   15  ->  met
+  32:   14  ->  voor
+  33:   13  ->  want
+  34:   13  ->  zeg
+  35:   12  ->  al
+  36:   11  ->  hij
+  37:   10  ->  zijn
+  38:    8  ->  denk
+  39:    8  ->  hem
+  40:    8  ->  me
+  41:    8  ->  toch
+  42:    8  ->  we
+  43:    7  ->  ben
+  44:    7  ->  even
+  45:    7  ->  moet
+  46:    7  ->  nog
+  47:    7  ->  om
+  48:    7  ->  te
+  49:    7  ->  waar
+  50:    7  ->  was
+  51:    7  ->  wij
+  52:    7  ->  wordt
+  53:    6  ->  goed
+  54:    6  ->  kan
+  55:    6  ->  kun
+  56:    6  ->  veel
+  57:    5  ->  aan
+  58:    5  ->  bedoel
+  59:    5  ->  dit
+  60:    5  ->  had
+  61:    5  ->  weer
+  62:    5  ->  zal
+  63:    5  ->  zit
+  64:    4  ->  's
+  65:    4  ->  ach
+  66:    4  ->  echt
+  67:    4  ->  eens
+  68:    4  ->  heeft
+  69:    4  ->  heel
+  70:    4  ->  kijk
+  71:    4  ->  naar
+  72:    4  ->  precies
+  73:    4  ->  vind
+  74:    4  ->  één
+  75:    3  ->  andere
+  76:    3  ->  ga
+  77:    3  ->  gister
+  78:    3  ->  hadden
+  79:    3  ->  hebben
+  80:    3  ->  hoe
+  81:    3  ->  jawel
+  82:    3  ->  jou
+  83:    3  ->  laten
+  84:    3  ->  maris
+  85:    3  ->  nu
+  86:    3  ->  ter
+  87:    3  ->  twee
+  88:    3  ->  vrij
+  89:    3  ->  weet
+  90:    3  ->  weg
+  91:    3  ->  zich
+  92:    3  ->  zie
+  93:    3  ->  zij
+  94:    2  ->  biltse
+  95:    2  ->  binnen
+  96:    2  ->  canon
+  97:    2  ->  dacht
+  98:    2  ->  effe
+  99:    2  ->  es
+ 100:    2  ->  gaat
+ 101:    2  ->  geval
+ 102:    2  ->  gingen
+ 103:    2  ->  half
+ 104:    2  ->  hard
+ 105:    2  ->  harry
+ 106:    2  ->  hebt
+ 107:    2  ->  helemaal
+ 108:    2  ->  hoeft
+ 109:    2  ->  ieder
+ 110:    2  ->  iemand
+ 111:    2  ->  inderdaad
+ 112:    2  ->  jij
+ 113:    2  ->  keer
+ 114:    2  ->  ken
+ 115:    2  ->  kopen
+ 116:    2  ->  laat
+ 117:    2  ->  lijkt
+ 118:    2  ->  m'n
+ 119:    2  ->  marleen
+ 120:    2  ->  mee
+ 121:    2  ->  mensen
+ 122:    2  ->  misschien
+ 123:    2  ->  moest
+ 124:    2  ->  moesten
+ 125:    2  ->  moeten
+ 126:    2  ->  mooi
+ 127:    2  ->  na
+ 128:    2  ->  oké
+ 129:    2  ->  over
+ 130:    2  ->  staan
+ 131:    2  ->  super
+ 132:    2  ->  toen
+ 133:    2  ->  uit
+ 134:    2  ->  vaak
+ 135:    2  ->  waren
+ 136:    2  ->  zo'n
+ 137:    1  ->  (%hesitation)]
+ 138:    1  ->  [
+ 139:    1  ->  aard
+ 140:    1  ->  achter
+ 141:    1  ->  af
+ 142:    1  ->  afdrogen
+ 143:    1  ->  afgrond
+ 144:    1  ->  afijn
+ 145:    1  ->  afrika
+ 146:    1  ->  alle
+ 147:    1  ->  allemaal
+ 148:    1  ->  altijd
+ 149:    1  ->  an
+ 150:    1  ->  attentietrekker
+ 151:    1  ->  beetje
+ 152:    1  ->  beginnen
+ 153:    1  ->  begint
+ 154:    1  ->  bel
+ 155:    1  ->  bent
+ 156:    1  ->  betekent
+ 157:    1  ->  bielzen
+ 158:    1  ->  blijft
+ 159:    1  ->  blok
+ 160:    1  ->  brieven
+ 161:    1  ->  bundelen
+ 162:    1  ->  canons
+ 163:    1  ->  christine
+ 164:    1  ->  club
+ 165:    1  ->  collega
+ 166:    1  ->  coördinator
+ 167:    1  ->  daarbij
+ 168:    1  ->  daarmee
+ 169:    1  ->  daaronder
+ 170:    1  ->  dag
+ 171:    1  ->  dam
+ 172:    1  ->  das
+ 173:    1  ->  den
+ 174:    1  ->  dik
+ 175:    1  ->  ding
+ 176:    1  ->  dingen
+ 177:    1  ->  doe
+ 178:    1  ->  doen
+ 179:    1  ->  dood
+ 180:    1  ->  door
+ 181:    1  ->  duurde
+ 182:    1  ->  e
+ 183:    1  ->  echte
+ 184:    1  ->  economische
+ 185:    1  ->  eergister
+ 186:    1  ->  eerlijk
+ 187:    1  ->  eerste
+ 188:    1  ->  ei
+ 189:    1  ->  eigenlijk
+ 190:    1  ->  elke
+ 191:    1  ->  enne
+ 192:    1  ->  erg
+ 193:    1  ->  eu
+ 194:    1  ->  f
+ 195:    1  ->  gaf
+ 196:    1  ->  gas
+ 197:    1  ->  gek
+ 198:    1  ->  genoeg
+ 199:    1  ->  gewoon
+ 200:    1  ->  gezegd
+ 201:    1  ->  ging
+ 202:    1  ->  gispen
+ 203:    1  ->  god
+ 204:    1  ->  gods
+ 205:    1  ->  guest
+ 206:    1  ->  h
+ 207:    1  ->  hebbedingen
+ 208:    1  ->  heggetje
+ 209:    1  ->  hele
+ 210:    1  ->  heus
+ 211:    1  ->  hier
+ 212:    1  ->  hm
+ 213:    1  ->  hmm
+ 214:    1  ->  hoef
+ 215:    1  ->  hoezo
+ 216:    1  ->  honderd
+ 217:    1  ->  hooikoorts
+ 218:    1  ->  hoop
+ 219:    1  ->  hoor
+ 220:    1  ->  huh
+ 221:    1  ->  iets
+ 222:    1  ->  jonge
+ 223:    1  ->  juist
+ 224:    1  ->  jullie
+ 225:    1  ->  kerst
+ 226:    1  ->  keurig
+ 227:    1  ->  kijken
+ 228:    1  ->  klein
+ 229:    1  ->  klikt
+ 230:    1  ->  komt
+ 231:    1  ->  krijg
+ 232:    1  ->  kwamen
+ 233:    1  ->  land
+ 234:    1  ->  lang
+ 235:    1  ->  langer
+ 236:    1  ->  last
+ 237:    1  ->  lees
+ 238:    1  ->  lekkere
+ 239:    1  ->  leuke
+ 240:    1  ->  liever
+ 241:    1  ->  lime
+ 242:    1  ->  lissabon
+ 243:    1  ->  lokalen
+ 244:    1  ->  loopt
+ 245:    1  ->  maak
+ 246:    1  ->  meiden
+ 247:    1  ->  mijn
+ 248:    1  ->  minute
+ 249:    1  ->  mocht
+ 250:    1  ->  mogelijkheid
+ 251:    1  ->  mooie
+ 252:    1  ->  naast
+ 253:    1  ->  natuurlijk
+ 254:    1  ->  ne
+ 255:    1  ->  net
+ 256:    1  ->  nijlpaarden
+ 257:    1  ->  norm
+ 258:    1  ->  och
+ 259:    1  ->  ochtends
+ 260:    1  ->  omdat
+ 261:    1  ->  onafhankelijk
+ 262:    1  ->  onder
+ 263:    1  ->  ontdekken
+ 264:    1  ->  onzin
+ 265:    1  ->  paar
+ 266:    1  ->  pdf
+ 267:    1  ->  pezen
+ 268:    1  ->  picture
+ 269:    1  ->  poedercoaten
+ 270:    1  ->  politiek
+ 271:    1  ->  preek
+ 272:    1  ->  proefwerk
+ 273:    1  ->  pv
+ 274:    1  ->  r
+ 275:    1  ->  rechtse
+ 276:    1  ->  regen
+ 277:    1  ->  s*s
+ 278:    1  ->  scheelt
+ 279:    1  ->  schijf
+ 280:    1  ->  sich
+ 281:    1  ->  simpel
+ 282:    1  ->  sleutelen
+ 283:    1  ->  slochteren
+ 284:    1  ->  snap
+ 285:    1  ->  soms
+ 286:    1  ->  soort
+ 287:    1  ->  spul
+ 288:    1  ->  sta
+ 289:    1  ->  staat
+ 290:    1  ->  standaard
+ 291:    1  ->  steeds
+ 292:    1  ->  stil
+ 293:    1  ->  stuk
+ 294:    1  ->  systeem
+ 295:    1  ->  t
+ 296:    1  ->  tegeltje
+ 297:    1  ->  tegen
+ 298:    1  ->  ten
+ 299:    1  ->  tenminste
+ 300:    1  ->  terug
+ 301:    1  ->  thuis
+ 302:    1  ->  tja
+ 303:    1  ->  tot
+ 304:    1  ->  trouwens
+ 305:    1  ->  tussen
+ 306:    1  ->  tussentijds
+ 307:    1  ->  uitzendkrachten
+ 308:    1  ->  vandaag
+ 309:    1  ->  vanmiddag
+ 310:    1  ->  vanuit
+ 311:    1  ->  verantwoording
+ 312:    1  ->  verder
+ 313:    1  ->  verkeer
+ 314:    1  ->  versus
+ 315:    1  ->  volgens
+ 316:    1  ->  vond
+ 317:    1  ->  vooraf
+ 318:    1  ->  voordat
+ 319:    1  ->  voorstellen
+ 320:    1  ->  vuile
+ 321:    1  ->  vut
+ 322:    1  ->  wanneer
+ 323:    1  ->  warm
+ 324:    1  ->  watertoren
+ 325:    1  ->  weblogs
+ 326:    1  ->  website
+ 327:    1  ->  wil
+ 328:    1  ->  wilde
+ 329:    1  ->  wonen
+ 330:    1  ->  worden
+ 331:    1  ->  zag
+ 332:    1  ->  zagen
+ 333:    1  ->  zaklantaarn
+ 334:    1  ->  zat
+ 335:    1  ->  zeggen
+ 336:    1  ->  zeiden
+ 337:    1  ->  zichzelf
+ 338:    1  ->  zien
+ 339:    1  ->  zijstraatjes
+ 340:    1  ->  zoals
+ 341:    1  ->  zondag
+ 342:    1  ->  zou
+ 343:    1  ->  zoudt
+ 344:    1  ->  zuid
+     -------
+      2156
+
+
+
+SUBSTITUTIONS                    Total                 (606)
+                                 With >=  1 occurrences (606)
+
+   1:  326  ->  (%hesitation)
+   2:  137  ->  ja
+   3:   65  ->  dat
+   4:   37  ->  zo'n
+   5:   36  ->  de
+   6:   30  ->  het
+   7:   29  ->  een
+   8:   27  ->  er
+   9:   25  ->  dan
+  10:   25  ->  die
+  11:   22  ->  en
+  12:   21  ->  ik
+  13:   20  ->  je
+  14:   18  ->  is
+  15:   16  ->  daar
+  16:   16  ->  nou
+  17:   16  ->  wel
+  18:   15  ->  dus
+  19:   15  ->  één
+  20:   13  ->  maar
+  21:   12  ->  al
+  22:   12  ->  we
+  23:   11  ->  nee
+  24:   11  ->  ook
+  25:   11  ->  wat
+  26:   11  ->  ze
+  27:   10  ->  in
+  28:   10  ->  m'n
+  29:   10  ->  weer
+  30:   10  ->  zo
+  31:    9  ->  's
+  32:    9  ->  want
+  33:    8  ->  was
+  34:    7  ->  bij
+  35:    7  ->  canon
+  36:    7  ->  heb
+  37:    7  ->  hij
+  38:    7  ->  toch
+  39:    7  ->  zijn
+  40:    6  ->  das
+  41:    6  ->  had
+  42:    6  ->  naar
+  43:    6  ->  nog
+  44:    5  ->  effe
+  45:    5  ->  gaat
+  46:    5  ->  gewoon
+  47:    5  ->  hebben
+  48:    5  ->  jij
+  49:    5  ->  karlijn
+  50:    5  ->  ken
+  51:    5  ->  mee
+  52:    5  ->  niet
+  53:    5  ->  of
+  54:    5  ->  van
+  55:    5  ->  veel
+  56:    5  ->  waar
+  57:    5  ->  wij
+  58:    4  ->  (n-)
+  59:    4  ->  aan
+  60:    4  ->  dit
+  61:    4  ->  kan
+  62:    4  ->  meer
+  63:    4  ->  oké
+  64:    4  ->  op
+  65:    4  ->  tineke
+  66:    4  ->  uit
+  67:    4  ->  voor
+  68:    4  ->  zeg
+  69:    4  ->  zou
+  70:    3  ->  (m-)
+  71:    3  ->  ach
+  72:    3  ->  allemaal
+  73:    3  ->  andere
+  74:    3  ->  boven
+  75:    3  ->  d'rbij
+  76:    3  ->  drieëntwintigste
+  77:    3  ->  eens
+  78:    3  ->  es
+  79:    3  ->  hadden
+  80:    3  ->  helemaal
+  81:    3  ->  kon
+  82:    3  ->  me
+  83:    3  ->  mijn
+  84:    3  ->  moarn
+  85:    3  ->  moet
+  86:    3  ->  nu
+  87:    3  ->  oant
+  88:    3  ->  om
+  89:    3  ->  te
+  90:    3  ->  wordt
+  91:    2  ->  (a-)
+  92:    2  ->  (d-)
+  93:    2  ->  (o-)
+  94:    2  ->  (z-)
+  95:    2  ->  aanstaande
+  96:    2  ->  achtentwintigste
+  97:    2  ->  als
+  98:    2  ->  auweltje
+  99:    2  ->  avond
+ 100:    2  ->  bedoel
+ 101:    2  ->  bekend
+ 102:    2  ->  brechtje
+ 103:    2  ->  buiten
+ 104:    2  ->  dubbel
+ 105:    2  ->  duizend
+ 106:    2  ->  echt
+ 107:    2  ->  eenentachtig
+ 108:    2  ->  eigenlijk
+ 109:    2  ->  enfin
+ 110:    2  ->  enne
+ 111:    2  ->  enzo
+ 112:    2  ->  flyn
+ 113:    2  ->  geen
+ 114:    2  ->  gehad
+ 115:    2  ->  harry
+ 116:    2  ->  hebt
+ 117:    2  ->  heerlijk
+ 118:    2  ->  hele
+ 119:    2  ->  hier
+ 120:    2  ->  hoek
+ 121:    2  ->  hoelang
+ 122:    2  ->  honderd
+ 123:    2  ->  hoog
+ 124:    2  ->  hoor
+ 125:    2  ->  hun
+ 126:    2  ->  iedere
+ 127:    2  ->  iets
+ 128:    2  ->  jarig
+ 129:    2  ->  jongen
+ 130:    2  ->  kant
+ 131:    2  ->  kijk
+ 132:    2  ->  knmi
+ 133:    2  ->  kunt
+ 134:    2  ->  lastig
+ 135:    2  ->  late
+ 136:    2  ->  laten
+ 137:    2  ->  later
+ 138:    2  ->  leggen
+ 139:    2  ->  lumangwe
+ 140:    2  ->  maleisië
+ 141:    2  ->  merel
+ 142:    2  ->  met
+ 143:    2  ->  moest
+ 144:    2  ->  moete
+ 145:    2  ->  mooi
+ 146:    2  ->  na
+ 147:    2  ->  negentien
+ 148:    2  ->  neven
+ 149:    2  ->  over
+ 150:    2  ->  paar
+ 151:    2  ->  paladium
+ 152:    2  ->  rauwkost
+ 153:    2  ->  sisimba
+ 154:    2  ->  stuk
+ 155:    2  ->  ter
+ 156:    2  ->  toen
+ 157:    2  ->  tot
+ 158:    2  ->  trein
+ 159:    2  ->  tuurlijk
+ 160:    2  ->  vanaf
+ 161:    2  ->  velzen
+ 162:    2  ->  verbroken
+ 163:    2  ->  vijfentwintighonderd
+ 164:    2  ->  volgens
+ 165:    2  ->  vraag
+ 166:    2  ->  wake
+ 167:    2  ->  west
+ 168:    2  ->  wil
+ 169:    2  ->  willen
+ 170:    2  ->  zak
+ 171:    2  ->  zal
+ 172:    2  ->  zegt
+ 173:    2  ->  zelf
+ 174:    2  ->  zestigduizend
+ 175:    2  ->  zit
+ 176:    2  ->  zitten
+ 177:    2  ->  zoiets
+ 178:    1  ->  (%hesitation)uren
+ 179:    1  ->  (binnenst-)
+ 180:    1  ->  (boskes)
+ 181:    1  ->  (caraïbische)
+ 182:    1  ->  (castelihopelepo)
+ 183:    1  ->  (da-)
+ 184:    1  ->  (dja)
+ 185:    1  ->  (e-)
+ 186:    1  ->  (ge-)
+ 187:    1  ->  (gekre-)
+ 188:    1  ->  (gi-)
+ 189:    1  ->  (gis-)
+ 190:    1  ->  (i-)
+ 191:    1  ->  (kwantropatie)
+ 192:    1  ->  (la-)
+ 193:    1  ->  (li-)
+ 194:    1  ->  (lisse-)
+ 195:    1  ->  (lo-)
+ 196:    1  ->  (lu-)
+ 197:    1  ->  (mari-)
+ 198:    1  ->  (me-)
+ 199:    1  ->  (moe-)
+ 200:    1  ->  (natuurlijk-)
+ 201:    1  ->  (no-)
+ 202:    1  ->  (oerold)
+ 203:    1  ->  (outzendkrachten)
+ 204:    1  ->  (twa-)
+ 205:    1  ->  (ui-)
+ 206:    1  ->  (vaatw-)
+ 207:    1  ->  (wa-)
+ 208:    1  ->  (wurkmen)
+ 209:    1  ->  (zi-)
+ 210:    1  ->  a
+ 211:    1  ->  aandacht
+ 212:    1  ->  achtennegentig
+ 213:    1  ->  adres
+ 214:    1  ->  affiches
+ 215:    1  ->  alleen
+ 216:    1  ->  allereerst
+ 217:    1  ->  alweer
+ 218:    1  ->  an
+ 219:    1  ->  aparte
+ 220:    1  ->  attentie
+ 221:    1  ->  autohuur
+ 222:    1  ->  avonds
+ 223:    1  ->  badlakens
+ 224:    1  ->  bahnhof
+ 225:    1  ->  balk
+ 226:    1  ->  bangliolo
+ 227:    1  ->  begint
+ 228:    1  ->  begon
+ 229:    1  ->  beheren
+ 230:    1  ->  beitsen
+ 231:    1  ->  belazerd
+ 232:    1  ->  bent
+ 233:    1  ->  benzine
+ 234:    1  ->  berger
+ 235:    1  ->  bevestigen
+ 236:    1  ->  bezielende
+ 237:    1  ->  bijenkorf
+ 238:    1  ->  binnenkort
+ 239:    1  ->  blij
+ 240:    1  ->  blijft
+ 241:    1  ->  bloggen
+ 242:    1  ->  bomen
+ 243:    1  ->  boodschapppenservice
+ 244:    1  ->  borrel
+ 245:    1  ->  brabant
+ 246:    1  ->  brengen
+ 247:    1  ->  bugelse
+ 248:    1  ->  buienradar
+ 249:    1  ->  buitenlands
+ 250:    1  ->  canons
+ 251:    1  ->  caribische
+ 252:    1  ->  catharijne
+ 253:    1  ->  cemente
+ 254:    1  ->  chippie
+ 255:    1  ->  christane
+ 256:    1  ->  châtillon
+ 257:    1  ->  cliënte
+ 258:    1  ->  condoleezza
+ 259:    1  ->  d
+ 260:    1  ->  d'rachter
+ 261:    1  ->  d'romheen
+ 262:    1  ->  daarvan
+ 263:    1  ->  dag
+ 264:    1  ->  dans
+ 265:    1  ->  deed
+ 266:    1  ->  den
+ 267:    1  ->  denk
+ 268:    1  ->  dergelijk
+ 269:    1  ->  dingen
+ 270:    1  ->  document
+ 271:    1  ->  documenten
+ 272:    1  ->  doe
+ 273:    1  ->  door
+ 274:    1  ->  doorfietsen
+ 275:    1  ->  draaistoel
+ 276:    1  ->  drente
+ 277:    1  ->  drents
+ 278:    1  ->  drukke
+ 279:    1  ->  duits
+ 280:    1  ->  duurde
+ 281:    1  ->  e
+ 282:    1  ->  eenieder
+ 283:    1  ->  eigenlijke
+ 284:    1  ->  eindje
+ 285:    1  ->  emigreren
+ 286:    1  ->  enzovoorts
+ 287:    1  ->  erg
+ 288:    1  ->  europa
+ 289:    1  ->  evelien
+ 290:    1  ->  falls
+ 291:    1  ->  fatsoenlijk
+ 292:    1  ->  foute
+ 293:    1  ->  fred
+ 294:    1  ->  frommelde
+ 295:    1  ->  ga
+ 296:    1  ->  gaan
+ 297:    1  ->  gaande
+ 298:    1  ->  garagedeur
+ 299:    1  ->  ge
+ 300:    1  ->  gealloceerd
+ 301:    1  ->  gegaan
+ 302:    1  ->  gegeven
+ 303:    1  ->  gehore
+ 304:    1  ->  geland
+ 305:    1  ->  gelegen
+ 306:    1  ->  gelopen
+ 307:    1  ->  gelovige
+ 308:    1  ->  gemakkelijkste
+ 309:    1  ->  gerotzooi
+ 310:    1  ->  gert
+ 311:    1  ->  gestaafd
+ 312:    1  ->  gevraag
+ 313:    1  ->  gevraagd
+ 314:    1  ->  geweest
+ 315:    1  ->  gewone
+ 316:    1  ->  gezeild
+ 317:    1  ->  gezellig
+ 318:    1  ->  gezette
+ 319:    1  ->  gezien
+ 320:    1  ->  geïsoleerd
+ 321:    1  ->  ging
+ 322:    1  ->  gingen
+ 323:    1  ->  gister
+ 324:    1  ->  goed
+ 325:    1  ->  goede
+ 326:    1  ->  goedelief
+ 327:    1  ->  goedkoper
+ 328:    1  ->  groen
+ 329:    1  ->  groente
+ 330:    1  ->  groter
+ 331:    1  ->  guesthouses
+ 332:    1  ->  gwen
+ 333:    1  ->  haard
+ 334:    1  ->  hagedis
+ 335:    1  ->  half
+ 336:    1  ->  halverwege
+ 337:    1  ->  haren
+ 338:    1  ->  heeft
+ 339:    1  ->  heen
+ 340:    1  ->  heleboel
+ 341:    1  ->  hersenbloeding
+ 342:    1  ->  hetzelfde
+ 343:    1  ->  hillsong
+ 344:    1  ->  hmm
+ 345:    1  ->  hoe
+ 346:    1  ->  hoef
+ 347:    1  ->  hoeft
+ 348:    1  ->  hoekie
+ 349:    1  ->  hoge
+ 350:    1  ->  hotel
+ 351:    1  ->  huisvrouwen
+ 352:    1  ->  i
+ 353:    1  ->  iedereen
+ 354:    1  ->  iet
+ 355:    1  ->  inderdaad
+ 356:    1  ->  inhebben
+ 357:    1  ->  innam
+ 358:    1  ->  inricht
+ 359:    1  ->  jammere
+ 360:    1  ->  jawel
+ 361:    1  ->  joh
+ 362:    1  ->  jou
+ 363:    1  ->  juist
+ 364:    1  ->  juli
+ 365:    1  ->  jullie
+ 366:    1  ->  kariba
+ 367:    1  ->  keer
+ 368:    1  ->  kerst
+ 369:    1  ->  keuzes
+ 370:    1  ->  kinder
+ 371:    1  ->  klaar
+ 372:    1  ->  klaarmaken
+ 373:    1  ->  kleur
+ 374:    1  ->  klopt
+ 375:    1  ->  koken
+ 376:    1  ->  kom
+ 377:    1  ->  komt
+ 378:    1  ->  konden
+ 379:    1  ->  kook
+ 380:    1  ->  kopen
+ 381:    1  ->  kosten
+ 382:    1  ->  krachtenveld
+ 383:    1  ->  kregen
+ 384:    1  ->  krijg
+ 385:    1  ->  krijgt
+ 386:    1  ->  kruiperke
+ 387:    1  ->  kruipplantje
+ 388:    1  ->  kun
+ 389:    1  ->  kunnen
+ 390:    1  ->  l
+ 391:    1  ->  laadt
+ 392:    1  ->  lake
+ 393:    1  ->  landen
+ 394:    1  ->  langere
+ 395:    1  ->  langs
+ 396:    1  ->  laserge
+ 397:    1  ->  last
+ 398:    1  ->  leuk
+ 399:    1  ->  liggen
+ 400:    1  ->  ligt
+ 401:    1  ->  lijders
+ 402:    1  ->  lijkt
+ 403:    1  ->  lissabon
+ 404:    1  ->  livingstone
+ 405:    1  ->  locatie
+ 406:    1  ->  ludo
+ 407:    1  ->  lui
+ 408:    1  ->  luie
+ 409:    1  ->  lukt
+ 410:    1  ->  mag
+ 411:    1  ->  maken
+ 412:    1  ->  makkelijk
+ 413:    1  ->  malen
+ 414:    1  ->  man
+ 415:    1  ->  manianum
+ 416:    1  ->  maris
+ 417:    1  ->  markering
+ 418:    1  ->  martijn
+ 419:    1  ->  meedingen
+ 420:    1  ->  meester
+ 421:    1  ->  meewilde
+ 422:    1  ->  meisje
+ 423:    1  ->  men
+ 424:    1  ->  mensen
+ 425:    1  ->  mep
+ 426:    1  ->  merelmeer
+ 427:    1  ->  middags
+ 428:    1  ->  mij
+ 429:    1  ->  moe
+ 430:    1  ->  moeras
+ 431:    1  ->  moeten
+ 432:    1  ->  mogelijke
+ 433:    1  ->  moluks
+ 434:    1  ->  mooie
+ 435:    1  ->  morgenavond
+ 436:    1  ->  morgens
+ 437:    1  ->  muurkant
+ 438:    1  ->  n
+ 439:    1  ->  naam
+ 440:    1  ->  nachts
+ 441:    1  ->  natuurlijk
+ 442:    1  ->  neem
+ 443:    1  ->  net
+ 444:    1  ->  nijlpaarden
+ 445:    1  ->  niks
+ 446:    1  ->  nodigt
+ 447:    1  ->  nooit
+ 448:    1  ->  normaal
+ 449:    1  ->  nummertje
+ 450:    1  ->  okee
+ 451:    1  ->  onderhand
+ 452:    1  ->  onderstaande
+ 453:    1  ->  onevenredigbaar
+ 454:    1  ->  ontslag
+ 455:    1  ->  open
+ 456:    1  ->  opzegtermijn
+ 457:    1  ->  oren
+ 458:    1  ->  oud
+ 459:    1  ->  overeen
+ 460:    1  ->  overgang
+ 461:    1  ->  overschreeuwde
+ 462:    1  ->  overstag
+ 463:    1  ->  p
+ 464:    1  ->  pannen
+ 465:    1  ->  paulusma
+ 466:    1  ->  philip
+ 467:    1  ->  plaatsje
+ 468:    1  ->  poedercoat
+ 469:    1  ->  postzegel
+ 470:    1  ->  president
+ 471:    1  ->  probleem
+ 472:    1  ->  promootten
+ 473:    1  ->  provincies
+ 474:    1  ->  pv
+ 475:    1  ->  qua
+ 476:    1  ->  r
+ 477:    1  ->  rapsody
+ 478:    1  ->  rare
+ 479:    1  ->  reductie
+ 480:    1  ->  regenbui
+ 481:    1  ->  relaxed
+ 482:    1  ->  relevantie
+ 483:    1  ->  rendementsketel
+ 484:    1  ->  rice
+ 485:    1  ->  rotsen
+ 486:    1  ->  saamhorigheidsgevoel
+ 487:    1  ->  schaap
+ 488:    1  ->  schaapachtig
+ 489:    1  ->  schandalig
+ 490:    1  ->  senseo
+ 491:    1  ->  singapore
+ 492:    1  ->  sjablonen
+ 493:    1  ->  slaapkamer
+ 494:    1  ->  slapen
+ 495:    1  ->  sluipt
+ 496:    1  ->  snap
+ 497:    1  ->  soort
+ 498:    1  ->  speler
+ 499:    1  ->  sport
+ 500:    1  ->  sta
+ 501:    1  ->  staan
+ 502:    1  ->  stappenplan
+ 503:    1  ->  stellen
+ 504:    1  ->  stimulans
+ 505:    1  ->  stof
+ 506:    1  ->  stonden
+ 507:    1  ->  stook
+ 508:    1  ->  stortbui
+ 509:    1  ->  straalcabine
+ 510:    1  ->  straatjes
+ 511:    1  ->  surf
+ 512:    1  ->  t
+ 513:    1  ->  teamleider
+ 514:    1  ->  tera
+ 515:    1  ->  terugreden
+ 516:    1  ->  teveel
+ 517:    1  ->  tig
+ 518:    1  ->  tijden
+ 519:    1  ->  tosti
+ 520:    1  ->  tosti's
+ 521:    1  ->  triest
+ 522:    1  ->  trieste
+ 523:    1  ->  troef
+ 524:    1  ->  trouwens
+ 525:    1  ->  turkse
+ 526:    1  ->  twee
+ 527:    1  ->  tweeënvijftig
+ 528:    1  ->  twintigduizend
+ 529:    1  ->  u2
+ 530:    1  ->  uiteindelijk
+ 531:    1  ->  uiteindelijke
+ 532:    1  ->  uitgegooid
+ 533:    1  ->  uitgehaald
+ 534:    1  ->  uitspraak
+ 535:    1  ->  uitzoomen
+ 536:    1  ->  uur
+ 537:    1  ->  v*d
+ 538:    1  ->  vaat
+ 539:    1  ->  vaatwasser
+ 540:    1  ->  vacatures
+ 541:    1  ->  valt
+ 542:    1  ->  vandaag
+ 543:    1  ->  vanuit
+ 544:    1  ->  veertig
+ 545:    1  ->  veertig-
+ 546:    1  ->  vele
+ 547:    1  ->  ver
+ 548:    1  ->  verbinding
+ 549:    1  ->  verbranden
+ 550:    1  ->  verderop
+ 551:    1  ->  verhuurbedrijven
+ 552:    1  ->  verjaardag
+ 553:    1  ->  verplicht
+ 554:    1  ->  vertegenwoordigt
+ 555:    1  ->  vertrekken
+ 556:    1  ->  via
+ 557:    1  ->  vierentwintigste
+ 558:    1  ->  vijf
+ 559:    1  ->  vijfde
+ 560:    1  ->  vijfentwintigste
+ 561:    1  ->  vind
+ 562:    1  ->  vissen
+ 563:    1  ->  vom
+ 564:    1  ->  voordat
+ 565:    1  ->  voorprogramma
+ 566:    1  ->  voorstellen
+ 567:    1  ->  vooruit
+ 568:    1  ->  vrouw
+ 569:    1  ->  waarin
+ 570:    1  ->  wast
+ 571:    1  ->  waterval
+ 572:    1  ->  weet
+ 573:    1  ->  weggegeven
+ 574:    1  ->  weggeweest
+ 575:    1  ->  weinig
+ 576:    1  ->  welke
+ 577:    1  ->  wezen
+ 578:    1  ->  wiel
+ 579:    1  ->  wilden
+ 580:    1  ->  winkeltjes
+ 581:    1  ->  wir
+ 582:    1  ->  worden
+ 583:    1  ->  wordten
+ 584:    1  ->  wou
+ 585:    1  ->  woud
+ 586:    1  ->  zake
+ 587:    1  ->  zaken
+ 588:    1  ->  zaklantaarn
+ 589:    1  ->  zangwedstrijd
+ 590:    1  ->  zat
+ 591:    1  ->  zei
+ 592:    1  ->  zeiden
+ 593:    1  ->  zelfde
+ 594:    1  ->  zelfs
+ 595:    1  ->  zet
+ 596:    1  ->  zoals
+ 597:    1  ->  zoekt
+ 598:    1  ->  zomaar
+ 599:    1  ->  zomermaanden
+ 600:    1  ->  zomervakantie
+ 601:    1  ->  zoo
+ 602:    1  ->  zoomt
+ 603:    1  ->  zouden
+ 604:    1  ->  zover
+ 605:    1  ->  zul
+ 606:    1  ->  zulk
+     -------
+      1893
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (708)
+                                 With >=  1 occurrences (708)
+
+   1:   77  ->  yeah
+   2:   75  ->  het
+   3:   67  ->  een
+   4:   57  ->  oh
+   5:   46  ->  dat
+   6:   41  ->  de
+   7:   40  ->  ik
+   8:   39  ->  ja
+   9:   31  ->  dan
+  10:   31  ->  er
+  11:   31  ->  hè
+  12:   31  ->  is
+  13:   28  ->  zo
+  14:   27  ->  je
+  15:   21  ->  we
+  16:   20  ->  -hmm
+  17:   20  ->  daar
+  18:   20  ->  nou
+  19:   17  ->  en
+  20:   16  ->  maar
+  21:   15  ->  mijn
+  22:   14  ->  wel
+  23:   13  ->  hij
+  24:   12  ->  die
+  25:   12  ->  nu
+  26:   12  ->  wat
+  27:   12  ->  ze
+  28:   11  ->  van
+  29:   10  ->  dus
+  30:   10  ->  hmm
+  31:   10  ->  ook
+  32:    9  ->  nee
+  33:    8  ->  erbij
+  34:    8  ->  even
+  35:    8  ->  heb
+  36:    8  ->  niet
+  37:    8  ->  oet
+  38:    7  ->  eens
+  39:    7  ->  kanon
+  40:    7  ->  of
+  41:    7  ->  op
+  42:    7  ->  sì
+  43:    6  ->  aan
+  44:    6  ->  al
+  45:    6  ->  hebben
+  46:    6  ->  in
+  47:    6  ->  kan
+  48:    6  ->  want
+  49:    6  ->  yes
+  50:    5  ->  carlijn
+  51:    5  ->  denk
+  52:    5  ->  jij
+  53:    5  ->  met
+  54:    5  ->  mm
+  55:    5  ->  natuurlijk
+  56:    5  ->  te
+  57:    5  ->  toch
+  58:    5  ->  zei
+  59:    4  ->  alweer
+  60:    4  ->  ben
+  61:    4  ->  bij
+  62:    4  ->  dit
+  63:    4  ->  eruit
+  64:    4  ->  gewoon
+  65:    4  ->  goed
+  66:    4  ->  he
+  67:    4  ->  helemaal
+  68:    4  ->  hem
+  69:    4  ->  hé
+  70:    4  ->  kun
+  71:    4  ->  nul
+  72:    4  ->  okay
+  73:    4  ->  voor
+  74:    4  ->  waren
+  75:    4  ->  wordt
+  76:    4  ->  zijn
+  77:    4  ->  zou
+  78:    3  ->  als
+  79:    3  ->  ander
+  80:    3  ->  daarmee
+  81:    3  ->  dacht
+  82:    3  ->  echt
+  83:    3  ->  enzo
+  84:    3  ->  ervan
+  85:    3  ->  flen
+  86:    3  ->  gisteren
+  87:    3  ->  had
+  88:    3  ->  heel
+  89:    3  ->  hier
+  90:    3  ->  home
+  91:    3  ->  i
+  92:    3  ->  kijk
+  93:    3  ->  konden
+  94:    3  ->  laat
+  95:    3  ->  lopen
+  96:    3  ->  me
+  97:    3  ->  moeten
+  98:    3  ->  naar
+  99:    3  ->  no
+ 100:    3  ->  nog
+ 101:    3  ->  o
+ 102:    3  ->  ofzo
+ 103:    3  ->  oké
+ 104:    3  ->  tieneke
+ 105:    3  ->  to
+ 106:    3  ->  uh
+ 107:    3  ->  veel
+ 108:    3  ->  wil
+ 109:    3  ->  zaak
+ 110:    3  ->  zoveel
+ 111:    3  ->  نعم
+ 112:    3  ->  음
+ 113:    2  ->  -huh
+ 114:    2  ->  23e
+ 115:    2  ->  28ste
+ 116:    2  ->  a
+ 117:    2  ->  af
+ 118:    2  ->  ah
+ 119:    2  ->  bedoel
+ 120:    2  ->  berichtje
+ 121:    2  ->  daarboven
+ 122:    2  ->  economie
+ 123:    2  ->  eentje
+ 124:    2  ->  eh
+ 125:    2  ->  erin
+ 126:    2  ->  ermee
+ 127:    2  ->  erop
+ 128:    2  ->  eén
+ 129:    2  ->  ga
+ 130:    2  ->  gaat
+ 131:    2  ->  gezegd
+ 132:    2  ->  go
+ 133:    2  ->  hebt
+ 134:    2  ->  heet
+ 135:    2  ->  houdt
+ 136:    2  ->  ibiza
+ 137:    2  ->  ieder
+ 138:    2  ->  it's
+ 139:    2  ->  kanons
+ 140:    2  ->  krijg
+ 141:    2  ->  kunt
+ 142:    2  ->  lang
+ 143:    2  ->  lumanvel
+ 144:    2  ->  malaysia
+ 145:    2  ->  man
+ 146:    2  ->  marleen
+ 147:    2  ->  mee
+ 148:    2  ->  meromeer
+ 149:    2  ->  meteen
+ 150:    2  ->  mij
+ 151:    2  ->  moesten
+ 152:    2  ->  mooi
+ 153:    2  ->  mooiste
+ 154:    2  ->  na
+ 155:    2  ->  negenhonderdeenentachtig
+ 156:    2  ->  nemen
+ 157:    2  ->  om
+ 158:    2  ->  ouweltje
+ 159:    2  ->  pas
+ 160:    2  ->  poederkoten
+ 161:    2  ->  reden
+ 162:    2  ->  rookos
+ 163:    2  ->  s
+ 164:    2  ->  shishimba
+ 165:    2  ->  so
+ 166:    2  ->  spullen
+ 167:    2  ->  tegen
+ 168:    2  ->  that
+ 169:    2  ->  toen
+ 170:    2  ->  tweeduizend
+ 171:    2  ->  vader
+ 172:    2  ->  verhaal
+ 173:    2  ->  waar
+ 174:    2  ->  waker
+ 175:    2  ->  was
+ 176:    2  ->  weet
+ 177:    2  ->  wij
+ 178:    2  ->  wilde
+ 179:    2  ->  you
+ 180:    2  ->  zaklataan
+ 181:    2  ->  zal
+ 182:    2  ->  zeiden
+ 183:    2  ->  zelfs
+ 184:    2  ->  zit
+ 185:    2  ->  zoals
+ 186:    2  ->  zomaar
+ 187:    2  ->  嗯
+ 188:    2  ->  爺
+ 189:    2  ->  네
+ 190:    2  ->  아우
+ 191:    2  ->  야
+ 192:    1  ->  'autres
+ 193:    1  ->  'avonds
+ 194:    1  ->  'nachts
+ 195:    1  ->  'occupe
+ 196:    1  ->  -a
+ 197:    1  ->  -aandacht
+ 198:    1  ->  -afrika
+ 199:    1  ->  -borrel
+ 200:    1  ->  -brabant
+ 201:    1  ->  -bye
+ 202:    1  ->  -document
+ 203:    1  ->  -documenten
+ 204:    1  ->  -drenthe
+ 205:    1  ->  -emigreren
+ 206:    1  ->  -europa
+ 207:    1  ->  -hotel
+ 208:    1  ->  -i
+ 209:    1  ->  -landen
+ 210:    1  ->  -mm
+ 211:    1  ->  -n
+ 212:    1  ->  -president
+ 213:    1  ->  -r
+ 214:    1  ->  -reductie
+ 215:    1  ->  -speler
+ 216:    1  ->  -t
+ 217:    1  ->  -west
+ 218:    1  ->  000
+ 219:    1  ->  23ste
+ 220:    1  ->  24e
+ 221:    1  ->  aangegeven
+ 222:    1  ->  aanspel
+ 223:    1  ->  aantal
+ 224:    1  ->  ach
+ 225:    1  ->  achtenveertig
+ 226:    1  ->  achter
+ 227:    1  ->  achteraan
+ 228:    1  ->  adviezen
+ 229:    1  ->  afgrondverkering
+ 230:    1  ->  afstand
+ 231:    1  ->  akkoordage
+ 232:    1  ->  all
+ 233:    1  ->  allemaal
+ 234:    1  ->  altijd
+ 235:    1  ->  and
+ 236:    1  ->  andere
+ 237:    1  ->  att
+ 238:    1  ->  attentietrekker
+ 239:    1  ->  auto
+ 240:    1  ->  baan
+ 241:    1  ->  badlakers
+ 242:    1  ->  balken
+ 243:    1  ->  bangmiolo
+ 244:    1  ->  became
+ 245:    1  ->  bedankt
+ 246:    1  ->  bedoeling
+ 247:    1  ->  beeldsehoek
+ 248:    1  ->  begin
+ 249:    1  ->  begonnen
+ 250:    1  ->  begroet
+ 251:    1  ->  beheersen
+ 252:    1  ->  belazend
+ 253:    1  ->  bellen
+ 254:    1  ->  berg
+ 255:    1  ->  besielende
+ 256:    1  ->  betekent
+ 257:    1  ->  bewustig
+ 258:    1  ->  bezig
+ 259:    1  ->  bijkomt
+ 260:    1  ->  bijkorf
+ 261:    1  ->  bijna
+ 262:    1  ->  bijtse
+ 263:    1  ->  bilzenhoek
+ 264:    1  ->  binnen
+ 265:    1  ->  binnengezeild
+ 266:    1  ->  blijf
+ 267:    1  ->  blijkt
+ 268:    1  ->  blijven
+ 269:    1  ->  blog
+ 270:    1  ->  blok
+ 271:    1  ->  boel
+ 272:    1  ->  boma
+ 273:    1  ->  boodschapperservice
+ 274:    1  ->  borstjes
+ 275:    1  ->  bosje
+ 276:    1  ->  branden
+ 277:    1  ->  brengt
+ 278:    1  ->  brieven
+ 279:    1  ->  brood
+ 280:    1  ->  buigenradar
+ 281:    1  ->  buitenlust
+ 282:    1  ->  bundelen
+ 283:    1  ->  bye
+ 284:    1  ->  cara
+ 285:    1  ->  caribe
+ 286:    1  ->  cementen
+ 287:    1  ->  chatillon
+ 288:    1  ->  christiane
+ 289:    1  ->  cliënten
+ 290:    1  ->  clubmensen
+ 291:    1  ->  common
+ 292:    1  ->  cool
+ 293:    1  ->  coordinator
+ 294:    1  ->  cricket
+ 295:    1  ->  d
+ 296:    1  ->  daarop
+ 297:    1  ->  daarvan
+ 298:    1  ->  dead
+ 299:    1  ->  deed
+ 300:    1  ->  den
+ 301:    1  ->  denken
+ 302:    1  ->  dergelijke
+ 303:    1  ->  deuren
+ 304:    1  ->  deze
+ 305:    1  ->  didn't
+ 306:    1  ->  ding
+ 307:    1  ->  dingen
+ 308:    1  ->  dis
+ 309:    1  ->  do
+ 310:    1  ->  doen
+ 311:    1  ->  doodgaat
+ 312:    1  ->  door
+ 313:    1  ->  double
+ 314:    1  ->  drenthe
+ 315:    1  ->  driehoek
+ 316:    1  ->  drukker
+ 317:    1  ->  duizend
+ 318:    1  ->  döneceğiz
+ 319:    1  ->  eergisteren
+ 320:    1  ->  eerst
+ 321:    1  ->  eerste
+ 322:    1  ->  eigen
+ 323:    1  ->  eigenlijk
+ 324:    1  ->  end
+ 325:    1  ->  enige
+ 326:    1  ->  enzovoort
+ 327:    1  ->  erboven
+ 328:    1  ->  eromheen
+ 329:    1  ->  eronder
+ 330:    1  ->  ervoor
+ 331:    1  ->  eu
+ 332:    1  ->  f1
+ 333:    1  ->  fietsen
+ 334:    1  ->  fijn
+ 335:    1  ->  filip
+ 336:    1  ->  fout
+ 337:    1  ->  frame
+ 338:    1  ->  gaan
+ 339:    1  ->  gasten
+ 340:    1  ->  gegooid
+ 341:    1  ->  gehaald
+ 342:    1  ->  gekregen
+ 343:    1  ->  geloof
+ 344:    1  ->  gemakselijke
+ 345:    1  ->  genoemd
+ 346:    1  ->  geregeld
+ 347:    1  ->  gerotsel
+ 348:    1  ->  gestaagd
+ 349:    1  ->  gevoel
+ 350:    1  ->  gevraagd
+ 351:    1  ->  geweest
+ 352:    1  ->  gezellige
+ 353:    1  ->  geïnsoleerd
+ 354:    1  ->  ging
+ 355:    1  ->  gingen
+ 356:    1  ->  gisteravond
+ 357:    1  ->  godsnaam
+ 358:    1  ->  goede
+ 359:    1  ->  goedkoop
+ 360:    1  ->  graag
+ 361:    1  ->  groener
+ 362:    1  ->  grond
+ 363:    1  ->  groot
+ 364:    1  ->  grote
+ 365:    1  ->  guest
+ 366:    1  ->  haag
+ 367:    1  ->  haart
+ 368:    1  ->  hadden
+ 369:    1  ->  halberd
+ 370:    1  ->  har
+ 371:    1  ->  hard
+ 372:    1  ->  hardgelopen
+ 373:    1  ->  have
+ 374:    1  ->  hd
+ 375:    1  ->  heeft
+ 376:    1  ->  heerlijke
+ 377:    1  ->  hele
+ 378:    1  ->  heleboel
+ 379:    1  ->  hemmel
+ 380:    1  ->  hen
+ 381:    1  ->  herkertje
+ 382:    1  ->  hersenverloening
+ 383:    1  ->  hetzelfde
+ 384:    1  ->  hey
+ 385:    1  ->  hm
+ 386:    1  ->  hoe
+ 387:    1  ->  hoef
+ 388:    1  ->  hoeft
+ 389:    1  ->  hoekje
+ 390:    1  ->  hoezo
+ 391:    1  ->  hoge
+ 392:    1  ->  honderdtweeënvijftig
+ 393:    1  ->  honderdtwintig
+ 394:    1  ->  honderdzestig
+ 395:    1  ->  hoog
+ 396:    1  ->  hooikoortsleiders
+ 397:    1  ->  horen
+ 398:    1  ->  how
+ 399:    1  ->  huh
+ 400:    1  ->  huis
+ 401:    1  ->  huisvrouw
+ 402:    1  ->  hun
+ 403:    1  ->  huppelepo
+ 404:    1  ->  huur
+ 405:    1  ->  iemand
+ 406:    1  ->  iets
+ 407:    1  ->  ihåg
+ 408:    1  ->  il
+ 409:    1  ->  ineens
+ 410:    1  ->  infinite
+ 411:    1  ->  ingen
+ 412:    1  ->  inmiddels
+ 413:    1  ->  interesting
+ 414:    1  ->  it
+ 415:    1  ->  jag
+ 416:    1  ->  jammer
+ 417:    1  ->  jan
+ 418:    1  ->  jaren
+ 419:    1  ->  jawel
+ 420:    1  ->  jong
+ 421:    1  ->  juiste
+ 422:    1  ->  juni
+ 423:    1  ->  kamer
+ 424:    1  ->  kanonavond
+ 425:    1  ->  kastri
+ 426:    1  ->  katrijn
+ 427:    1  ->  kein
+ 428:    1  ->  kent
+ 429:    1  ->  kersthuizen
+ 430:    1  ->  kerstjaar
+ 431:    1  ->  ket
+ 432:    1  ->  ketel
+ 433:    1  ->  keurig
+ 434:    1  ->  keuze
+ 435:    1  ->  kid
+ 436:    1  ->  kinderen
+ 437:    1  ->  klaarkot
+ 438:    1  ->  klikt
+ 439:    1  ->  komen
+ 440:    1  ->  komma
+ 441:    1  ->  kommer
+ 442:    1  ->  komt
+ 443:    1  ->  kon
+ 444:    1  ->  kook
+ 445:    1  ->  koop
+ 446:    1  ->  kortste
+ 447:    1  ->  krachtenvelk
+ 448:    1  ->  kreeg
+ 449:    1  ->  kruiper
+ 450:    1  ->  kruiplandje
+ 451:    1  ->  kwamen
+ 452:    1  ->  laatig
+ 453:    1  ->  laatste
+ 454:    1  ->  land
+ 455:    1  ->  lange
+ 456:    1  ->  langzaam
+ 457:    1  ->  lastige
+ 458:    1  ->  laten
+ 459:    1  ->  later
+ 460:    1  ->  lief
+ 461:    1  ->  liggen
+ 462:    1  ->  lijnbreier
+ 463:    1  ->  lissebong
+ 464:    1  ->  livingston
+ 465:    1  ->  lokale
+ 466:    1  ->  lr25
+ 467:    1  ->  lucht
+ 468:    1  ->  lukt
+ 469:    1  ->  ma
+ 470:    1  ->  maaf
+ 471:    1  ->  maak
+ 472:    1  ->  maken
+ 473:    1  ->  makkelijker
+ 474:    1  ->  map
+ 475:    1  ->  marissa
+ 476:    1  ->  markeringplaatsje
+ 477:    1  ->  meebingen
+ 478:    1  ->  meer
+ 479:    1  ->  meestal
+ 480:    1  ->  meeste
+ 481:    1  ->  meidenkleur
+ 482:    1  ->  meren
+ 483:    1  ->  merk
+ 484:    1  ->  meroe
+ 485:    1  ->  mevrouw
+ 486:    1  ->  mhm
+ 487:    1  ->  mike
+ 488:    1  ->  mmm
+ 489:    1  ->  moeraster
+ 490:    1  ->  moerkant
+ 491:    1  ->  moet
+ 492:    1  ->  mogelijk
+ 493:    1  ->  mooier
+ 494:    1  ->  morgen
+ 495:    1  ->  nagevraagd
+ 496:    1  ->  nam
+ 497:    1  ->  nay
+ 498:    1  ->  ne
+ 499:    1  ->  need
+ 500:    1  ->  neemt
+ 501:    1  ->  negenhonderdachtennegentig
+ 502:    1  ->  nei
+ 503:    1  ->  news
+ 504:    1  ->  nice
+ 505:    1  ->  nijlpaarden
+ 506:    1  ->  nodig
+ 507:    1  ->  noorden
+ 508:    1  ->  normaal
+ 509:    1  ->  normen
+ 510:    1  ->  not
+ 511:    1  ->  now
+ 512:    1  ->  oeh
+ 513:    1  ->  oei
+ 514:    1  ->  off
+ 515:    1  ->  ok
+ 516:    1  ->  omhoog
+ 517:    1  ->  omslag
+ 518:    1  ->  onafhankelijk
+ 519:    1  ->  onder
+ 520:    1  ->  onevenredenbaar
+ 521:    1  ->  ontdekken
+ 522:    1  ->  opa
+ 523:    1  ->  open
+ 524:    1  ->  opgelegen
+ 525:    1  ->  opmaken
+ 526:    1  ->  opzichttermijn
+ 527:    1  ->  overheen
+ 528:    1  ->  overvang
+ 529:    1  ->  paar
+ 530:    1  ->  pakkatures
+ 531:    1  ->  palladium
+ 532:    1  ->  pan
+ 533:    1  ->  pdfje
+ 534:    1  ->  pezen
+ 535:    1  ->  picture
+ 536:    1  ->  pisse
+ 537:    1  ->  plan
+ 538:    1  ->  praten
+ 539:    1  ->  prijs
+ 540:    1  ->  problemen
+ 541:    1  ->  proef
+ 542:    1  ->  proefwerk
+ 543:    1  ->  programma
+ 544:    1  ->  promoten
+ 545:    1  ->  provincie
+ 546:    1  ->  pv
+ 547:    1  ->  quand
+ 548:    1  ->  raar
+ 549:    1  ->  re
+ 550:    1  ->  rechterkant
+ 551:    1  ->  regelen
+ 552:    1  ->  reis
+ 553:    1  ->  relevansie
+ 554:    1  ->  rendementen
+ 555:    1  ->  rest
+ 556:    1  ->  rex
+ 557:    1  ->  rhapsody
+ 558:    1  ->  richt
+ 559:    1  ->  riep
+ 560:    1  ->  roer
+ 561:    1  ->  rossen
+ 562:    1  ->  rtl
+ 563:    1  ->  sagen
+ 564:    1  ->  sanseo
+ 565:    1  ->  schaap
+ 566:    1  ->  schablonen
+ 567:    1  ->  schandaal
+ 568:    1  ->  schijvers
+ 569:    1  ->  serp
+ 570:    1  ->  she
+ 571:    1  ->  ship
+ 572:    1  ->  singaporean
+ 573:    1  ->  slaapkamers
+ 574:    1  ->  sluit
+ 575:    1  ->  snakes
+ 576:    1  ->  soms
+ 577:    1  ->  sonderlijke
+ 578:    1  ->  soort
+ 579:    1  ->  sporten
+ 580:    1  ->  spreek
+ 581:    1  ->  staan
+ 582:    1  ->  staat
+ 583:    1  ->  standaardlocatie
+ 584:    1  ->  stilzetten
+ 585:    1  ->  stoffen
+ 586:    1  ->  stortdui
+ 587:    1  ->  straalkabine
+ 588:    1  ->  strak
+ 589:    1  ->  ställa
+ 590:    1  ->  supergezellig
+ 591:    1  ->  superleuk
+ 592:    1  ->  sure
+ 593:    1  ->  surfmogelijkheid
+ 594:    1  ->  teeltje
+ 595:    1  ->  tenminste
+ 596:    1  ->  tere
+ 597:    1  ->  terug
+ 598:    1  ->  teruggaan
+ 599:    1  ->  that's
+ 600:    1  ->  the
+ 601:    1  ->  think
+ 602:    1  ->  this
+ 603:    1  ->  those
+ 604:    1  ->  tienerkracht
+ 605:    1  ->  tijdje
+ 606:    1  ->  toftie
+ 607:    1  ->  tofties
+ 608:    1  ->  tot
+ 609:    1  ->  triest
+ 610:    1  ->  turks
+ 611:    1  ->  tussen
+ 612:    1  ->  uitgaande
+ 613:    1  ->  uitstaken
+ 614:    1  ->  uitzendkrachten
+ 615:    1  ->  uitzendkrachtig
+ 616:    1  ->  uren
+ 617:    1  ->  vaak
+ 618:    1  ->  vaat
+ 619:    1  ->  vaker
+ 620:    1  ->  vanavond
+ 621:    1  ->  vaplasser
+ 622:    1  ->  vast
+ 623:    1  ->  veertien
+ 624:    1  ->  veertig
+ 625:    1  ->  velsen
+ 626:    1  ->  ver
+ 627:    1  ->  verantwoording
+ 628:    1  ->  verder
+ 629:    1  ->  verlicht
+ 630:    1  ->  vertegenwoordigd
+ 631:    1  ->  vertrek
+ 632:    1  ->  veruit
+ 633:    1  ->  verzoendelijk
+ 634:    1  ->  vierjaardag
+ 635:    1  ->  vijf
+ 636:    1  ->  vijfden
+ 637:    1  ->  vijfentwintig
+ 638:    1  ->  vind
+ 639:    1  ->  vitra
+ 640:    1  ->  voorkopen
+ 641:    1  ->  voorstellen
+ 642:    1  ->  vormde
+ 643:    1  ->  vriend
+ 644:    1  ->  vrijt
+ 645:    1  ->  vroeger
+ 646:    1  ->  vrouw
+ 647:    1  ->  vuurbedrijven
+ 648:    1  ->  vuurdingen
+ 649:    1  ->  waarbij
+ 650:    1  ->  warm
+ 651:    1  ->  water
+ 652:    1  ->  watervaart
+ 653:    1  ->  weblogs
+ 654:    1  ->  week
+ 655:    1  ->  weer
+ 656:    1  ->  weg
+ 657:    1  ->  wegen
+ 658:    1  ->  weggegaan
+ 659:    1  ->  weggeschreven
+ 660:    1  ->  weken
+ 661:    1  ->  weleens
+ 662:    1  ->  werd
+ 663:    1  ->  westen
+ 664:    1  ->  weten
+ 665:    1  ->  wie
+ 666:    1  ->  wilden
+ 667:    1  ->  winkelsjes
+ 668:    1  ->  wist
+ 669:    1  ->  woord
+ 670:    1  ->  worden
+ 671:    1  ->  wouden
+ 672:    1  ->  würde
+ 673:    1  ->  y
+ 674:    1  ->  ya
+ 675:    1  ->  yep
+ 676:    1  ->  zaken
+ 677:    1  ->  zang
+ 678:    1  ->  zap
+ 679:    1  ->  zeg
+ 680:    1  ->  zenden
+ 681:    1  ->  zestig
+ 682:    1  ->  zich
+ 683:    1  ->  zie
+ 684:    1  ->  zijstraatjes
+ 685:    1  ->  zitten
+ 686:    1  ->  zoemt
+ 687:    1  ->  zoiets
+ 688:    1  ->  zondag
+ 689:    1  ->  zook
+ 690:    1  ->  zouden
+ 691:    1  ->  zover
+ 692:    1  ->  zuid
+ 693:    1  ->  Οδιές
+ 694:    1  ->  μαγουσίδι
+ 695:    1  ->  أنا
+ 696:    1  ->  بنجين
+ 697:    1  ->  خاطر
+ 698:    1  ->  سيو
+ 699:    1  ->  نكوست
+ 700:    1  ->  はい。
+ 701:    1  ->  감사합니다
+ 702:    1  ->  거고
+ 703:    1  ->  그럼
+ 704:    1  ->  아하
+ 705:    1  ->  안녕하세요
+ 706:    1  ->  알겠습니다
+ 707:    1  ->  예전
+ 708:    1  ->  확인인
+     -------
+      1893
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,2862 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: /input/fp16_v3_normalized_variations.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                        1570
+ with errors                             68.4%   (1074)
+
+   with substitutions                    37.4%   ( 587)
+   with deletions                        44.4%   ( 697)
+   with insertions                       22.5%   ( 353)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.0%   (3171)
+
+Percent Correct           =   89.9%   (22002)
+
+Percent Substitution      =    3.7%   ( 906)
+Percent Deletions         =    6.4%   (1574)
+Percent Insertions        =    2.8%   ( 691)
+Percent Word Accuracy     =   87.0%
+
+
+Ref. words                =           (24482)
+Hyp. words                =           (23599)
+Aligned words             =           (25173)
+
+CONFUSION PAIRS                  Total                 (762)
+                                 With >=  1 occurrences (762)
+
+   1:   15  ->  dat ==> het
+   2:    9  ->  één ==> een
+   3:    8  ->  türkiyemspor ==> spoor
+   4:    6  ->  een ==> de
+   5:    5  ->  die ==> de
+   6:    5  ->  hij ==> die
+   7:    4  ->  (%hesitation) ==> de
+   8:    4  ->  daar ==> er
+   9:    4  ->  die ==> hij
+  10:    4  ->  rouvoet ==> rauwvoet
+  11:    3  ->  (%hesitation) ==> het
+  12:    3  ->  (%hesitation) ==> is
+  13:    3  ->  aaij ==> aai
+  14:    3  ->  aldus ==> dus
+  15:    3  ->  dit ==> het
+  16:    3  ->  hun ==> een
+  17:    3  ->  motassadeq ==> sadek
+  18:    3  ->  nachts ==> s'nachts
+  19:    3  ->  savanna ==> savannah
+  20:    3  ->  tabaksblat ==> tabaksblad
+  21:    3  ->  te ==> de
+  22:    3  ->  tweeduizend ==> duizend
+  23:    3  ->  wij ==> we
+  24:    3  ->  wijffels ==> wijfels
+  25:    2  ->  (%hesitation) ==> en
+  26:    2  ->  (%hesitation) ==> ja
+  27:    2  ->  (%hesitation) ==> welkom
+  28:    2  ->  aboutaleb ==> talib
+  29:    2  ->  allang ==> al
+  30:    2  ->  allang ==> lang
+  31:    2  ->  balin ==> ballin
+  32:    2  ->  beziggehouden ==> gehouden
+  33:    2  ->  bnr ==> bnn
+  34:    2  ->  bod ==> bot
+  35:    2  ->  camera's ==> tv-camera's
+  36:    2  ->  chora ==> gora
+  37:    2  ->  d66 ==> d-n-zestig
+  38:    2  ->  dan ==> dat
+  39:    2  ->  dat ==> dan
+  40:    2  ->  dat ==> er
+  41:    2  ->  dat ==> hij
+  42:    2  ->  de ==> een
+  43:    2  ->  dulfer ==> dulver
+  44:    2  ->  een ==> die
+  45:    2  ->  een ==> hun
+  46:    2  ->  en ==> een
+  47:    2  ->  en ==> in
+  48:    2  ->  er ==> moeten
+  49:    2  ->  erica ==> erika
+  50:    2  ->  groten ==> grote
+  51:    2  ->  hard ==> hart
+  52:    2  ->  het ==> de
+  53:    2  ->  hirsch ==> heers
+  54:    2  ->  hirsi ==> hirshi
+  55:    2  ->  imac ==> imag
+  56:    2  ->  in ==> en
+  57:    2  ->  ja ==> doen
+  58:    2  ->  ja ==> wel
+  59:    2  ->  jacob ==> sint-jakob
+  60:    2  ->  kamerlid ==> oud-kamerlid
+  61:    2  ->  kampioenschappen ==> kampioenschap
+  62:    2  ->  knüppe ==> knuppe
+  63:    2  ->  mededelingen ==> mededeling
+  64:    2  ->  militairen ==> navo-militairen
+  65:    2  ->  moon ==> ki-moon
+  66:    2  ->  motorclub ==> motoclub
+  67:    2  ->  nou ==> waarom
+  68:    2  ->  omheen ==> eromheen
+  69:    2  ->  op ==> erop
+  70:    2  ->  ostedijk ==> osterdijk
+  71:    2  ->  over ==> erover
+  72:    2  ->  plaizier ==> pleizier
+  73:    2  ->  runderkamp ==> rundekamp
+  74:    2  ->  rusland ==> wit-rusland
+  75:    2  ->  thomsen ==> thompson
+  76:    2  ->  tweederde ==> derde
+  77:    2  ->  van ==> voor
+  78:    2  ->  vanuit ==> uit
+  79:    2  ->  veel ==> zoveel
+  80:    2  ->  veere ==> veren
+  81:    2  ->  velsen ==> velzen
+  82:    2  ->  voorzitter ==> oud-voorzitter
+  83:    2  ->  wel ==> dankjewel
+  84:    2  ->  wist ==> is
+  85:    2  ->  zalm ==> salm
+  86:    2  ->  zeehondenbont ==> zeehondenbond
+  87:    1  ->  (%hesitation) ==> bezig
+  88:    1  ->  (%hesitation) ==> blijven
+  89:    1  ->  (%hesitation) ==> bonhoff
+  90:    1  ->  (%hesitation) ==> cd
+  91:    1  ->  (%hesitation) ==> dat
+  92:    1  ->  (%hesitation) ==> deal
+  93:    1  ->  (%hesitation) ==> doen
+  94:    1  ->  (%hesitation) ==> eentje
+  95:    1  ->  (%hesitation) ==> er
+  96:    1  ->  (%hesitation) ==> feite
+  97:    1  ->  (%hesitation) ==> gezeten
+  98:    1  ->  (%hesitation) ==> goh
+  99:    1  ->  (%hesitation) ==> groeit
+ 100:    1  ->  (%hesitation) ==> handelen
+ 101:    1  ->  (%hesitation) ==> hé
+ 102:    1  ->  (%hesitation) ==> ik
+ 103:    1  ->  (%hesitation) ==> in
+ 104:    1  ->  (%hesitation) ==> industrie
+ 105:    1  ->  (%hesitation) ==> ingreep
+ 106:    1  ->  (%hesitation) ==> januari
+ 107:    1  ->  (%hesitation) ==> jeugdzorg
+ 108:    1  ->  (%hesitation) ==> klant
+ 109:    1  ->  (%hesitation) ==> klopt
+ 110:    1  ->  (%hesitation) ==> komt
+ 111:    1  ->  (%hesitation) ==> kooij
+ 112:    1  ->  (%hesitation) ==> koud
+ 113:    1  ->  (%hesitation) ==> krijgen
+ 114:    1  ->  (%hesitation) ==> langer
+ 115:    1  ->  (%hesitation) ==> leraarsberoep
+ 116:    1  ->  (%hesitation) ==> man
+ 117:    1  ->  (%hesitation) ==> meer
+ 118:    1  ->  (%hesitation) ==> moet
+ 119:    1  ->  (%hesitation) ==> nachtopvang
+ 120:    1  ->  (%hesitation) ==> nee
+ 121:    1  ->  (%hesitation) ==> niet
+ 122:    1  ->  (%hesitation) ==> normaal
+ 123:    1  ->  (%hesitation) ==> nu
+ 124:    1  ->  (%hesitation) ==> ontploffen
+ 125:    1  ->  (%hesitation) ==> ook
+ 126:    1  ->  (%hesitation) ==> overvluissend
+ 127:    1  ->  (%hesitation) ==> politie
+ 128:    1  ->  (%hesitation) ==> punt
+ 129:    1  ->  (%hesitation) ==> samen
+ 130:    1  ->  (%hesitation) ==> stand
+ 131:    1  ->  (%hesitation) ==> thuisgebleven
+ 132:    1  ->  (%hesitation) ==> toch
+ 133:    1  ->  (%hesitation) ==> u
+ 134:    1  ->  (%hesitation) ==> uit
+ 135:    1  ->  (%hesitation) ==> uitgesproken
+ 136:    1  ->  (%hesitation) ==> veranderd
+ 137:    1  ->  (%hesitation) ==> verblijft
+ 138:    1  ->  (%hesitation) ==> verschuiven
+ 139:    1  ->  (%hesitation) ==> vrijlaat
+ 140:    1  ->  (%hesitation) ==> waarom
+ 141:    1  ->  (%hesitation) ==> was
+ 142:    1  ->  (%hesitation) ==> we
+ 143:    1  ->  (%hesitation) ==> woningen
+ 144:    1  ->  (%hesitation) ==> wordt
+ 145:    1  ->  (%hesitation) ==> zaken
+ 146:    1  ->  (%hesitation) ==> zijn
+ 147:    1  ->  (al-) ==> de
+ 148:    1  ->  (b-) ==> ware
+ 149:    1  ->  (di-) ==> doen
+ 150:    1  ->  (di-) ==> erg
+ 151:    1  ->  (instaat) ==> in
+ 152:    1  ->  (lafhartige) ==> lafartige
+ 153:    1  ->  (m-) ==> heijden
+ 154:    1  ->  (m-) ==> januari
+ 155:    1  ->  (me-) ==> met
+ 156:    1  ->  (wa-) ==> het
+ 157:    1  ->  (wa-) ==> nee
+ 158:    1  ->  (z-) ==> maar
+ 159:    1  ->  (zondagamateurs) ==> amateurs
+ 160:    1  ->  [buitenlands] ==> ontruimd
+ 161:    1  ->  [taal: ==> vader
+ 162:    1  ->  aan ==> daaraan
+ 163:    1  ->  aan ==> eraan
+ 164:    1  ->  aan ==> hij
+ 165:    1  ->  aandelenleasecontract ==> aandelen-lease-contract
+ 166:    1  ->  aangelegenheid ==> ego-aangelegenheid
+ 167:    1  ->  acht ==> publiciteit
+ 168:    1  ->  acht ==> tweeduizendacht
+ 169:    1  ->  achterhoedegevecht ==> achterhoerengevecht
+ 170:    1  ->  achteruitgaat ==> gaat
+ 171:    1  ->  achteruitgegaan ==> achteruit
+ 172:    1  ->  activiteiten ==> vn-activiteiten
+ 173:    1  ->  advies ==> havo-advies
+ 174:    1  ->  advies ==> vmbo-advies
+ 175:    1  ->  afgezant ==> afgezond
+ 176:    1  ->  afghanistan ==> zuid-afghanistan
+ 177:    1  ->  afzetten ==> afzet
+ 178:    1  ->  aivd ==> anvd
+ 179:    1  ->  aldus ==> korthals-altes
+ 180:    1  ->  ali ==> hirshiali
+ 181:    1  ->  alle ==> een
+ 182:    1  ->  allows ==> dat
+ 183:    1  ->  aloude ==> oude
+ 184:    1  ->  als ==> dan
+ 185:    1  ->  als ==> dat
+ 186:    1  ->  als ==> ingewikkelder
+ 187:    1  ->  als ==> wat
+ 188:    1  ->  altes ==> kortals-altes
+ 189:    1  ->  altes ==> korthals-aaltes
+ 190:    1  ->  altijd ==> aardig
+ 191:    1  ->  analyse ==> door
+ 192:    1  ->  andere ==> anderen
+ 193:    1  ->  annet ==> annette
+ 194:    1  ->  anno ==> anno'n
+ 195:    1  ->  are ==> intiem
+ 196:    1  ->  at ==> blijven
+ 197:    1  ->  atoomwaakhond ==> atoombakant
+ 198:    1  ->  autoworkers ==> workers
+ 199:    1  ->  avb ==> afb
+ 200:    1  ->  bank ==> dexia-bank
+ 201:    1  ->  bedrijvigheid ==> rijden
+ 202:    1  ->  beetje ==> daar
+ 203:    1  ->  bekend ==> het
+ 204:    1  ->  belangrijke ==> belangrijk
+ 205:    1  ->  beleggers ==> dexia-beleggers
+ 206:    1  ->  beleggingspolissen ==> beleggingspolen
+ 207:    1  ->  belevenis ==> wc-belevenis
+ 208:    1  ->  believes ==> geloven
+ 209:    1  ->  benadeelden ==> dexia-benadeelden
+ 210:    1  ->  bereikt ==> bereik
+ 211:    1  ->  beslaggegenomen ==> genomen
+ 212:    1  ->  beste ==> best
+ 213:    1  ->  betrekking ==> vertrekking
+ 214:    1  ->  betutteling ==> betusseling
+ 215:    1  ->  bewindsman ==> pvda-bewindsman
+ 216:    1  ->  beëdigt ==> beedigt
+ 217:    1  ->  bij ==> mee
+ 218:    1  ->  bij ==> met
+ 219:    1  ->  bijzonder ==> orde
+ 220:    1  ->  bonhof ==> bonhoff
+ 221:    1  ->  bont ==> mond
+ 222:    1  ->  bos ==> balken
+ 223:    1  ->  bosniëveteranen ==> bosnië-veteranen
+ 224:    1  ->  bové's ==> beauvais'
+ 225:    1  ->  branches ==> branche
+ 226:    1  ->  breedbandinternet ==> internet
+ 227:    1  ->  brittannië ==> groot-brittannië
+ 228:    1  ->  cafébelevenis ==> café-belevenis
+ 229:    1  ->  cameratoezicht ==> camera
+ 230:    1  ->  camiel ==> camille
+ 231:    1  ->  carien ==> oekraïne
+ 232:    1  ->  carnavalsvierders ==> carnavalsvirus
+ 233:    1  ->  carnavalvierders ==> carnavalvirus
+ 234:    1  ->  cauwelaert ==> kouwelaart
+ 235:    1  ->  cd's ==> muziek-cd's
+ 236:    1  ->  cecile ==> cécile
+ 237:    1  ->  chemicaliëntanker ==> chemicalietanker
+ 238:    1  ->  clémentine ==> clementine
+ 239:    1  ->  co2 ==> co₂
+ 240:    1  ->  concerten ==> concert
+ 241:    1  ->  connexxion ==> connection
+ 242:    1  ->  consumptie ==> out-of-home-consumptie
+ 243:    1  ->  controlestaat ==> controle-staat
+ 244:    1  ->  correspondent ==> bnr-consponent
+ 245:    1  ->  corus ==> kores
+ 246:    1  ->  coryfeeën ==> partijcorriveeën
+ 247:    1  ->  d'horizon ==> horizon
+ 248:    1  ->  d66 ==> dnz
+ 249:    1  ->  daar ==> dan
+ 250:    1  ->  daar ==> dit
+ 251:    1  ->  daar ==> hebben
+ 252:    1  ->  daar ==> heeft
+ 253:    1  ->  daarnet ==> net
+ 254:    1  ->  daders ==> daters
+ 255:    1  ->  daklozenopvang ==> opvang
+ 256:    1  ->  dan ==> daar
+ 257:    1  ->  dan ==> nu
+ 258:    1  ->  dan ==> we
+ 259:    1  ->  dat ==> dacht
+ 260:    1  ->  dat ==> gebeuren
+ 261:    1  ->  dat ==> geboren
+ 262:    1  ->  dat ==> ik
+ 263:    1  ->  dat ==> ja
+ 264:    1  ->  dat ==> mooi
+ 265:    1  ->  dat ==> net
+ 266:    1  ->  dat ==> oostenrijk
+ 267:    1  ->  dat ==> tegengewekt
+ 268:    1  ->  dat ==> vakbonden
+ 269:    1  ->  de ==> beschuldigde
+ 270:    1  ->  de ==> die
+ 271:    1  ->  de ==> gebeurt
+ 272:    1  ->  de ==> goed
+ 273:    1  ->  de ==> het
+ 274:    1  ->  de ==> hun
+ 275:    1  ->  de ==> ingeboekt
+ 276:    1  ->  de ==> is
+ 277:    1  ->  de ==> nadrukken
+ 278:    1  ->  de ==> onder
+ 279:    1  ->  degenen ==> degene
+ 280:    1  ->  denk ==> denkt
+ 281:    1  ->  deugdelijk ==> deugelijk
+ 282:    1  ->  dexia ==> gedupeerde
+ 283:    1  ->  di's ==> gewoon
+ 284:    1  ->  di's ==> het
+ 285:    1  ->  die ==> gek
+ 286:    1  ->  die ==> ik
+ 287:    1  ->  die ==> winscemiers
+ 288:    1  ->  diepgaander ==> diepgaande
+ 289:    1  ->  doel ==> iets
+ 290:    1  ->  doelwit ==> doewit
+ 291:    1  ->  doing ==> dat
+ 292:    1  ->  door ==> de
+ 293:    1  ->  doorbraak ==> hele
+ 294:    1  ->  drie ==> two-thousand-drie
+ 295:    1  ->  dus ==> de
+ 296:    1  ->  dus ==> is
+ 297:    1  ->  dus ==> tussen
+ 298:    1  ->  echt ==> van
+ 299:    1  ->  een ==> echte
+ 300:    1  ->  een ==> en
+ 301:    1  ->  een ==> midden
+ 302:    1  ->  een ==> pure
+ 303:    1  ->  een ==> wel
+ 304:    1  ->  eenennegentig ==> negentig
+ 305:    1  ->  eenenveertigjarige ==> veertigjarige
+ 306:    1  ->  eenenvijftig ==> vijftig
+ 307:    1  ->  eenenzestig ==> sixteen-een-en-zestig
+ 308:    1  ->  eenheid ==> politieeenheid
+ 309:    1  ->  effe ==> even
+ 310:    1  ->  eind ==> einde
+ 311:    1  ->  emi ==> imi
+ 312:    1  ->  en ==> aangenomen
+ 313:    1  ->  en ==> gezin
+ 314:    1  ->  en ==> is
+ 315:    1  ->  en ==> kok
+ 316:    1  ->  en ==> land
+ 317:    1  ->  en ==> liefdink
+ 318:    1  ->  en ==> staat
+ 319:    1  ->  en ==> vroeger
+ 320:    1  ->  en ==> we
+ 321:    1  ->  end ==> eind
+ 322:    1  ->  engels] ==> we
+ 323:    1  ->  enigerlei ==> enige
+ 324:    1  ->  enorm ==> enorme
+ 325:    1  ->  er ==> een
+ 326:    1  ->  er ==> eigenlijk
+ 327:    1  ->  er ==> en
+ 328:    1  ->  er ==> ervan
+ 329:    1  ->  er ==> geleienlaagje
+ 330:    1  ->  er ==> hadden
+ 331:    1  ->  er ==> weer
+ 332:    1  ->  eric ==> erik
+ 333:    1  ->  essent ==> ascent
+ 334:    1  ->  essent ==> sent
+ 335:    1  ->  essentnuon ==> nuon
+ 336:    1  ->  ethisch ==> medisch-ethisch
+ 337:    1  ->  europa ==> centraal-europa
+ 338:    1  ->  europese ==> noordwest-europese
+ 339:    1  ->  europese ==> west-europese
+ 340:    1  ->  even ==> er
+ 341:    1  ->  evenementen ==> inauguratie-evenementen
+ 342:    1  ->  eventjes ==> even
+ 343:    1  ->  exces ==> excess
+ 344:    1  ->  feijten ==> veijten
+ 345:    1  ->  filip ==> philip
+ 346:    1  ->  for ==> voor
+ 347:    1  ->  fractieleider ==> d-zes-en-zestig-fractieleider
+ 348:    1  ->  fracties ==> vvd-fracties
+ 349:    1  ->  fraudegeld ==> geld
+ 350:    1  ->  gaan ==> overgaan
+ 351:    1  ->  gaat ==> kijk
+ 352:    1  ->  gebeurd ==> gebeurt
+ 353:    1  ->  gebied ==> gebieden
+ 354:    1  ->  gebruikt ==> gebruik
+ 355:    1  ->  gedeelte ==> deel
+ 356:    1  ->  gedeelte ==> horengedeelte
+ 357:    1  ->  gedeelte ==> wordt
+ 358:    1  ->  gehandicapte ==> gehandicapten
+ 359:    1  ->  geheimgehouden ==> gehouden
+ 360:    1  ->  gemogen ==> afgenomen
+ 361:    1  ->  generaal ==> secretaris-generaal
+ 362:    1  ->  generaal ==> vn-secretaris-generaal
+ 363:    1  ->  gennip ==> genep
+ 364:    1  ->  genomen ==> algenomen
+ 365:    1  ->  gery ==> geri
+ 366:    1  ->  geschaad ==> geschaat
+ 367:    1  ->  gesprekken ==> gesprek
+ 368:    1  ->  gesteld ==> stellen
+ 369:    1  ->  getale ==> getalen
+ 370:    1  ->  gevochten ==> gevocht
+ 371:    1  ->  gingen ==> uitgingen
+ 372:    1  ->  griepvirus ==> nieuws
+ 373:    1  ->  grote ==> niet
+ 374:    1  ->  gunsteren ==> vergunster
+ 375:    1  ->  gunsteren ==> vergunsteren
+ 376:    1  ->  haags ==> haagse
+ 377:    1  ->  halfstok ==> half
+ 378:    1  ->  heb ==> vijfentwintig
+ 379:    1  ->  hebben ==> leringen
+ 380:    1  ->  hebben ==> te
+ 381:    1  ->  hebbenen ==> en
+ 382:    1  ->  hebt ==> liefhebt
+ 383:    1  ->  heeft ==> is
+ 384:    1  ->  hem ==> een
+ 385:    1  ->  herstructureringswijken ==> herstructureeringswijken
+ 386:    1  ->  hervormingen ==> zo
+ 387:    1  ->  het ==> dat
+ 388:    1  ->  het ==> die
+ 389:    1  ->  het ==> dit
+ 390:    1  ->  het ==> moeten
+ 391:    1  ->  het ==> paarden
+ 392:    1  ->  het ==> trein
+ 393:    1  ->  heyde ==> heijden
+ 394:    1  ->  hij ==> ondersteun
+ 395:    1  ->  hobbelt ==> hoppel
+ 396:    1  ->  hoe ==> dan
+ 397:    1  ->  hogescholen ==> hoogscholen
+ 398:    1  ->  holland ==> noord-holland
+ 399:    1  ->  honderdduizend ==> honderdduizenden
+ 400:    1  ->  hoofdbestuur ==> vvd-hoofdbestuur
+ 401:    1  ->  hoogovens ==> hoogo
+ 402:    1  ->  horecamensen ==> horeca-mensen
+ 403:    1  ->  houden ==> halen
+ 404:    1  ->  huize ==> cda-huizen
+ 405:    1  ->  hun ==> zijn
+ 406:    1  ->  hypotheekrenteaftrek ==> aftrek
+ 407:    1  ->  iemands ==> iemand
+ 408:    1  ->  iets ==> niet
+ 409:    1  ->  ijmuiden ==> sinemuiden
+ 410:    1  ->  ik ==> het
+ 411:    1  ->  ik ==> jaar
+ 412:    1  ->  ik ==> kabinet
+ 413:    1  ->  ik ==> manier
+ 414:    1  ->  ik ==> vertrokken
+ 415:    1  ->  imac ==> imadj
+ 416:    1  ->  imac ==> nedem
+ 417:    1  ->  in ==> catshuis
+ 418:    1  ->  in ==> erin
+ 419:    1  ->  infidel ==> infodol
+ 420:    1  ->  influenzacentrum ==> centrum
+ 421:    1  ->  informatie ==> cie-informatie
+ 422:    1  ->  instromende ==> instramende
+ 423:    1  ->  intimitely ==> betrokken
+ 424:    1  ->  investeren ==> investeerden
+ 425:    1  ->  involved ==> zijn
+ 426:    1  ->  inzit ==> zit
+ 427:    1  ->  is ==> als
+ 428:    1  ->  is ==> basis
+ 429:    1  ->  is ==> deel
+ 430:    1  ->  is ==> doet
+ 431:    1  ->  is ==> dus
+ 432:    1  ->  is ==> gegaan
+ 433:    1  ->  is ==> goedendag
+ 434:    1  ->  ja ==> angels
+ 435:    1  ->  ja ==> en
+ 436:    1  ->  ja ==> gecontroleerd
+ 437:    1  ->  ja ==> gesteld
+ 438:    1  ->  ja ==> hebben
+ 439:    1  ->  ja ==> het
+ 440:    1  ->  ja ==> hij
+ 441:    1  ->  ja ==> in
+ 442:    1  ->  ja ==> je
+ 443:    1  ->  ja ==> kom
+ 444:    1  ->  ja ==> met
+ 445:    1  ->  ja ==> nemen
+ 446:    1  ->  ja ==> punt
+ 447:    1  ->  ja ==> tweeentwintig
+ 448:    1  ->  ja ==> voor
+ 449:    1  ->  ja ==> weer
+ 450:    1  ->  ja ==> welkom
+ 451:    1  ->  ja ==> zo
+ 452:    1  ->  jaar ==> al
+ 453:    1  ->  jagen ==> toejagen
+ 454:    1  ->  japanse ==> japans
+ 455:    1  ->  jazzsaxofonist ==> saxofonist
+ 456:    1  ->  je ==> geworden
+ 457:    1  ->  jongen ==> abu
+ 458:    1  ->  journaal ==> internationaal
+ 459:    1  ->  junta ==> groente
+ 460:    1  ->  kahn ==> kaan
+ 461:    1  ->  kamp ==> farc-kamp
+ 462:    1  ->  karadzic ==> karazic
+ 463:    1  ->  kasstroom ==> kaststroom
+ 464:    1  ->  kearney ==> carney
+ 465:    1  ->  kennelijk ==> bedoeld
+ 466:    1  ->  keus ==> keuze
+ 467:    1  ->  klauwen ==> klauw
+ 468:    1  ->  knack ==> knak
+ 469:    1  ->  knack ==> zet
+ 470:    1  ->  komen ==> opkomen
+ 471:    1  ->  komen ==> stilkomen
+ 472:    1  ->  konisch ==> konings
+ 473:    1  ->  kopen ==> ja
+ 474:    1  ->  kowt ==> tarinkoot
+ 475:    1  ->  kreeg ==> kregen
+ 476:    1  ->  krijg ==> krijgen
+ 477:    1  ->  kromkamp ==> konkamp
+ 478:    1  ->  laat ==> binnenlaat
+ 479:    1  ->  landen ==> navo-landen
+ 480:    1  ->  langeafstandsraket ==> afstandsraket
+ 481:    1  ->  large ==> blijven
+ 482:    1  ->  lasten ==> last
+ 483:    1  ->  laurent ==> laurel
+ 484:    1  ->  laurent's ==> een
+ 485:    1  ->  laurents ==> laurent
+ 486:    1  ->  leerlingen ==> mondiger
+ 487:    1  ->  leiding ==> onderleiding
+ 488:    1  ->  lekkende ==> gaslekkende
+ 489:    1  ->  libanongangers ==> oud-liban-omgangers
+ 490:    1  ->  luistert ==> luisteren
+ 491:    1  ->  lyceum ==> hervormdiceum
+ 492:    1  ->  m'n ==> mijn
+ 493:    1  ->  maakten ==> maakte
+ 494:    1  ->  maar ==> componenten
+ 495:    1  ->  maar ==> er
+ 496:    1  ->  maar ==> is
+ 497:    1  ->  maar ==> worden
+ 498:    1  ->  maliki ==> al-maliki
+ 499:    1  ->  marketingspeerpunt ==> marketing-speerpunt
+ 500:    1  ->  marktonderzoeksbureau ==> jongerennl
+ 501:    1  ->  marrum ==> marm
+ 502:    1  ->  mauristkazerne ==> mauritskazerne
+ 503:    1  ->  maïzena ==> maizena
+ 504:    1  ->  mee ==> daarmee
+ 505:    1  ->  meebetaalt ==> betaalt
+ 506:    1  ->  meer ==> mee
+ 507:    1  ->  met ==> desdochters
+ 508:    1  ->  met ==> men
+ 509:    1  ->  mij ==> mee
+ 510:    1  ->  mijdt ==> mijt
+ 511:    1  ->  militair ==> protestantsmilitair
+ 512:    1  ->  militairen ==> ex-militairen
+ 513:    1  ->  minister ==> cdu-minister
+ 514:    1  ->  minister ==> pvda-minister
+ 515:    1  ->  minste ==> tenminste
+ 516:    1  ->  minuten ==> de
+ 517:    1  ->  moet ==> moeten
+ 518:    1  ->  moet ==> we
+ 519:    1  ->  monde ==> monden
+ 520:    1  ->  moszkowicz ==> moscovici
+ 521:    1  ->  na ==> naar
+ 522:    1  ->  naar ==> is
+ 523:    1  ->  naar ==> na
+ 524:    1  ->  naast ==> na
+ 525:    1  ->  nah ==> nou
+ 526:    1  ->  nedim ==> nedem
+ 527:    1  ->  nedim ==> oud-voorzetter
+ 528:    1  ->  negenennegentig ==> negentig
+ 529:    1  ->  negenentwintig ==> negentwintig
+ 530:    1  ->  negentien ==> tekenen
+ 531:    1  ->  network ==> een
+ 532:    1  ->  niet ==> en
+ 533:    1  ->  niet ==> niets
+ 534:    1  ->  nieuws ==> tennisnieuws
+ 535:    1  ->  nl ==> wwwbnrnl
+ 536:    1  ->  nodig ==> veel
+ 537:    1  ->  nog ==> in
+ 538:    1  ->  nomadenbestaan ==> bestaan
+ 539:    1  ->  normaalgesproken ==> gesproken
+ 540:    1  ->  nou ==> als
+ 541:    1  ->  nou ==> dat
+ 542:    1  ->  nou ==> eten
+ 543:    1  ->  nu ==> nee
+ 544:    1  ->  nu ==> ook
+ 545:    1  ->  ofschoon ==> zou
+ 546:    1  ->  oké ==> gedaan
+ 547:    1  ->  olie ==> olie-
+ 548:    1  ->  om ==> op
+ 549:    1  ->  om ==> we
+ 550:    1  ->  onder ==> de
+ 551:    1  ->  onderdukt ==> onderdrukt
+ 552:    1  ->  ondersteunt ==> op
+ 553:    1  ->  onderwijskundige ==> onderwijskundigen
+ 554:    1  ->  ontsnapt ==> ontstapt
+ 555:    1  ->  ontzaglijk ==> ontzaggelijk
+ 556:    1  ->  ook ==> videootje
+ 557:    1  ->  ook ==> was
+ 558:    1  ->  op ==> hebben
+ 559:    1  ->  op ==> waarop
+ 560:    1  ->  op ==> woningmarkt
+ 561:    1  ->  opgaat ==> gaat
+ 562:    1  ->  opgaven ==> opgave
+ 563:    1  ->  oranjesentiment ==> sentiment
+ 564:    1  ->  osdorp ==> amsterdam-osdorp
+ 565:    1  ->  osdorp ==> amsterdam-ostdorp
+ 566:    1  ->  oud ==> liquidatieoudvoorzitter
+ 567:    1  ->  oud ==> rooijen
+ 568:    1  ->  oudst ==> ouds
+ 569:    1  ->  over ==> daarover
+ 570:    1  ->  overblijft ==> blijft
+ 571:    1  ->  paarden ==> bemolderde
+ 572:    1  ->  paperazzi ==> paparazzi
+ 573:    1  ->  partijbonzen ==> partijbondzen
+ 574:    1  ->  pechthold ==> pechtold
+ 575:    1  ->  peinzende ==> pijnzende
+ 576:    1  ->  peter ==> jan-peter
+ 577:    1  ->  plaatsen ==> plaatsten
+ 578:    1  ->  plaatsvervangend ==> plaatsvervang
+ 579:    1  ->  platenmaatschappijen ==> plantenmaatschappijen
+ 580:    1  ->  plussers ==> vijfentwintigplussers
+ 581:    1  ->  politica ==> ex-politica
+ 582:    1  ->  politicoloog ==> filosoof-politicoloog
+ 583:    1  ->  potten ==> wc-potten
+ 584:    1  ->  preambules ==> preambule
+ 585:    1  ->  privacyparadijs ==> privacy-paradijs
+ 586:    1  ->  probleemwijken ==> probleemwijk
+ 587:    1  ->  prominent ==> cda-prominent
+ 588:    1  ->  qrius ==> curious
+ 589:    1  ->  quan'an ==> guan'an
+ 590:    1  ->  raad ==> hbo-raad
+ 591:    1  ->  rathenau ==> rathenouw
+ 592:    1  ->  ratrace ==> race
+ 593:    1  ->  rechtgezet ==> gezet
+ 594:    1  ->  reclame ==> we
+ 595:    1  ->  regeling ==> duizenbergregeling
+ 596:    1  ->  reinout ==> rijnald
+ 597:    1  ->  reken- ==> rekenen
+ 598:    1  ->  remain ==> kan
+ 599:    1  ->  rik ==> rick
+ 600:    1  ->  rommel ==> plakrommel
+ 601:    1  ->  royal ==> royale
+ 602:    1  ->  royeren ==> rooieren
+ 603:    1  ->  ruimte ==> satellietenruimte
+ 604:    1  ->  russen ==> wit-russen
+ 605:    1  ->  sage ==> saga
+ 606:    1  ->  samengaan ==> gaan
+ 607:    1  ->  sasha ==> sascha
+ 608:    1  ->  scenario's ==> optie-scenario's
+ 609:    1  ->  scepsis ==> sepsis
+ 610:    1  ->  schaven ==> afschaven
+ 611:    1  ->  scheikundeleraar ==> leraar
+ 612:    1  ->  schend ==> schen
+ 613:    1  ->  schijtziek ==> scheidsie
+ 614:    1  ->  schikking ==> dexia-schikking
+ 615:    1  ->  schilham ==> silham
+ 616:    1  ->  scholen ==> onderwijsscholen
+ 617:    1  ->  schreden ==> rassenschreden
+ 618:    1  ->  schäubles ==> schäuble's
+ 619:    1  ->  secretaris ==> royal
+ 620:    1  ->  seinen ==> zijnen
+ 621:    1  ->  ser ==> oud-ser
+ 622:    1  ->  servische ==> bosnisch-serbische
+ 623:    1  ->  signaleren ==> simuleren
+ 624:    1  ->  sikkema ==> siggema
+ 625:    1  ->  slaan ==> loslaan
+ 626:    1  ->  sommigen ==> sommige
+ 627:    1  ->  songteksten ==> zongteksten
+ 628:    1  ->  spoorwijk ==> poorwijk
+ 629:    1  ->  staan ==> daarop
+ 630:    1  ->  staat ==> is
+ 631:    1  ->  staatssecretaris ==> pvda-staatssecretaris
+ 632:    1  ->  start ==> start-
+ 633:    1  ->  stem ==> stemmen
+ 634:    1  ->  stroom ==> stromen
+ 635:    1  ->  stukken ==> stuk
+ 636:    1  ->  summiere ==> sumiere
+ 637:    1  ->  taaltoets ==> taaltoetsen
+ 638:    1  ->  tabaksblat ==> tabaksplatten
+ 639:    1  ->  talibanstrijders ==> taliban-strijders
+ 640:    1  ->  tanks ==> tank
+ 641:    1  ->  te ==> prachtig
+ 642:    1  ->  tegengaan ==> gaan
+ 643:    1  ->  tenslotte ==> slotte
+ 644:    1  ->  terechtkunnen ==> kunnen
+ 645:    1  ->  terrein ==> hoe
+ 646:    1  ->  that ==> dat
+ 647:    1  ->  that ==> omdat
+ 648:    1  ->  that ==> steunnetwerk
+ 649:    1  ->  the ==> de
+ 650:    1  ->  they ==> ze
+ 651:    1  ->  thomsen ==> tonsen
+ 652:    1  ->  tijdens ==> als
+ 653:    1  ->  tineke ==> tieneke
+ 654:    1  ->  tjibbe ==> chibbe
+ 655:    1  ->  toe ==> ertoe
+ 656:    1  ->  toe ==> naartoe
+ 657:    1  ->  toe ==> op
+ 658:    1  ->  toecijfert ==> toecevert
+ 659:    1  ->  toets ==> cito-toets
+ 660:    1  ->  toezegging ==> leidtoezegging
+ 661:    1  ->  tot ==> dat
+ 662:    1  ->  training ==> anti-agressietraining
+ 663:    1  ->  tribunaal ==> joegoslavië-tribunaal
+ 664:    1  ->  troepen ==> navo-troepen
+ 665:    1  ->  twee ==> ook
+ 666:    1  ->  tweeduizend ==> de
+ 667:    1  ->  tweeduizend ==> horeca
+ 668:    1  ->  tweeduizend ==> naturanl
+ 669:    1  ->  tweeduizend ==> twee
+ 670:    1  ->  tweehonderdzesenveertig ==> veertig
+ 671:    1  ->  tweeënnegentig ==> negentien-twee-en-negentig
+ 672:    1  ->  tweeënnegentig ==> tweeënegentig
+ 673:    1  ->  twintig ==> xx
+ 674:    1  ->  u ==> je
+ 675:    1  ->  u ==> nu
+ 676:    1  ->  u ==> we
+ 677:    1  ->  u ==> wie
+ 678:    1  ->  uit ==> de
+ 679:    1  ->  uit ==> eruit
+ 680:    1  ->  union ==> non-union
+ 681:    1  ->  uzelf ==> jezelf
+ 682:    1  ->  vaessen ==> noël-fase
+ 683:    1  ->  vaktijdschrift ==> tijdschrift
+ 684:    1  ->  vallei ==> baluchi-vallei
+ 685:    1  ->  vanaf ==> van
+ 686:    1  ->  vanuit ==> ervan
+ 687:    1  ->  veilig ==> veilige
+ 688:    1  ->  veiling ==> vuiling
+ 689:    1  ->  velde ==> tervelde
+ 690:    1  ->  ver ==> verbeterd
+ 691:    1  ->  verbindend ==> verbinden
+ 692:    1  ->  verbindend ==> verbindende
+ 693:    1  ->  verbindendverklaring ==> verklaring
+ 694:    1  ->  verdachten ==> verdachte
+ 695:    1  ->  verdonk ==> verdonck
+ 696:    1  ->  vermeldde ==> vermelde
+ 697:    1  ->  verruilden ==> verhelden
+ 698:    1  ->  vertoonden ==> vertonen
+ 699:    1  ->  vierenzeventigduizend ==> seventigduizend
+ 700:    1  ->  vierhonderdzesentwintig ==> vierhonderdzestentwintig
+ 701:    1  ->  vijfendertigjarigen ==> vijfentwintigjarigen
+ 702:    1  ->  vijfennegentig ==> vijfen-negentig
+ 703:    1  ->  vijfenzeventig ==> heb
+ 704:    1  ->  vind ==> vindt
+ 705:    1  ->  vluchten ==> wilde
+ 706:    1  ->  volwassen ==> jongvolwassen
+ 707:    1  ->  voor ==> ervoor
+ 708:    1  ->  voorwaarde ==> voorwaarden
+ 709:    1  ->  voorzitter ==> ser-voorzitter
+ 710:    1  ->  voorzitter ==> turkium
+ 711:    1  ->  voorzitter ==> vicevoorzitter
+ 712:    1  ->  vpro ==> february
+ 713:    1  ->  vroeg ==> aangegaan
+ 714:    1  ->  waarom ==> wilde
+ 715:    1  ->  waaruit ==> het
+ 716:    1  ->  wagtendonk ==> wachtendonk
+ 717:    1  ->  waren ==> hè
+ 718:    1  ->  was ==> gebied
+ 719:    1  ->  was ==> geld
+ 720:    1  ->  wat ==> dat
+ 721:    1  ->  wat ==> het
+ 722:    1  ->  wat ==> waar
+ 723:    1  ->  we ==> wij
+ 724:    1  ->  we ==> ze
+ 725:    1  ->  we're ==> doen
+ 726:    1  ->  weet ==> beter
+ 727:    1  ->  westkust ==> noordwestkust
+ 728:    1  ->  weten ==> weer
+ 729:    1  ->  wil ==> wilt
+ 730:    1  ->  wilden ==> hij
+ 731:    1  ->  willen ==> wil
+ 732:    1  ->  worden ==> welwaardig
+ 733:    1  ->  worden ==> wordt
+ 734:    1  ->  wordt ==> werd
+ 735:    1  ->  wurggreep ==> leurgreep
+ 736:    1  ->  zaak ==> legio-lieszaak
+ 737:    1  ->  zal ==> zou
+ 738:    1  ->  ze ==> we
+ 739:    1  ->  ze ==> zijn
+ 740:    1  ->  zeehondenbont ==> dakloze
+ 741:    1  ->  zeekoet ==> zeekroet
+ 742:    1  ->  zeggen ==> bijzeggen
+ 743:    1  ->  zes ==> tweeduizendzest
+ 744:    1  ->  zes ==> zomer
+ 745:    1  ->  zesenveertig ==> zes
+ 746:    1  ->  zesenvijftig ==> vijftig
+ 747:    1  ->  zette ==> de
+ 748:    1  ->  zeven ==> anno'n
+ 749:    1  ->  zeventig ==> van
+ 750:    1  ->  zij ==> ze
+ 751:    1  ->  zijn ==> de
+ 752:    1  ->  zijnde ==> zijn
+ 753:    1  ->  zit ==> het
+ 754:    1  ->  zitten ==> zit
+ 755:    1  ->  zo ==> ze
+ 756:    1  ->  zo'n ==> een
+ 757:    1  ->  zorgen ==> zo
+ 758:    1  ->  zou ==> zal
+ 759:    1  ->  zwaarbewapend ==> bewapend
+ 760:    1  ->  één ==> duizend
+ 761:    1  ->  één ==> eén
+ 762:    1  ->  één ==> two-duizend-een
+     -------
+       906
+
+
+
+INSERTIONS                       Total                 (352)
+                                 With >=  1 occurrences (352)
+
+   1:   29  ->  het
+   2:   22  ->  de
+   3:   21  ->  is
+   4:   16  ->  dat
+   5:   16  ->  een
+   6:   15  ->  in
+   7:   12  ->  zijn
+   8:   10  ->  niet
+   9:    9  ->  en
+  10:    9  ->  er
+  11:    8  ->  hij
+  12:    8  ->  maar
+  13:    7  ->  dan
+  14:    7  ->  die
+  15:    7  ->  doen
+  16:    7  ->  gaan
+  17:    7  ->  ik
+  18:    7  ->  turkium
+  19:    6  ->  al
+  20:    6  ->  had
+  21:    6  ->  ja
+  22:    6  ->  meer
+  23:    6  ->  u
+  24:    6  ->  van
+  25:    6  ->  ze
+  26:    5  ->  heeft
+  27:    5  ->  op
+  28:    5  ->  twee
+  29:    5  ->  worden
+  30:    4  ->  dus
+  31:    4  ->  hebben
+  32:    4  ->  ook
+  33:    4  ->  over
+  34:    4  ->  voor
+  35:    4  ->  we
+  36:    4  ->  wordt
+  37:    3  ->  advocaat
+  38:    3  ->  deze
+  39:    3  ->  geen
+  40:    3  ->  geval
+  41:    3  ->  ieder
+  42:    3  ->  komt
+  43:    3  ->  kunnen
+  44:    3  ->  mee
+  45:    3  ->  motta
+  46:    3  ->  nog
+  47:    3  ->  te
+  48:    3  ->  want
+  49:    3  ->  wat
+  50:    3  ->  wel
+  51:    3  ->  wil
+  52:    2  ->  alleen
+  53:    2  ->  als
+  54:    2  ->  bij
+  55:    2  ->  bos
+  56:    2  ->  dank
+  57:    2  ->  ene
+  58:    2  ->  gasopmerkingen
+  59:    2  ->  gevaar
+  60:    2  ->  geven
+  61:    2  ->  goed
+  62:    2  ->  halen
+  63:    2  ->  hier
+  64:    2  ->  hoog
+  65:    2  ->  houden
+  66:    2  ->  jaar
+  67:    2  ->  kan
+  68:    2  ->  klein
+  69:    2  ->  komen
+  70:    2  ->  land
+  71:    2  ->  lang
+  72:    2  ->  liggen
+  73:    2  ->  markt
+  74:    2  ->  met
+  75:    2  ->  natuurlijk
+  76:    2  ->  nodig
+  77:    2  ->  nu
+  78:    2  ->  plek
+  79:    2  ->  steeds
+  80:    2  ->  vak
+  81:    2  ->  was
+  82:    2  ->  willen
+  83:    2  ->  zekerheid
+  84:    2  ->  zestig
+  85:    2  ->  zetten
+  86:    2  ->  zien
+  87:    2  ->  zit
+  88:    2  ->  zo
+  89:    2  ->  zo'n
+  90:    1  ->  'twee
+  91:    1  ->  aan
+  92:    1  ->  aandoeningen
+  93:    1  ->  aanslag
+  94:    1  ->  abu
+  95:    1  ->  achteruit
+  96:    1  ->  af
+  97:    1  ->  alle
+  98:    1  ->  altijd
+  99:    1  ->  ambities
+ 100:    1  ->  angels
+ 101:    1  ->  auto
+ 102:    1  ->  baby's
+ 103:    1  ->  balkenende
+ 104:    1  ->  banken
+ 105:    1  ->  basis
+ 106:    1  ->  bedoeld
+ 107:    1  ->  bedrijf
+ 108:    1  ->  bedrijven
+ 109:    1  ->  begripelijkheden
+ 110:    1  ->  bekijkt
+ 111:    1  ->  bepaald
+ 112:    1  ->  beroep
+ 113:    1  ->  beslag
+ 114:    1  ->  betekent
+ 115:    1  ->  betreft
+ 116:    1  ->  bevoegdheden
+ 117:    1  ->  bezig
+ 118:    1  ->  bijzonder
+ 119:    1  ->  bindmiddel
+ 120:    1  ->  binnen
+ 121:    1  ->  binnen-
+ 122:    1  ->  blijven
+ 123:    1  ->  bosch
+ 124:    1  ->  bouwen
+ 125:    1  ->  breedband
+ 126:    1  ->  brengt
+ 127:    1  ->  buiten
+ 128:    1  ->  bundesweer
+ 129:    1  ->  chibijoustra
+ 130:    1  ->  cover
+ 131:    1  ->  daar
+ 132:    1  ->  daarom
+ 133:    1  ->  denk
+ 134:    1  ->  doel
+ 135:    1  ->  doelgevend
+ 136:    1  ->  doet
+ 137:    1  ->  doorlopen
+ 138:    1  ->  eens
+ 139:    1  ->  elkaar
+ 140:    1  ->  erg
+ 141:    1  ->  essent
+ 142:    1  ->  euro
+ 143:    1  ->  even
+ 144:    1  ->  faalt
+ 145:    1  ->  farc
+ 146:    1  ->  farc-strijders
+ 147:    1  ->  feiling
+ 148:    1  ->  feite
+ 149:    1  ->  foto
+ 150:    1  ->  fraude
+ 151:    1  ->  gaat
+ 152:    1  ->  garanties
+ 153:    1  ->  gebeurd
+ 154:    1  ->  gebied
+ 155:    1  ->  gedaan
+ 156:    1  ->  gedrukt
+ 157:    1  ->  gegaan
+ 158:    1  ->  gehad
+ 159:    1  ->  geheel
+ 160:    1  ->  geheim
+ 161:    1  ->  gehouden
+ 162:    1  ->  geloosd
+ 163:    1  ->  gelukt
+ 164:    1  ->  gemaakt
+ 165:    1  ->  gemeenten
+ 166:    1  ->  general
+ 167:    1  ->  genoeg
+ 168:    1  ->  genoemd
+ 169:    1  ->  gepleegd
+ 170:    1  ->  gepreserveerd
+ 171:    1  ->  gevangenen
+ 172:    1  ->  gevoel
+ 173:    1  ->  geweken
+ 174:    1  ->  gewerkt
+ 175:    1  ->  gezet
+ 176:    1  ->  gezinsvoogden
+ 177:    1  ->  goedemorgen
+ 178:    1  ->  goedenavond
+ 179:    1  ->  groeien
+ 180:    1  ->  grondwetsel
+ 181:    1  ->  groter
+ 182:    1  ->  hadden
+ 183:    1  ->  handelen
+ 184:    1  ->  handen
+ 185:    1  ->  hbo-raad
+ 186:    1  ->  heel
+ 187:    1  ->  helemaal
+ 188:    1  ->  hen
+ 189:    1  ->  hielprik
+ 190:    1  ->  hoewel
+ 191:    1  ->  hondengeblaf
+ 192:    1  ->  honderden
+ 193:    1  ->  hopelijk
+ 194:    1  ->  horecava
+ 195:    1  ->  hypotheekrente
+ 196:    1  ->  hè
+ 197:    1  ->  idee
+ 198:    1  ->  iets
+ 199:    1  ->  imac
+ 200:    1  ->  influenza
+ 201:    1  ->  instelt
+ 202:    1  ->  instrument
+ 203:    1  ->  irritant
+ 204:    1  ->  jazz
+ 205:    1  ->  je
+ 206:    1  ->  jongen
+ 207:    1  ->  kelder
+ 208:    1  ->  kernkrachtwerk
+ 209:    1  ->  kind
+ 210:    1  ->  klimaatverandering
+ 211:    1  ->  knak
+ 212:    1  ->  knappen
+ 213:    1  ->  krant
+ 214:    1  ->  krijgt
+ 215:    1  ->  laat
+ 216:    1  ->  lange
+ 217:    1  ->  laten
+ 218:    1  ->  laurent
+ 219:    1  ->  leeg
+ 220:    1  ->  loonkosten
+ 221:    1  ->  lossen
+ 222:    1  ->  maanden
+ 223:    1  ->  maken
+ 224:    1  ->  manier
+ 225:    1  ->  marine
+ 226:    1  ->  men
+ 227:    1  ->  meter
+ 228:    1  ->  mijn
+ 229:    1  ->  miljoenen
+ 230:    1  ->  minste
+ 231:    1  ->  moeilijker
+ 232:    1  ->  moet
+ 233:    1  ->  motors
+ 234:    1  ->  naar
+ 235:    1  ->  nedem
+ 236:    1  ->  nederlanders
+ 237:    1  ->  nee
+ 238:    1  ->  nomaden
+ 239:    1  ->  nooit
+ 240:    1  ->  nos
+ 241:    1  ->  nou
+ 242:    1  ->  of
+ 243:    1  ->  ogen
+ 244:    1  ->  oh
+ 245:    1  ->  om
+ 246:    1  ->  omdat
+ 247:    1  ->  onderhoud
+ 248:    1  ->  ondermijnen
+ 249:    1  ->  onscherf
+ 250:    1  ->  onzekerheid
+ 251:    1  ->  ooit
+ 252:    1  ->  open
+ 253:    1  ->  opgeleverd
+ 254:    1  ->  opgesleept
+ 255:    1  ->  oranje
+ 256:    1  ->  ordi
+ 257:    1  ->  overdreven
+ 258:    1  ->  overigens
+ 259:    1  ->  paar
+ 260:    1  ->  pad
+ 261:    1  ->  partij
+ 262:    1  ->  pers
+ 263:    1  ->  plegen
+ 264:    1  ->  politici
+ 265:    1  ->  posten
+ 266:    1  ->  precies
+ 267:    1  ->  problemen
+ 268:    1  ->  punt
+ 269:    1  ->  recht
+ 270:    1  ->  regering
+ 271:    1  ->  rekening
+ 272:    1  ->  rit
+ 273:    1  ->  rond
+ 274:    1  ->  rustiek
+ 275:    1  ->  samen
+ 276:    1  ->  samenleving
+ 277:    1  ->  schade
+ 278:    1  ->  schakel
+ 279:    1  ->  scheikunde
+ 280:    1  ->  schop
+ 281:    1  ->  shock
+ 282:    1  ->  spanje
+ 283:    1  ->  staan
+ 284:    1  ->  staat
+ 285:    1  ->  staatssecretariaat
+ 286:    1  ->  stellen
+ 287:    1  ->  stof
+ 288:    1  ->  stok
+ 289:    1  ->  strand
+ 290:    1  ->  taal
+ 291:    1  ->  tegen
+ 292:    1  ->  telefoons
+ 293:    1  ->  ten
+ 294:    1  ->  terecht
+ 295:    1  ->  terroristische
+ 296:    1  ->  times
+ 297:    1  ->  toe
+ 298:    1  ->  toezicht
+ 299:    1  ->  tot
+ 300:    1  ->  totaal
+ 301:    1  ->  trein
+ 302:    1  ->  troost
+ 303:    1  ->  tweeduizendzes
+ 304:    1  ->  tweehonderd
+ 305:    1  ->  uitgereikt
+ 306:    1  ->  uitlekt
+ 307:    1  ->  uitoefenen
+ 308:    1  ->  uitziet
+ 309:    1  ->  uitzonderlijke
+ 310:    1  ->  urbex-nucleus
+ 311:    1  ->  vallen
+ 312:    1  ->  veiling
+ 313:    1  ->  veranderd
+ 314:    1  ->  verbindend
+ 315:    1  ->  verder
+ 316:    1  ->  verdiend
+ 317:    1  ->  verlagen
+ 318:    1  ->  vermijden
+ 319:    1  ->  vervoert
+ 320:    1  ->  verwachten
+ 321:    1  ->  verwischt
+ 322:    1  ->  verzwakt
+ 323:    1  ->  vestia
+ 324:    1  ->  vier
+ 325:    1  ->  vluchten
+ 326:    1  ->  vooral
+ 327:    1  ->  voornamelijk
+ 328:    1  ->  voorraad
+ 329:    1  ->  vooruitblik
+ 330:    1  ->  vvd'er
+ 331:    1  ->  waar
+ 332:    1  ->  waarom
+ 333:    1  ->  waren
+ 334:    1  ->  werk
+ 335:    1  ->  werkgelegenheid
+ 336:    1  ->  weten
+ 337:    1  ->  wijk
+ 338:    1  ->  wto
+ 339:    1  ->  zaken
+ 340:    1  ->  zat
+ 341:    1  ->  zeehondenbond
+ 342:    1  ->  zeg
+ 343:    1  ->  zegt
+ 344:    1  ->  zeker
+ 345:    1  ->  zes
+ 346:    1  ->  zin
+ 347:    1  ->  zoekt
+ 348:    1  ->  zondag
+ 349:    1  ->  zoveel
+ 350:    1  ->  zwaar
+ 351:    1  ->  zwakste
+ 352:    1  ->  één
+     -------
+       691
+
+
+
+DELETIONS                        Total                 (560)
+                                 With >=  1 occurrences (560)
+
+   1:   72  ->  ja
+   2:   58  ->  dat
+   3:   46  ->  de
+   4:   46  ->  is
+   5:   45  ->  en
+   6:   42  ->  het
+   7:   38  ->  een
+   8:   29  ->  nou
+   9:   27  ->  die
+  10:   27  ->  ik
+  11:   27  ->  in
+  12:   26  ->  er
+  13:   25  ->  voor
+  14:   24  ->  van
+  15:   19  ->  hij
+  16:   17  ->  je
+  17:   17  ->  op
+  18:   16  ->  maar
+  19:   14  ->  daar
+  20:   14  ->  zijn
+  21:   12  ->  als
+  22:   12  ->  niet
+  23:   12  ->  we
+  24:   11  ->  zeg
+  25:   10  ->  doen
+  26:   10  ->  met
+  27:   10  ->  wat
+  28:   10  ->  zo
+  29:    9  ->  dan
+  30:    9  ->  dus
+  31:    9  ->  ook
+  32:    9  ->  tweeduizend
+  33:    8  ->  al
+  34:    8  ->  heeft
+  35:    8  ->  hier
+  36:    8  ->  worden
+  37:    7  ->  eigenlijk
+  38:    7  ->  gaan
+  39:    6  ->  aan
+  40:    6  ->  had
+  41:    6  ->  hoe
+  42:    6  ->  punt
+  43:    6  ->  wel
+  44:    6  ->  wordt
+  45:    5  ->  dit
+  46:    5  ->  gaat
+  47:    5  ->  gewoon
+  48:    5  ->  hebben
+  49:    5  ->  heel
+  50:    5  ->  komt
+  51:    5  ->  nog
+  52:    5  ->  om
+  53:    5  ->  oud
+  54:    5  ->  te
+  55:    5  ->  ze
+  56:    4  ->  's
+  57:    4  ->  [buitenlands]
+  58:    4  ->  des
+  59:    4  ->  even
+  60:    4  ->  geval
+  61:    4  ->  goed
+  62:    4  ->  meer
+  63:    4  ->  naar
+  64:    4  ->  navo
+  65:    4  ->  nu
+  66:    4  ->  of
+  67:    4  ->  over
+  68:    4  ->  veel
+  69:    4  ->  was
+  70:    4  ->  welkom
+  71:    4  ->  zo'n
+  72:    3  ->  bij
+  73:    3  ->  bos
+  74:    3  ->  d66
+  75:    3  ->  dexia
+  76:    3  ->  deze
+  77:    3  ->  door
+  78:    3  ->  farc
+  79:    3  ->  gedaan
+  80:    3  ->  geeft
+  81:    3  ->  groot
+  82:    3  ->  hadden
+  83:    3  ->  ieder
+  84:    3  ->  kabinet
+  85:    3  ->  korthals
+  86:    3  ->  kunnen
+  87:    3  ->  land
+  88:    3  ->  moet
+  89:    3  ->  noord
+  90:    3  ->  nos
+  91:    3  ->  staat
+  92:    3  ->  tot
+  93:    3  ->  u
+  94:    3  ->  uit
+  95:    3  ->  want
+  96:    3  ->  wie
+  97:    3  ->  wit
+  98:    3  ->  zal
+  99:    3  ->  zich
+ 100:    2  ->  af
+ 101:    2  ->  amsterdam
+ 102:    2  ->  angels
+ 103:    2  ->  balkenende
+ 104:    2  ->  bedoel
+ 105:    2  ->  ben
+ 106:    2  ->  betreft
+ 107:    2  ->  bindmiddel
+ 108:    2  ->  binnen
+ 109:    2  ->  blijven
+ 110:    2  ->  bnr
+ 111:    2  ->  brommer
+ 112:    2  ->  buiten
+ 113:    2  ->  cda
+ 114:    2  ->  centraal
+ 115:    2  ->  dank
+ 116:    2  ->  drie
+ 117:    2  ->  echt
+ 118:    2  ->  erg
+ 119:    2  ->  es
+ 120:    2  ->  euro
+ 121:    2  ->  ex
+ 122:    2  ->  filosoof
+ 123:    2  ->  gegaan
+ 124:    2  ->  genoemd
+ 125:    2  ->  geven
+ 126:    2  ->  goede
+ 127:    2  ->  grootste
+ 128:    2  ->  halen
+ 129:    2  ->  hbo
+ 130:    2  ->  heb
+ 131:    2  ->  hele
+ 132:    2  ->  jaar
+ 133:    2  ->  ki
+ 134:    2  ->  kijk
+ 135:    2  ->  klopt
+ 136:    2  ->  kooi
+ 137:    2  ->  maakt
+ 138:    2  ->  man
+ 139:    2  ->  markt
+ 140:    2  ->  moest
+ 141:    2  ->  na
+ 142:    2  ->  natuurlijk
+ 143:    2  ->  nee
+ 144:    2  ->  nooit
+ 145:    2  ->  partij
+ 146:    2  ->  plek
+ 147:    2  ->  politie
+ 148:    2  ->  pvda
+ 149:    2  ->  rond
+ 150:    2  ->  royen
+ 151:    2  ->  sint
+ 152:    2  ->  toch
+ 153:    2  ->  toe
+ 154:    2  ->  tussen
+ 155:    2  ->  tv
+ 156:    2  ->  veiling
+ 157:    2  ->  verder
+ 158:    2  ->  vn
+ 159:    2  ->  vvd
+ 160:    2  ->  waarom
+ 161:    2  ->  waren
+ 162:    2  ->  wc
+ 163:    2  ->  weer
+ 164:    2  ->  west
+ 165:    2  ->  wil
+ 166:    2  ->  willen
+ 167:    2  ->  woningmarkt
+ 168:    2  ->  wouter
+ 169:    2  ->  www
+ 170:    2  ->  zaken
+ 171:    2  ->  zes
+ 172:    2  ->  zestig
+ 173:    2  ->  zetten
+ 174:    2  ->  zien
+ 175:    2  ->  één
+ 176:    1  ->  a
+ 177:    1  ->  aandoeningen
+ 178:    1  ->  aangegaan
+ 179:    1  ->  aangenomen
+ 180:    1  ->  aanhalingstekens
+ 181:    1  ->  aanpak
+ 182:    1  ->  aardige
+ 183:    1  ->  absoluut
+ 184:    1  ->  advocaat
+ 185:    1  ->  agressie
+ 186:    1  ->  alexander
+ 187:    1  ->  alleen
+ 188:    1  ->  alternatieven
+ 189:    1  ->  althans
+ 190:    1  ->  anti
+ 191:    1  ->  artikel
+ 192:    1  ->  artsen
+ 193:    1  ->  baas
+ 194:    1  ->  baby's
+ 195:    1  ->  baluchi
+ 196:    1  ->  banken
+ 197:    1  ->  bedoeld
+ 198:    1  ->  beeld
+ 199:    1  ->  beetje
+ 200:    1  ->  behandelmethode
+ 201:    1  ->  bekijkt
+ 202:    1  ->  bemodderde
+ 203:    1  ->  bepaald
+ 204:    1  ->  beschuldigt
+ 205:    1  ->  bestuur
+ 206:    1  ->  betaalbaarder
+ 207:    1  ->  betekent
+ 208:    1  ->  betoogd
+ 209:    1  ->  betrokken
+ 210:    1  ->  betutteling
+ 211:    1  ->  beweging
+ 212:    1  ->  binnenlands
+ 213:    1  ->  blad
+ 214:    1  ->  bonhof
+ 215:    1  ->  bosnisch
+ 216:    1  ->  bouwen
+ 217:    1  ->  carnavalsfoto
+ 218:    1  ->  cdu
+ 219:    1  ->  cie
+ 220:    1  ->  cito
+ 221:    1  ->  class
+ 222:    1  ->  cns
+ 223:    1  ->  controleert
+ 224:    1  ->  debatteren
+ 225:    1  ->  denk
+ 226:    1  ->  der
+ 227:    1  ->  dergelijke
+ 228:    1  ->  dingen
+ 229:    1  ->  dochter
+ 230:    1  ->  dochters
+ 231:    1  ->  doet
+ 232:    1  ->  doorlopen
+ 233:    1  ->  duisenberg
+ 234:    1  ->  eens
+ 235:    1  ->  eentje
+ 236:    1  ->  effe
+ 237:    1  ->  ego
+ 238:    1  ->  eigenaar
+ 239:    1  ->  emancipatie
+ 240:    1  ->  enzo
+ 241:    1  ->  eten
+ 242:    1  ->  faalt
+ 243:    1  ->  feite
+ 244:    1  ->  financiën
+ 245:    1  ->  foto
+ 246:    1  ->  fractieleider
+ 247:    1  ->  ga
+ 248:    1  ->  gaf
+ 249:    1  ->  gas
+ 250:    1  ->  gebeurd
+ 251:    1  ->  gebeuren
+ 252:    1  ->  gebeurt
+ 253:    1  ->  gebied
+ 254:    1  ->  gebruikt
+ 255:    1  ->  gecontroleerd
+ 256:    1  ->  gedrukt
+ 257:    1  ->  gedupeerden
+ 258:    1  ->  gehad
+ 259:    1  ->  gehandicapten
+ 260:    1  ->  gehoord
+ 261:    1  ->  gek
+ 262:    1  ->  geld
+ 263:    1  ->  geleilaagje
+ 264:    1  ->  geloosd
+ 265:    1  ->  gemeenten
+ 266:    1  ->  gepleegd
+ 267:    1  ->  geschikt
+ 268:    1  ->  gesleept
+ 269:    1  ->  gesprek
+ 270:    1  ->  gevangene
+ 271:    1  ->  gevonden
+ 272:    1  ->  geweken
+ 273:    1  ->  gewerkt
+ 274:    1  ->  gezet
+ 275:    1  ->  gezeten
+ 276:    1  ->  gezien
+ 277:    1  ->  gezin
+ 278:    1  ->  gezinsvoogden
+ 279:    1  ->  gezondheidszorg
+ 280:    1  ->  god
+ 281:    1  ->  goeienavond
+ 282:    1  ->  groeien
+ 283:    1  ->  groeit
+ 284:    1  ->  groter
+ 285:    1  ->  gunsteren
+ 286:    1  ->  halt
+ 287:    1  ->  handelen
+ 288:    1  ->  handen
+ 289:    1  ->  hanneke
+ 290:    1  ->  hanteren
+ 291:    1  ->  harte
+ 292:    1  ->  havo
+ 293:    1  ->  heer
+ 294:    1  ->  hem
+ 295:    1  ->  hen
+ 296:    1  ->  heren
+ 297:    1  ->  herman
+ 298:    1  ->  hervormd
+ 299:    1  ->  heyde
+ 300:    1  ->  hielprik
+ 301:    1  ->  hirsi
+ 302:    1  ->  home
+ 303:    1  ->  hondengeblaf
+ 304:    1  ->  honderden
+ 305:    1  ->  hoog
+ 306:    1  ->  hoor
+ 307:    1  ->  hoorn
+ 308:    1  ->  horecava
+ 309:    1  ->  hormonaal
+ 310:    1  ->  houden
+ 311:    1  ->  hun
+ 312:    1  ->  iemand
+ 313:    1  ->  inauguratie
+ 314:    1  ->  inderdaad
+ 315:    1  ->  industrie
+ 316:    1  ->  ingeboekt
+ 317:    1  ->  ingebroken
+ 318:    1  ->  ingreep
+ 319:    1  ->  internationale
+ 320:    1  ->  jan
+ 321:    1  ->  januari
+ 322:    1  ->  jaren
+ 323:    1  ->  jeugdzorg
+ 324:    1  ->  joegoslavië
+ 325:    1  ->  jong
+ 326:    1  ->  jongen
+ 327:    1  ->  jongeren
+ 328:    1  ->  jou
+ 329:    1  ->  journaal
+ 330:    1  ->  joustra
+ 331:    1  ->  kan
+ 332:    1  ->  katshuis
+ 333:    1  ->  keer
+ 334:    1  ->  keert
+ 335:    1  ->  kelder
+ 336:    1  ->  kijken
+ 337:    1  ->  kind
+ 338:    1  ->  klant
+ 339:    1  ->  klein
+ 340:    1  ->  kleine
+ 341:    1  ->  klimaatverandering
+ 342:    1  ->  knappen
+ 343:    1  ->  kok
+ 344:    1  ->  kom
+ 345:    1  ->  komende
+ 346:    1  ->  komma
+ 347:    1  ->  koud
+ 348:    1  ->  krant
+ 349:    1  ->  krijgen
+ 350:    1  ->  krijgt
+ 351:    1  ->  laat
+ 352:    1  ->  laatste
+ 353:    1  ->  lang
+ 354:    1  ->  lange
+ 355:    1  ->  langer
+ 356:    1  ->  laten
+ 357:    1  ->  laurent
+ 358:    1  ->  leeg
+ 359:    1  ->  legiolease
+ 360:    1  ->  leiden
+ 361:    1  ->  leraarsberoep
+ 362:    1  ->  leukste
+ 363:    1  ->  lief
+ 364:    1  ->  lieftinck
+ 365:    1  ->  liggen
+ 366:    1  ->  liquidatie
+ 367:    1  ->  los
+ 368:    1  ->  lossen
+ 369:    1  ->  maken
+ 370:    1  ->  manier
+ 371:    1  ->  marine
+ 372:    1  ->  martijn
+ 373:    1  ->  medisch
+ 374:    1  ->  mee
+ 375:    1  ->  men
+ 376:    1  ->  mensen
+ 377:    1  ->  meter
+ 378:    1  ->  midden
+ 379:    1  ->  miljoen
+ 380:    1  ->  miljoenen
+ 381:    1  ->  minister
+ 382:    1  ->  ministerie
+ 383:    1  ->  mis
+ 384:    1  ->  moeilijk
+ 385:    1  ->  moeten
+ 386:    1  ->  moment
+ 387:    1  ->  mondigere
+ 388:    1  ->  mooi
+ 389:    1  ->  muziek
+ 390:    1  ->  nachtopvang
+ 391:    1  ->  nachts
+ 392:    1  ->  name
+ 393:    1  ->  namelijk
+ 394:    1  ->  natura
+ 395:    1  ->  nederland
+ 396:    1  ->  nederlandse
+ 397:    1  ->  nedim
+ 398:    1  ->  negentien
+ 399:    1  ->  nemen
+ 400:    1  ->  nieuwste
+ 401:    1  ->  niks
+ 402:    1  ->  nl
+ 403:    1  ->  nodig
+ 404:    1  ->  nogmaals
+ 405:    1  ->  non
+ 406:    1  ->  noël
+ 407:    1  ->  ogen
+ 408:    1  ->  omarmd
+ 409:    1  ->  onderhoud
+ 410:    1  ->  ondermijnen
+ 411:    1  ->  onderwijs
+ 412:    1  ->  ontploffen
+ 413:    1  ->  ontruimd
+ 414:    1  ->  onze
+ 415:    1  ->  open
+ 416:    1  ->  openbaar
+ 417:    1  ->  opgeleverd
+ 418:    1  ->  opgevangen
+ 419:    1  ->  opties
+ 420:    1  ->  orde
+ 421:    1  ->  ordi
+ 422:    1  ->  oud-
+ 423:    1  ->  ouders
+ 424:    1  ->  out
+ 425:    1  ->  overdreven
+ 426:    1  ->  pad
+ 427:    1  ->  pechthold
+ 428:    1  ->  pers
+ 429:    1  ->  plak
+ 430:    1  ->  planbureau
+ 431:    1  ->  plannen
+ 432:    1  ->  plegen
+ 433:    1  ->  politici
+ 434:    1  ->  politicoloog
+ 435:    1  ->  posten
+ 436:    1  ->  prachtig
+ 437:    1  ->  praten
+ 438:    1  ->  precies
+ 439:    1  ->  problemen
+ 440:    1  ->  protestants
+ 441:    1  ->  puur
+ 442:    1  ->  qua
+ 443:    1  ->  raad
+ 444:    1  ->  rasse
+ 445:    1  ->  redacteur
+ 446:    1  ->  redelijk
+ 447:    1  ->  regering
+ 448:    1  ->  risico
+ 449:    1  ->  rit
+ 450:    1  ->  royal
+ 451:    1  ->  rustiek
+ 452:    1  ->  satelliet
+ 453:    1  ->  schade
+ 454:    1  ->  schop
+ 455:    1  ->  secretaris
+ 456:    1  ->  ser
+ 457:    1  ->  shock
+ 458:    1  ->  sn
+ 459:    1  ->  spanje
+ 460:    1  ->  staatssecretariaat
+ 461:    1  ->  stabiliteit
+ 462:    1  ->  stand
+ 463:    1  ->  steeds
+ 464:    1  ->  stellen
+ 465:    1  ->  stil
+ 466:    1  ->  stof
+ 467:    1  ->  straks
+ 468:    1  ->  strand
+ 469:    1  ->  strijders
+ 470:    1  ->  studio
+ 471:    1  ->  stuur
+ 472:    1  ->  support
+ 473:    1  ->  taal
+ 474:    1  ->  tarin
+ 475:    1  ->  tata
+ 476:    1  ->  tegengewerkt
+ 477:    1  ->  telefoons
+ 478:    1  ->  ten
+ 479:    1  ->  tennis
+ 480:    1  ->  ter
+ 481:    1  ->  the
+ 482:    1  ->  thuisgebleven
+ 483:    1  ->  times
+ 484:    1  ->  tjibbe
+ 485:    1  ->  to
+ 486:    1  ->  tolk
+ 487:    1  ->  trein
+ 488:    1  ->  troost
+ 489:    1  ->  twee
+ 490:    1  ->  tweeëntwintig
+ 491:    1  ->  twin
+ 492:    1  ->  twintig
+ 493:    1  ->  uiteindelijk
+ 494:    1  ->  uitgereikt
+ 495:    1  ->  uitgesproken
+ 496:    1  ->  uitlekt
+ 497:    1  ->  uitoefenen
+ 498:    1  ->  uitziet
+ 499:    1  ->  universiteit
+ 500:    1  ->  uw
+ 501:    1  ->  vader
+ 502:    1  ->  vak
+ 503:    1  ->  vakbond
+ 504:    1  ->  vallen
+ 505:    1  ->  veere
+ 506:    1  ->  veilig
+ 507:    1  ->  veranderd
+ 508:    1  ->  verblijft
+ 509:    1  ->  verdiend
+ 510:    1  ->  vereniging
+ 511:    1  ->  vergrijzing
+ 512:    1  ->  verklaard
+ 513:    1  ->  verluidt
+ 514:    1  ->  verschuiven
+ 515:    1  ->  verstandelijke
+ 516:    1  ->  vervoert
+ 517:    1  ->  verwachten
+ 518:    1  ->  vestia
+ 519:    1  ->  via
+ 520:    1  ->  vice
+ 521:    1  ->  video'tje
+ 522:    1  ->  vijf
+ 523:    1  ->  vijfendertig
+ 524:    1  ->  vind
+ 525:    1  ->  vmbo
+ 526:    1  ->  voordat
+ 527:    1  ->  voornamelijk
+ 528:    1  ->  vooruitblik
+ 529:    1  ->  voorzitter
+ 530:    1  ->  vorige
+ 531:    1  ->  vragen
+ 532:    1  ->  vrijlaat
+ 533:    1  ->  vroeger
+ 534:    1  ->  vvd'er
+ 535:    1  ->  waar
+ 536:    1  ->  wacht
+ 537:    1  ->  ware
+ 538:    1  ->  website
+ 539:    1  ->  werk
+ 540:    1  ->  werkgelegenheid
+ 541:    1  ->  weten
+ 542:    1  ->  wijk
+ 543:    1  ->  wilde
+ 544:    1  ->  winkeltjes
+ 545:    1  ->  winsemius
+ 546:    1  ->  winter
+ 547:    1  ->  woningen
+ 548:    1  ->  wto
+ 549:    1  ->  zag
+ 550:    1  ->  zat
+ 551:    1  ->  zaten
+ 552:    1  ->  zegt
+ 553:    1  ->  zestien
+ 554:    1  ->  zeven
+ 555:    1  ->  zie
+ 556:    1  ->  ziet
+ 557:    1  ->  zoeken
+ 558:    1  ->  zorgt
+ 559:    1  ->  zouden
+ 560:    1  ->  zuid
+     -------
+      1574
+
+
+
+SUBSTITUTIONS                    Total                 (517)
+                                 With >=  1 occurrences (517)
+
+   1:   76  ->  (%hesitation)
+   2:   31  ->  dat
+   3:   22  ->  ja
+   4:   15  ->  een
+   5:   13  ->  en
+   6:   12  ->  de
+   7:   12  ->  die
+   8:   12  ->  één
+   9:    9  ->  er
+  10:    8  ->  daar
+  11:    8  ->  het
+  12:    8  ->  türkiyemspor
+  13:    7  ->  is
+  14:    7  ->  tweeduizend
+  15:    6  ->  hij
+  16:    5  ->  dan
+  17:    5  ->  ik
+  18:    5  ->  nou
+  19:    5  ->  op
+  20:    5  ->  voorzitter
+  21:    4  ->  aldus
+  22:    4  ->  allang
+  23:    4  ->  als
+  24:    4  ->  hun
+  25:    4  ->  imac
+  26:    4  ->  in
+  27:    4  ->  maar
+  28:    4  ->  rouvoet
+  29:    4  ->  tabaksblat
+  30:    4  ->  te
+  31:    4  ->  u
+  32:    3  ->  aaij
+  33:    3  ->  aan
+  34:    3  ->  d66
+  35:    3  ->  dit
+  36:    3  ->  dus
+  37:    3  ->  gedeelte
+  38:    3  ->  militairen
+  39:    3  ->  motassadeq
+  40:    3  ->  nachts
+  41:    3  ->  over
+  42:    3  ->  savanna
+  43:    3  ->  that
+  44:    3  ->  thomsen
+  45:    3  ->  toe
+  46:    3  ->  vanuit
+  47:    3  ->  wat
+  48:    3  ->  wij
+  49:    3  ->  wijffels
+  50:    3  ->  zeehondenbont
+  51:    2  ->  (di-)
+  52:    2  ->  (m-)
+  53:    2  ->  (wa-)
+  54:    2  ->  aboutaleb
+  55:    2  ->  acht
+  56:    2  ->  advies
+  57:    2  ->  altes
+  58:    2  ->  balin
+  59:    2  ->  beziggehouden
+  60:    2  ->  bij
+  61:    2  ->  bnr
+  62:    2  ->  bod
+  63:    2  ->  camera's
+  64:    2  ->  chora
+  65:    2  ->  di's
+  66:    2  ->  dulfer
+  67:    2  ->  erica
+  68:    2  ->  essent
+  69:    2  ->  europese
+  70:    2  ->  generaal
+  71:    2  ->  groten
+  72:    2  ->  gunsteren
+  73:    2  ->  hard
+  74:    2  ->  hebben
+  75:    2  ->  hirsch
+  76:    2  ->  hirsi
+  77:    2  ->  jacob
+  78:    2  ->  kamerlid
+  79:    2  ->  kampioenschappen
+  80:    2  ->  knack
+  81:    2  ->  knüppe
+  82:    2  ->  komen
+  83:    2  ->  mededelingen
+  84:    2  ->  met
+  85:    2  ->  minister
+  86:    2  ->  moet
+  87:    2  ->  moon
+  88:    2  ->  motorclub
+  89:    2  ->  naar
+  90:    2  ->  nedim
+  91:    2  ->  niet
+  92:    2  ->  nu
+  93:    2  ->  om
+  94:    2  ->  omheen
+  95:    2  ->  ook
+  96:    2  ->  osdorp
+  97:    2  ->  ostedijk
+  98:    2  ->  oud
+  99:    2  ->  plaizier
+ 100:    2  ->  runderkamp
+ 101:    2  ->  rusland
+ 102:    2  ->  tweederde
+ 103:    2  ->  tweeënnegentig
+ 104:    2  ->  uit
+ 105:    2  ->  van
+ 106:    2  ->  veel
+ 107:    2  ->  veere
+ 108:    2  ->  velsen
+ 109:    2  ->  verbindend
+ 110:    2  ->  was
+ 111:    2  ->  we
+ 112:    2  ->  wel
+ 113:    2  ->  wist
+ 114:    2  ->  worden
+ 115:    2  ->  zalm
+ 116:    2  ->  ze
+ 117:    2  ->  zes
+ 118:    1  ->  (al-)
+ 119:    1  ->  (b-)
+ 120:    1  ->  (instaat)
+ 121:    1  ->  (lafhartige)
+ 122:    1  ->  (me-)
+ 123:    1  ->  (z-)
+ 124:    1  ->  (zondagamateurs)
+ 125:    1  ->  [buitenlands]
+ 126:    1  ->  [taal:
+ 127:    1  ->  aandelenleasecontract
+ 128:    1  ->  aangelegenheid
+ 129:    1  ->  achterhoedegevecht
+ 130:    1  ->  achteruitgaat
+ 131:    1  ->  achteruitgegaan
+ 132:    1  ->  activiteiten
+ 133:    1  ->  afgezant
+ 134:    1  ->  afghanistan
+ 135:    1  ->  afzetten
+ 136:    1  ->  aivd
+ 137:    1  ->  ali
+ 138:    1  ->  alle
+ 139:    1  ->  allows
+ 140:    1  ->  aloude
+ 141:    1  ->  altijd
+ 142:    1  ->  analyse
+ 143:    1  ->  andere
+ 144:    1  ->  annet
+ 145:    1  ->  anno
+ 146:    1  ->  are
+ 147:    1  ->  at
+ 148:    1  ->  atoomwaakhond
+ 149:    1  ->  autoworkers
+ 150:    1  ->  avb
+ 151:    1  ->  bank
+ 152:    1  ->  bedrijvigheid
+ 153:    1  ->  beetje
+ 154:    1  ->  bekend
+ 155:    1  ->  belangrijke
+ 156:    1  ->  beleggers
+ 157:    1  ->  beleggingspolissen
+ 158:    1  ->  belevenis
+ 159:    1  ->  believes
+ 160:    1  ->  benadeelden
+ 161:    1  ->  bereikt
+ 162:    1  ->  beslaggegenomen
+ 163:    1  ->  beste
+ 164:    1  ->  betrekking
+ 165:    1  ->  betutteling
+ 166:    1  ->  bewindsman
+ 167:    1  ->  beëdigt
+ 168:    1  ->  bijzonder
+ 169:    1  ->  bonhof
+ 170:    1  ->  bont
+ 171:    1  ->  bos
+ 172:    1  ->  bosniëveteranen
+ 173:    1  ->  bové's
+ 174:    1  ->  branches
+ 175:    1  ->  breedbandinternet
+ 176:    1  ->  brittannië
+ 177:    1  ->  cafébelevenis
+ 178:    1  ->  cameratoezicht
+ 179:    1  ->  camiel
+ 180:    1  ->  carien
+ 181:    1  ->  carnavalsvierders
+ 182:    1  ->  carnavalvierders
+ 183:    1  ->  cauwelaert
+ 184:    1  ->  cd's
+ 185:    1  ->  cecile
+ 186:    1  ->  chemicaliëntanker
+ 187:    1  ->  clémentine
+ 188:    1  ->  co2
+ 189:    1  ->  concerten
+ 190:    1  ->  connexxion
+ 191:    1  ->  consumptie
+ 192:    1  ->  controlestaat
+ 193:    1  ->  correspondent
+ 194:    1  ->  corus
+ 195:    1  ->  coryfeeën
+ 196:    1  ->  d'horizon
+ 197:    1  ->  daarnet
+ 198:    1  ->  daders
+ 199:    1  ->  daklozenopvang
+ 200:    1  ->  degenen
+ 201:    1  ->  denk
+ 202:    1  ->  deugdelijk
+ 203:    1  ->  dexia
+ 204:    1  ->  diepgaander
+ 205:    1  ->  doel
+ 206:    1  ->  doelwit
+ 207:    1  ->  doing
+ 208:    1  ->  door
+ 209:    1  ->  doorbraak
+ 210:    1  ->  drie
+ 211:    1  ->  echt
+ 212:    1  ->  eenennegentig
+ 213:    1  ->  eenenveertigjarige
+ 214:    1  ->  eenenvijftig
+ 215:    1  ->  eenenzestig
+ 216:    1  ->  eenheid
+ 217:    1  ->  effe
+ 218:    1  ->  eind
+ 219:    1  ->  emi
+ 220:    1  ->  end
+ 221:    1  ->  engels]
+ 222:    1  ->  enigerlei
+ 223:    1  ->  enorm
+ 224:    1  ->  eric
+ 225:    1  ->  essentnuon
+ 226:    1  ->  ethisch
+ 227:    1  ->  europa
+ 228:    1  ->  even
+ 229:    1  ->  evenementen
+ 230:    1  ->  eventjes
+ 231:    1  ->  exces
+ 232:    1  ->  feijten
+ 233:    1  ->  filip
+ 234:    1  ->  for
+ 235:    1  ->  fractieleider
+ 236:    1  ->  fracties
+ 237:    1  ->  fraudegeld
+ 238:    1  ->  gaan
+ 239:    1  ->  gaat
+ 240:    1  ->  gebeurd
+ 241:    1  ->  gebied
+ 242:    1  ->  gebruikt
+ 243:    1  ->  gehandicapte
+ 244:    1  ->  geheimgehouden
+ 245:    1  ->  gemogen
+ 246:    1  ->  gennip
+ 247:    1  ->  genomen
+ 248:    1  ->  gery
+ 249:    1  ->  geschaad
+ 250:    1  ->  gesprekken
+ 251:    1  ->  gesteld
+ 252:    1  ->  getale
+ 253:    1  ->  gevochten
+ 254:    1  ->  gingen
+ 255:    1  ->  griepvirus
+ 256:    1  ->  grote
+ 257:    1  ->  haags
+ 258:    1  ->  halfstok
+ 259:    1  ->  heb
+ 260:    1  ->  hebbenen
+ 261:    1  ->  hebt
+ 262:    1  ->  heeft
+ 263:    1  ->  hem
+ 264:    1  ->  herstructureringswijken
+ 265:    1  ->  hervormingen
+ 266:    1  ->  heyde
+ 267:    1  ->  hobbelt
+ 268:    1  ->  hoe
+ 269:    1  ->  hogescholen
+ 270:    1  ->  holland
+ 271:    1  ->  honderdduizend
+ 272:    1  ->  hoofdbestuur
+ 273:    1  ->  hoogovens
+ 274:    1  ->  horecamensen
+ 275:    1  ->  houden
+ 276:    1  ->  huize
+ 277:    1  ->  hypotheekrenteaftrek
+ 278:    1  ->  iemands
+ 279:    1  ->  iets
+ 280:    1  ->  ijmuiden
+ 281:    1  ->  infidel
+ 282:    1  ->  influenzacentrum
+ 283:    1  ->  informatie
+ 284:    1  ->  instromende
+ 285:    1  ->  intimitely
+ 286:    1  ->  investeren
+ 287:    1  ->  involved
+ 288:    1  ->  inzit
+ 289:    1  ->  jaar
+ 290:    1  ->  jagen
+ 291:    1  ->  japanse
+ 292:    1  ->  jazzsaxofonist
+ 293:    1  ->  je
+ 294:    1  ->  jongen
+ 295:    1  ->  journaal
+ 296:    1  ->  junta
+ 297:    1  ->  kahn
+ 298:    1  ->  kamp
+ 299:    1  ->  karadzic
+ 300:    1  ->  kasstroom
+ 301:    1  ->  kearney
+ 302:    1  ->  kennelijk
+ 303:    1  ->  keus
+ 304:    1  ->  klauwen
+ 305:    1  ->  konisch
+ 306:    1  ->  kopen
+ 307:    1  ->  kowt
+ 308:    1  ->  kreeg
+ 309:    1  ->  krijg
+ 310:    1  ->  kromkamp
+ 311:    1  ->  laat
+ 312:    1  ->  landen
+ 313:    1  ->  langeafstandsraket
+ 314:    1  ->  large
+ 315:    1  ->  lasten
+ 316:    1  ->  laurent
+ 317:    1  ->  laurent's
+ 318:    1  ->  laurents
+ 319:    1  ->  leerlingen
+ 320:    1  ->  leiding
+ 321:    1  ->  lekkende
+ 322:    1  ->  libanongangers
+ 323:    1  ->  luistert
+ 324:    1  ->  lyceum
+ 325:    1  ->  m'n
+ 326:    1  ->  maakten
+ 327:    1  ->  maliki
+ 328:    1  ->  marketingspeerpunt
+ 329:    1  ->  marktonderzoeksbureau
+ 330:    1  ->  marrum
+ 331:    1  ->  mauristkazerne
+ 332:    1  ->  maïzena
+ 333:    1  ->  mee
+ 334:    1  ->  meebetaalt
+ 335:    1  ->  meer
+ 336:    1  ->  mij
+ 337:    1  ->  mijdt
+ 338:    1  ->  militair
+ 339:    1  ->  minste
+ 340:    1  ->  minuten
+ 341:    1  ->  monde
+ 342:    1  ->  moszkowicz
+ 343:    1  ->  na
+ 344:    1  ->  naast
+ 345:    1  ->  nah
+ 346:    1  ->  negenennegentig
+ 347:    1  ->  negenentwintig
+ 348:    1  ->  negentien
+ 349:    1  ->  network
+ 350:    1  ->  nieuws
+ 351:    1  ->  nl
+ 352:    1  ->  nodig
+ 353:    1  ->  nog
+ 354:    1  ->  nomadenbestaan
+ 355:    1  ->  normaalgesproken
+ 356:    1  ->  ofschoon
+ 357:    1  ->  oké
+ 358:    1  ->  olie
+ 359:    1  ->  onder
+ 360:    1  ->  onderdukt
+ 361:    1  ->  ondersteunt
+ 362:    1  ->  onderwijskundige
+ 363:    1  ->  ontsnapt
+ 364:    1  ->  ontzaglijk
+ 365:    1  ->  opgaat
+ 366:    1  ->  opgaven
+ 367:    1  ->  oranjesentiment
+ 368:    1  ->  oudst
+ 369:    1  ->  overblijft
+ 370:    1  ->  paarden
+ 371:    1  ->  paperazzi
+ 372:    1  ->  partijbonzen
+ 373:    1  ->  pechthold
+ 374:    1  ->  peinzende
+ 375:    1  ->  peter
+ 376:    1  ->  plaatsen
+ 377:    1  ->  plaatsvervangend
+ 378:    1  ->  platenmaatschappijen
+ 379:    1  ->  plussers
+ 380:    1  ->  politica
+ 381:    1  ->  politicoloog
+ 382:    1  ->  potten
+ 383:    1  ->  preambules
+ 384:    1  ->  privacyparadijs
+ 385:    1  ->  probleemwijken
+ 386:    1  ->  prominent
+ 387:    1  ->  qrius
+ 388:    1  ->  quan'an
+ 389:    1  ->  raad
+ 390:    1  ->  rathenau
+ 391:    1  ->  ratrace
+ 392:    1  ->  rechtgezet
+ 393:    1  ->  reclame
+ 394:    1  ->  regeling
+ 395:    1  ->  reinout
+ 396:    1  ->  reken-
+ 397:    1  ->  remain
+ 398:    1  ->  rik
+ 399:    1  ->  rommel
+ 400:    1  ->  royal
+ 401:    1  ->  royeren
+ 402:    1  ->  ruimte
+ 403:    1  ->  russen
+ 404:    1  ->  sage
+ 405:    1  ->  samengaan
+ 406:    1  ->  sasha
+ 407:    1  ->  scenario's
+ 408:    1  ->  scepsis
+ 409:    1  ->  schaven
+ 410:    1  ->  scheikundeleraar
+ 411:    1  ->  schend
+ 412:    1  ->  schijtziek
+ 413:    1  ->  schikking
+ 414:    1  ->  schilham
+ 415:    1  ->  scholen
+ 416:    1  ->  schreden
+ 417:    1  ->  schäubles
+ 418:    1  ->  secretaris
+ 419:    1  ->  seinen
+ 420:    1  ->  ser
+ 421:    1  ->  servische
+ 422:    1  ->  signaleren
+ 423:    1  ->  sikkema
+ 424:    1  ->  slaan
+ 425:    1  ->  sommigen
+ 426:    1  ->  songteksten
+ 427:    1  ->  spoorwijk
+ 428:    1  ->  staan
+ 429:    1  ->  staat
+ 430:    1  ->  staatssecretaris
+ 431:    1  ->  start
+ 432:    1  ->  stem
+ 433:    1  ->  stroom
+ 434:    1  ->  stukken
+ 435:    1  ->  summiere
+ 436:    1  ->  taaltoets
+ 437:    1  ->  talibanstrijders
+ 438:    1  ->  tanks
+ 439:    1  ->  tegengaan
+ 440:    1  ->  tenslotte
+ 441:    1  ->  terechtkunnen
+ 442:    1  ->  terrein
+ 443:    1  ->  the
+ 444:    1  ->  they
+ 445:    1  ->  tijdens
+ 446:    1  ->  tineke
+ 447:    1  ->  tjibbe
+ 448:    1  ->  toecijfert
+ 449:    1  ->  toets
+ 450:    1  ->  toezegging
+ 451:    1  ->  tot
+ 452:    1  ->  training
+ 453:    1  ->  tribunaal
+ 454:    1  ->  troepen
+ 455:    1  ->  twee
+ 456:    1  ->  tweehonderdzesenveertig
+ 457:    1  ->  twintig
+ 458:    1  ->  union
+ 459:    1  ->  uzelf
+ 460:    1  ->  vaessen
+ 461:    1  ->  vaktijdschrift
+ 462:    1  ->  vallei
+ 463:    1  ->  vanaf
+ 464:    1  ->  veilig
+ 465:    1  ->  veiling
+ 466:    1  ->  velde
+ 467:    1  ->  ver
+ 468:    1  ->  verbindendverklaring
+ 469:    1  ->  verdachten
+ 470:    1  ->  verdonk
+ 471:    1  ->  vermeldde
+ 472:    1  ->  verruilden
+ 473:    1  ->  vertoonden
+ 474:    1  ->  vierenzeventigduizend
+ 475:    1  ->  vierhonderdzesentwintig
+ 476:    1  ->  vijfendertigjarigen
+ 477:    1  ->  vijfennegentig
+ 478:    1  ->  vijfenzeventig
+ 479:    1  ->  vind
+ 480:    1  ->  vluchten
+ 481:    1  ->  volwassen
+ 482:    1  ->  voor
+ 483:    1  ->  voorwaarde
+ 484:    1  ->  vpro
+ 485:    1  ->  vroeg
+ 486:    1  ->  waarom
+ 487:    1  ->  waaruit
+ 488:    1  ->  wagtendonk
+ 489:    1  ->  waren
+ 490:    1  ->  we're
+ 491:    1  ->  weet
+ 492:    1  ->  westkust
+ 493:    1  ->  weten
+ 494:    1  ->  wil
+ 495:    1  ->  wilden
+ 496:    1  ->  willen
+ 497:    1  ->  wordt
+ 498:    1  ->  wurggreep
+ 499:    1  ->  zaak
+ 500:    1  ->  zal
+ 501:    1  ->  zeekoet
+ 502:    1  ->  zeggen
+ 503:    1  ->  zesenveertig
+ 504:    1  ->  zesenvijftig
+ 505:    1  ->  zette
+ 506:    1  ->  zeven
+ 507:    1  ->  zeventig
+ 508:    1  ->  zij
+ 509:    1  ->  zijn
+ 510:    1  ->  zijnde
+ 511:    1  ->  zit
+ 512:    1  ->  zitten
+ 513:    1  ->  zo
+ 514:    1  ->  zo'n
+ 515:    1  ->  zorgen
+ 516:    1  ->  zou
+ 517:    1  ->  zwaarbewapend
+     -------
+       906
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (598)
+                                 With >=  1 occurrences (598)
+
+   1:   30  ->  de
+   2:   30  ->  het
+   3:   22  ->  een
+   4:   12  ->  is
+   5:   12  ->  we
+   6:   11  ->  dat
+   7:    9  ->  die
+   8:    9  ->  en
+   9:    9  ->  er
+  10:    9  ->  hij
+  11:    8  ->  spoor
+  12:    6  ->  in
+  13:    5  ->  dan
+  14:    5  ->  doen
+  15:    5  ->  zijn
+  16:    4  ->  duizend
+  17:    4  ->  dus
+  18:    4  ->  ja
+  19:    4  ->  moeten
+  20:    4  ->  rauwvoet
+  21:    4  ->  voor
+  22:    4  ->  ze
+  23:    3  ->  aai
+  24:    3  ->  al
+  25:    3  ->  als
+  26:    3  ->  blijven
+  27:    3  ->  gehouden
+  28:    3  ->  hebben
+  29:    3  ->  hun
+  30:    3  ->  ik
+  31:    3  ->  mee
+  32:    3  ->  met
+  33:    3  ->  nee
+  34:    3  ->  niet
+  35:    3  ->  nu
+  36:    3  ->  ook
+  37:    3  ->  op
+  38:    3  ->  s'nachts
+  39:    3  ->  sadek
+  40:    3  ->  savannah
+  41:    3  ->  tabaksblad
+  42:    3  ->  uit
+  43:    3  ->  van
+  44:    3  ->  waarom
+  45:    3  ->  weer
+  46:    3  ->  wel
+  47:    3  ->  welkom
+  48:    3  ->  wijfels
+  49:    3  ->  wordt
+  50:    3  ->  zo
+  51:    2  ->  anno'n
+  52:    2  ->  ballin
+  53:    2  ->  bnn
+  54:    2  ->  bonhoff
+  55:    2  ->  bot
+  56:    2  ->  d-n-zestig
+  57:    2  ->  daar
+  58:    2  ->  dankjewel
+  59:    2  ->  deel
+  60:    2  ->  derde
+  61:    2  ->  dit
+  62:    2  ->  dulver
+  63:    2  ->  erika
+  64:    2  ->  eromheen
+  65:    2  ->  erop
+  66:    2  ->  erover
+  67:    2  ->  ervan
+  68:    2  ->  even
+  69:    2  ->  gaan
+  70:    2  ->  gaat
+  71:    2  ->  gebeurt
+  72:    2  ->  geld
+  73:    2  ->  gora
+  74:    2  ->  grote
+  75:    2  ->  hart
+  76:    2  ->  heers
+  77:    2  ->  heijden
+  78:    2  ->  hirshi
+  79:    2  ->  imag
+  80:    2  ->  januari
+  81:    2  ->  je
+  82:    2  ->  kampioenschap
+  83:    2  ->  ki-moon
+  84:    2  ->  knuppe
+  85:    2  ->  krijgen
+  86:    2  ->  lang
+  87:    2  ->  mededeling
+  88:    2  ->  motoclub
+  89:    2  ->  na
+  90:    2  ->  navo-militairen
+  91:    2  ->  nedem
+  92:    2  ->  negentig
+  93:    2  ->  net
+  94:    2  ->  osterdijk
+  95:    2  ->  oud-kamerlid
+  96:    2  ->  oud-voorzitter
+  97:    2  ->  pleizier
+  98:    2  ->  punt
+  99:    2  ->  rundekamp
+ 100:    2  ->  salm
+ 101:    2  ->  sint-jakob
+ 102:    2  ->  talib
+ 103:    2  ->  thompson
+ 104:    2  ->  tv-camera's
+ 105:    2  ->  velzen
+ 106:    2  ->  veren
+ 107:    2  ->  vijftig
+ 108:    2  ->  was
+ 109:    2  ->  wilde
+ 110:    2  ->  wit-rusland
+ 111:    2  ->  zeehondenbond
+ 112:    2  ->  zit
+ 113:    2  ->  zou
+ 114:    2  ->  zoveel
+ 115:    1  ->  aandelen-lease-contract
+ 116:    1  ->  aangegaan
+ 117:    1  ->  aangenomen
+ 118:    1  ->  aardig
+ 119:    1  ->  abu
+ 120:    1  ->  achterhoerengevecht
+ 121:    1  ->  achteruit
+ 122:    1  ->  afb
+ 123:    1  ->  afgenomen
+ 124:    1  ->  afgezond
+ 125:    1  ->  afschaven
+ 126:    1  ->  afstandsraket
+ 127:    1  ->  aftrek
+ 128:    1  ->  afzet
+ 129:    1  ->  al-maliki
+ 130:    1  ->  algenomen
+ 131:    1  ->  amateurs
+ 132:    1  ->  amsterdam-osdorp
+ 133:    1  ->  amsterdam-ostdorp
+ 134:    1  ->  anderen
+ 135:    1  ->  angels
+ 136:    1  ->  annette
+ 137:    1  ->  anti-agressietraining
+ 138:    1  ->  anvd
+ 139:    1  ->  ascent
+ 140:    1  ->  atoombakant
+ 141:    1  ->  balken
+ 142:    1  ->  baluchi-vallei
+ 143:    1  ->  basis
+ 144:    1  ->  beauvais'
+ 145:    1  ->  bedoeld
+ 146:    1  ->  beedigt
+ 147:    1  ->  belangrijk
+ 148:    1  ->  beleggingspolen
+ 149:    1  ->  bemolderde
+ 150:    1  ->  bereik
+ 151:    1  ->  beschuldigde
+ 152:    1  ->  best
+ 153:    1  ->  bestaan
+ 154:    1  ->  betaalt
+ 155:    1  ->  beter
+ 156:    1  ->  betrokken
+ 157:    1  ->  betusseling
+ 158:    1  ->  bewapend
+ 159:    1  ->  bezig
+ 160:    1  ->  bijzeggen
+ 161:    1  ->  binnenlaat
+ 162:    1  ->  blijft
+ 163:    1  ->  bnr-consponent
+ 164:    1  ->  bosnisch-serbische
+ 165:    1  ->  bosnië-veteranen
+ 166:    1  ->  branche
+ 167:    1  ->  café-belevenis
+ 168:    1  ->  camera
+ 169:    1  ->  camille
+ 170:    1  ->  carnavalsvirus
+ 171:    1  ->  carnavalvirus
+ 172:    1  ->  carney
+ 173:    1  ->  catshuis
+ 174:    1  ->  cd
+ 175:    1  ->  cda-huizen
+ 176:    1  ->  cda-prominent
+ 177:    1  ->  cdu-minister
+ 178:    1  ->  centraal-europa
+ 179:    1  ->  centrum
+ 180:    1  ->  chemicalietanker
+ 181:    1  ->  chibbe
+ 182:    1  ->  cie-informatie
+ 183:    1  ->  cito-toets
+ 184:    1  ->  clementine
+ 185:    1  ->  componenten
+ 186:    1  ->  concert
+ 187:    1  ->  connection
+ 188:    1  ->  controle-staat
+ 189:    1  ->  co₂
+ 190:    1  ->  curious
+ 191:    1  ->  cécile
+ 192:    1  ->  d-zes-en-zestig-fractieleider
+ 193:    1  ->  daaraan
+ 194:    1  ->  daarmee
+ 195:    1  ->  daarop
+ 196:    1  ->  daarover
+ 197:    1  ->  dacht
+ 198:    1  ->  dakloze
+ 199:    1  ->  daters
+ 200:    1  ->  deal
+ 201:    1  ->  degene
+ 202:    1  ->  denkt
+ 203:    1  ->  desdochters
+ 204:    1  ->  deugelijk
+ 205:    1  ->  dexia-bank
+ 206:    1  ->  dexia-beleggers
+ 207:    1  ->  dexia-benadeelden
+ 208:    1  ->  dexia-schikking
+ 209:    1  ->  diepgaande
+ 210:    1  ->  dnz
+ 211:    1  ->  doet
+ 212:    1  ->  doewit
+ 213:    1  ->  door
+ 214:    1  ->  duizenbergregeling
+ 215:    1  ->  echte
+ 216:    1  ->  eentje
+ 217:    1  ->  ego-aangelegenheid
+ 218:    1  ->  eigenlijk
+ 219:    1  ->  eind
+ 220:    1  ->  einde
+ 221:    1  ->  enige
+ 222:    1  ->  enorme
+ 223:    1  ->  eraan
+ 224:    1  ->  erg
+ 225:    1  ->  erik
+ 226:    1  ->  erin
+ 227:    1  ->  ertoe
+ 228:    1  ->  eruit
+ 229:    1  ->  ervoor
+ 230:    1  ->  eten
+ 231:    1  ->  ex-militairen
+ 232:    1  ->  ex-politica
+ 233:    1  ->  excess
+ 234:    1  ->  eén
+ 235:    1  ->  farc-kamp
+ 236:    1  ->  february
+ 237:    1  ->  feite
+ 238:    1  ->  filosoof-politicoloog
+ 239:    1  ->  gaslekkende
+ 240:    1  ->  gebeuren
+ 241:    1  ->  gebied
+ 242:    1  ->  gebieden
+ 243:    1  ->  geboren
+ 244:    1  ->  gebruik
+ 245:    1  ->  gecontroleerd
+ 246:    1  ->  gedaan
+ 247:    1  ->  gedupeerde
+ 248:    1  ->  gegaan
+ 249:    1  ->  gehandicapten
+ 250:    1  ->  gek
+ 251:    1  ->  geleienlaagje
+ 252:    1  ->  geloven
+ 253:    1  ->  genep
+ 254:    1  ->  genomen
+ 255:    1  ->  geri
+ 256:    1  ->  geschaat
+ 257:    1  ->  gesprek
+ 258:    1  ->  gesproken
+ 259:    1  ->  gesteld
+ 260:    1  ->  getalen
+ 261:    1  ->  gevocht
+ 262:    1  ->  gewoon
+ 263:    1  ->  geworden
+ 264:    1  ->  gezet
+ 265:    1  ->  gezeten
+ 266:    1  ->  gezin
+ 267:    1  ->  goed
+ 268:    1  ->  goedendag
+ 269:    1  ->  goh
+ 270:    1  ->  groeit
+ 271:    1  ->  groente
+ 272:    1  ->  groot-brittannië
+ 273:    1  ->  guan'an
+ 274:    1  ->  haagse
+ 275:    1  ->  hadden
+ 276:    1  ->  halen
+ 277:    1  ->  half
+ 278:    1  ->  handelen
+ 279:    1  ->  havo-advies
+ 280:    1  ->  hbo-raad
+ 281:    1  ->  heb
+ 282:    1  ->  heeft
+ 283:    1  ->  hele
+ 284:    1  ->  herstructureeringswijken
+ 285:    1  ->  hervormdiceum
+ 286:    1  ->  hirshiali
+ 287:    1  ->  hoe
+ 288:    1  ->  honderdduizenden
+ 289:    1  ->  hoogo
+ 290:    1  ->  hoogscholen
+ 291:    1  ->  hoppel
+ 292:    1  ->  horeca
+ 293:    1  ->  horeca-mensen
+ 294:    1  ->  horengedeelte
+ 295:    1  ->  horizon
+ 296:    1  ->  hè
+ 297:    1  ->  hé
+ 298:    1  ->  iemand
+ 299:    1  ->  iets
+ 300:    1  ->  imadj
+ 301:    1  ->  imi
+ 302:    1  ->  inauguratie-evenementen
+ 303:    1  ->  industrie
+ 304:    1  ->  infodol
+ 305:    1  ->  ingeboekt
+ 306:    1  ->  ingewikkelder
+ 307:    1  ->  ingreep
+ 308:    1  ->  instramende
+ 309:    1  ->  internationaal
+ 310:    1  ->  internet
+ 311:    1  ->  intiem
+ 312:    1  ->  investeerden
+ 313:    1  ->  jaar
+ 314:    1  ->  jan-peter
+ 315:    1  ->  japans
+ 316:    1  ->  jeugdzorg
+ 317:    1  ->  jezelf
+ 318:    1  ->  joegoslavië-tribunaal
+ 319:    1  ->  jongerennl
+ 320:    1  ->  jongvolwassen
+ 321:    1  ->  kaan
+ 322:    1  ->  kabinet
+ 323:    1  ->  kan
+ 324:    1  ->  karazic
+ 325:    1  ->  kaststroom
+ 326:    1  ->  keuze
+ 327:    1  ->  kijk
+ 328:    1  ->  klant
+ 329:    1  ->  klauw
+ 330:    1  ->  klopt
+ 331:    1  ->  knak
+ 332:    1  ->  kok
+ 333:    1  ->  kom
+ 334:    1  ->  komt
+ 335:    1  ->  konings
+ 336:    1  ->  konkamp
+ 337:    1  ->  kooij
+ 338:    1  ->  kores
+ 339:    1  ->  kortals-altes
+ 340:    1  ->  korthals-aaltes
+ 341:    1  ->  korthals-altes
+ 342:    1  ->  koud
+ 343:    1  ->  kouwelaart
+ 344:    1  ->  kregen
+ 345:    1  ->  kunnen
+ 346:    1  ->  lafartige
+ 347:    1  ->  land
+ 348:    1  ->  langer
+ 349:    1  ->  last
+ 350:    1  ->  laurel
+ 351:    1  ->  laurent
+ 352:    1  ->  legio-lieszaak
+ 353:    1  ->  leidtoezegging
+ 354:    1  ->  leraar
+ 355:    1  ->  leraarsberoep
+ 356:    1  ->  leringen
+ 357:    1  ->  leurgreep
+ 358:    1  ->  liefdink
+ 359:    1  ->  liefhebt
+ 360:    1  ->  liquidatieoudvoorzitter
+ 361:    1  ->  loslaan
+ 362:    1  ->  luisteren
+ 363:    1  ->  maakte
+ 364:    1  ->  maar
+ 365:    1  ->  maizena
+ 366:    1  ->  man
+ 367:    1  ->  manier
+ 368:    1  ->  marketing-speerpunt
+ 369:    1  ->  marm
+ 370:    1  ->  mauritskazerne
+ 371:    1  ->  medisch-ethisch
+ 372:    1  ->  meer
+ 373:    1  ->  men
+ 374:    1  ->  midden
+ 375:    1  ->  mijn
+ 376:    1  ->  mijt
+ 377:    1  ->  moet
+ 378:    1  ->  mond
+ 379:    1  ->  monden
+ 380:    1  ->  mondiger
+ 381:    1  ->  mooi
+ 382:    1  ->  moscovici
+ 383:    1  ->  muziek-cd's
+ 384:    1  ->  naar
+ 385:    1  ->  naartoe
+ 386:    1  ->  nachtopvang
+ 387:    1  ->  nadrukken
+ 388:    1  ->  naturanl
+ 389:    1  ->  navo-landen
+ 390:    1  ->  navo-troepen
+ 391:    1  ->  negentien-twee-en-negentig
+ 392:    1  ->  negentwintig
+ 393:    1  ->  nemen
+ 394:    1  ->  niets
+ 395:    1  ->  nieuws
+ 396:    1  ->  non-union
+ 397:    1  ->  noord-holland
+ 398:    1  ->  noordwest-europese
+ 399:    1  ->  noordwestkust
+ 400:    1  ->  normaal
+ 401:    1  ->  nou
+ 402:    1  ->  noël-fase
+ 403:    1  ->  nuon
+ 404:    1  ->  oekraïne
+ 405:    1  ->  olie-
+ 406:    1  ->  omdat
+ 407:    1  ->  onder
+ 408:    1  ->  onderdrukt
+ 409:    1  ->  onderleiding
+ 410:    1  ->  ondersteun
+ 411:    1  ->  onderwijskundigen
+ 412:    1  ->  onderwijsscholen
+ 413:    1  ->  ontploffen
+ 414:    1  ->  ontruimd
+ 415:    1  ->  ontstapt
+ 416:    1  ->  ontzaggelijk
+ 417:    1  ->  oostenrijk
+ 418:    1  ->  opgave
+ 419:    1  ->  opkomen
+ 420:    1  ->  optie-scenario's
+ 421:    1  ->  opvang
+ 422:    1  ->  orde
+ 423:    1  ->  oud-liban-omgangers
+ 424:    1  ->  oud-ser
+ 425:    1  ->  oud-voorzetter
+ 426:    1  ->  oude
+ 427:    1  ->  ouds
+ 428:    1  ->  out-of-home-consumptie
+ 429:    1  ->  overgaan
+ 430:    1  ->  overvluissend
+ 431:    1  ->  paarden
+ 432:    1  ->  paparazzi
+ 433:    1  ->  partijbondzen
+ 434:    1  ->  partijcorriveeën
+ 435:    1  ->  pechtold
+ 436:    1  ->  philip
+ 437:    1  ->  pijnzende
+ 438:    1  ->  plaatsten
+ 439:    1  ->  plaatsvervang
+ 440:    1  ->  plakrommel
+ 441:    1  ->  plantenmaatschappijen
+ 442:    1  ->  politie
+ 443:    1  ->  politieeenheid
+ 444:    1  ->  poorwijk
+ 445:    1  ->  prachtig
+ 446:    1  ->  preambule
+ 447:    1  ->  privacy-paradijs
+ 448:    1  ->  probleemwijk
+ 449:    1  ->  protestantsmilitair
+ 450:    1  ->  publiciteit
+ 451:    1  ->  pure
+ 452:    1  ->  pvda-bewindsman
+ 453:    1  ->  pvda-minister
+ 454:    1  ->  pvda-staatssecretaris
+ 455:    1  ->  race
+ 456:    1  ->  rassenschreden
+ 457:    1  ->  rathenouw
+ 458:    1  ->  rekenen
+ 459:    1  ->  rick
+ 460:    1  ->  rijden
+ 461:    1  ->  rijnald
+ 462:    1  ->  rooieren
+ 463:    1  ->  rooijen
+ 464:    1  ->  royal
+ 465:    1  ->  royale
+ 466:    1  ->  saga
+ 467:    1  ->  samen
+ 468:    1  ->  sascha
+ 469:    1  ->  satellietenruimte
+ 470:    1  ->  saxofonist
+ 471:    1  ->  scheidsie
+ 472:    1  ->  schen
+ 473:    1  ->  schäuble's
+ 474:    1  ->  secretaris-generaal
+ 475:    1  ->  sent
+ 476:    1  ->  sentiment
+ 477:    1  ->  sepsis
+ 478:    1  ->  ser-voorzitter
+ 479:    1  ->  seventigduizend
+ 480:    1  ->  siggema
+ 481:    1  ->  silham
+ 482:    1  ->  simuleren
+ 483:    1  ->  sinemuiden
+ 484:    1  ->  sixteen-een-en-zestig
+ 485:    1  ->  slotte
+ 486:    1  ->  sommige
+ 487:    1  ->  staat
+ 488:    1  ->  stand
+ 489:    1  ->  start-
+ 490:    1  ->  stellen
+ 491:    1  ->  stemmen
+ 492:    1  ->  steunnetwerk
+ 493:    1  ->  stilkomen
+ 494:    1  ->  stromen
+ 495:    1  ->  stuk
+ 496:    1  ->  sumiere
+ 497:    1  ->  taaltoetsen
+ 498:    1  ->  tabaksplatten
+ 499:    1  ->  taliban-strijders
+ 500:    1  ->  tank
+ 501:    1  ->  tarinkoot
+ 502:    1  ->  te
+ 503:    1  ->  tegengewekt
+ 504:    1  ->  tekenen
+ 505:    1  ->  tenminste
+ 506:    1  ->  tennisnieuws
+ 507:    1  ->  tervelde
+ 508:    1  ->  thuisgebleven
+ 509:    1  ->  tieneke
+ 510:    1  ->  tijdschrift
+ 511:    1  ->  toch
+ 512:    1  ->  toecevert
+ 513:    1  ->  toejagen
+ 514:    1  ->  tonsen
+ 515:    1  ->  trein
+ 516:    1  ->  turkium
+ 517:    1  ->  tussen
+ 518:    1  ->  twee
+ 519:    1  ->  tweeduizendacht
+ 520:    1  ->  tweeduizendzest
+ 521:    1  ->  tweeentwintig
+ 522:    1  ->  tweeënegentig
+ 523:    1  ->  two-duizend-een
+ 524:    1  ->  two-thousand-drie
+ 525:    1  ->  u
+ 526:    1  ->  uitgesproken
+ 527:    1  ->  uitgingen
+ 528:    1  ->  vader
+ 529:    1  ->  vakbonden
+ 530:    1  ->  veel
+ 531:    1  ->  veertig
+ 532:    1  ->  veertigjarige
+ 533:    1  ->  veijten
+ 534:    1  ->  veilige
+ 535:    1  ->  veranderd
+ 536:    1  ->  verbeterd
+ 537:    1  ->  verbinden
+ 538:    1  ->  verbindende
+ 539:    1  ->  verblijft
+ 540:    1  ->  verdachte
+ 541:    1  ->  verdonck
+ 542:    1  ->  vergunster
+ 543:    1  ->  vergunsteren
+ 544:    1  ->  verhelden
+ 545:    1  ->  verklaring
+ 546:    1  ->  vermelde
+ 547:    1  ->  verschuiven
+ 548:    1  ->  vertonen
+ 549:    1  ->  vertrekking
+ 550:    1  ->  vertrokken
+ 551:    1  ->  vicevoorzitter
+ 552:    1  ->  videootje
+ 553:    1  ->  vierhonderdzestentwintig
+ 554:    1  ->  vijfen-negentig
+ 555:    1  ->  vijfentwintig
+ 556:    1  ->  vijfentwintigjarigen
+ 557:    1  ->  vijfentwintigplussers
+ 558:    1  ->  vindt
+ 559:    1  ->  vmbo-advies
+ 560:    1  ->  vn-activiteiten
+ 561:    1  ->  vn-secretaris-generaal
+ 562:    1  ->  voorwaarden
+ 563:    1  ->  vrijlaat
+ 564:    1  ->  vroeger
+ 565:    1  ->  vuiling
+ 566:    1  ->  vvd-fracties
+ 567:    1  ->  vvd-hoofdbestuur
+ 568:    1  ->  waar
+ 569:    1  ->  waarop
+ 570:    1  ->  wachtendonk
+ 571:    1  ->  ware
+ 572:    1  ->  wat
+ 573:    1  ->  wc-belevenis
+ 574:    1  ->  wc-potten
+ 575:    1  ->  welwaardig
+ 576:    1  ->  werd
+ 577:    1  ->  west-europese
+ 578:    1  ->  wie
+ 579:    1  ->  wij
+ 580:    1  ->  wil
+ 581:    1  ->  wilt
+ 582:    1  ->  winscemiers
+ 583:    1  ->  wit-russen
+ 584:    1  ->  woningen
+ 585:    1  ->  woningmarkt
+ 586:    1  ->  worden
+ 587:    1  ->  workers
+ 588:    1  ->  wwwbnrnl
+ 589:    1  ->  xx
+ 590:    1  ->  zaken
+ 591:    1  ->  zal
+ 592:    1  ->  zeekroet
+ 593:    1  ->  zes
+ 594:    1  ->  zet
+ 595:    1  ->  zijnen
+ 596:    1  ->  zomer
+ 597:    1  ->  zongteksten
+ 598:    1  ->  zuid-afghanistan
+     -------
+       906
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+
