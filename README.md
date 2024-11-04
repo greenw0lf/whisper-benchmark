@@ -61,6 +61,6 @@ Each implementation contains a `hyp` folder corresponding to the transcription g
 - `.dtl` files contain the scores
 - `.prf` files contain the alignments
 
-There is also a `ref` folder under each subset (Broadcast News or Conversational Telephone Speech) that contains the `stm` reference files.
+There is also a `reference.stm` file under each subset (Broadcast News or Conversational Telephone Speech) that contains the human-labelled reference script used to compare with the hypothesis files.
 
 For more information about the `CTM` or `STM` formats of the hypothesis and reference respectively, check out [this repository](https://github.com/opensource-spraakherkenning-nl/ASR_NL_benchmark).
